@@ -1,0 +1,311 @@
+{
+  "concentration": {
+    "apps": 2241891,
+    "median_installs": 704.0,
+    "share_under_1k": 0.5406056761903233,
+    "share_100k_plus": 0.08001236456188102,
+    "share_1m_plus": 0.020657114908797975,
+    "top_0.1pct_share": 0.6225760835922823,
+    "top_1pct_share": 0.8627657815268801,
+    "top_10pct_share": 0.9860932831656665
+  },
+  "cohort": {
+    "apps": 815231,
+    "hit_rate": 0.06001121154617525
+  },
+  "monetization": {
+    "Paid upfront": {
+      "apps": 10806,
+      "hit_rate": 0.01693503609106052
+    },
+    "Free, no ads or purchases": {
+      "apps": 379560,
+      "hit_rate": 0.018603119401412162
+    },
+    "Ads only": {
+      "apps": 365485,
+      "hit_rate": 0.06932705856601502
+    },
+    "In-app purchases only": {
+      "apps": 14585,
+      "hit_rate": 0.15817620843332192
+    },
+    "Ads + in-app purchases": {
+      "apps": 44795,
+      "hit_rate": 0.31329389440785804
+    }
+  },
+  "developers": {
+    "1 app": {
+      "apps": 167091,
+      "hit_rate": 0.045903130629417505
+    },
+    "2 to 5": {
+      "apps": 188955,
+      "hit_rate": 0.06688894181154242
+    },
+    "6 to 20": {
+      "apps": 161966,
+      "hit_rate": 0.09778595507699146
+    },
+    "21 to 100": {
+      "apps": 171228,
+      "hit_rate": 0.06182984091386923
+    },
+    "100+": {
+      "apps": 125964,
+      "hit_rate": 0.01737798101044743
+    }
+  },
+  "categories": {
+    "Action": {
+      "top10_share": 0.1716,
+      "hit_rate": 0.2069,
+      "cohort_apps": 8755
+    },
+    "Adventure": {
+      "top10_share": 0.1831,
+      "hit_rate": 0.1493,
+      "cohort_apps": 7622
+    },
+    "Arcade": {
+      "top10_share": 0.2079,
+      "hit_rate": 0.0681,
+      "cohort_apps": 17309
+    },
+    "Art & Design": {
+      "top10_share": 0.2945,
+      "hit_rate": 0.0705,
+      "cohort_apps": 9274
+    },
+    "Auto & Vehicles": {
+      "top10_share": 0.717,
+      "hit_rate": 0.053,
+      "cohort_apps": 8118
+    },
+    "Beauty": {
+      "top10_share": 0.3173,
+      "hit_rate": 0.0486,
+      "cohort_apps": 5063
+    },
+    "Board": {
+      "top10_share": 0.316,
+      "hit_rate": 0.1329,
+      "cohort_apps": 3184
+    },
+    "Books & Reference": {
+      "top10_share": 0.4341,
+      "hit_rate": 0.0328,
+      "cohort_apps": 43289
+    },
+    "Business": {
+      "top10_share": 0.5077,
+      "hit_rate": 0.011,
+      "cohort_apps": 56285
+    },
+    "Card": {
+      "top10_share": 0.2189,
+      "hit_rate": 0.1716,
+      "cohort_apps": 2232
+    },
+    "Casino": {
+      "top10_share": 0.2332,
+      "hit_rate": 0.2003,
+      "cohort_apps": 1258
+    },
+    "Casual": {
+      "top10_share": 0.2058,
+      "hit_rate": 0.1141,
+      "cohort_apps": 14905
+    },
+    "Comics": {
+      "top10_share": 0.3349,
+      "hit_rate": 0.1949,
+      "cohort_apps": 1283
+    },
+    "Communication": {
+      "top10_share": 0.6706,
+      "hit_rate": 0.0568,
+      "cohort_apps": 18351
+    },
+    "Dating": {
+      "top10_share": 0.4053,
+      "hit_rate": 0.106,
+      "cohort_apps": 2076
+    },
+    "Education": {
+      "top10_share": 0.1228,
+      "hit_rate": 0.0328,
+      "cohort_apps": 87216
+    },
+    "Educational": {
+      "top10_share": 0.113,
+      "hit_rate": 0.0996,
+      "cohort_apps": 6850
+    },
+    "Entertainment": {
+      "top10_share": 0.2936,
+      "hit_rate": 0.0878,
+      "cohort_apps": 48599
+    },
+    "Events": {
+      "top10_share": 0.4126,
+      "hit_rate": 0.0073,
+      "cohort_apps": 7016
+    },
+    "Finance": {
+      "top10_share": 0.1879,
+      "hit_rate": 0.0679,
+      "cohort_apps": 21428
+    },
+    "Food & Drink": {
+      "top10_share": 0.2927,
+      "hit_rate": 0.0143,
+      "cohort_apps": 26966
+    },
+    "Health & Fitness": {
+      "top10_share": 0.3372,
+      "hit_rate": 0.031,
+      "cohort_apps": 28768
+    },
+    "House & Home": {
+      "top10_share": 0.3843,
+      "hit_rate": 0.0209,
+      "cohort_apps": 6279
+    },
+    "Libraries & Demo": {
+      "top10_share": 0.5304,
+      "hit_rate": 0.0655,
+      "cohort_apps": 1801
+    },
+    "Lifestyle": {
+      "top10_share": 0.2405,
+      "hit_rate": 0.0441,
+      "cohort_apps": 37988
+    },
+    "Maps & Navigation": {
+      "top10_share": 0.3609,
+      "hit_rate": 0.0323,
+      "cohort_apps": 9833
+    },
+    "Medical": {
+      "top10_share": 0.1308,
+      "hit_rate": 0.0183,
+      "cohort_apps": 10987
+    },
+    "Music": {
+      "top10_share": 0.4759,
+      "hit_rate": 0.1664,
+      "cohort_apps": 1226
+    },
+    "Music & Audio": {
+      "top10_share": 0.3073,
+      "hit_rate": 0.0322,
+      "cohort_apps": 63512
+    },
+    "News & Magazines": {
+      "top10_share": 0.6843,
+      "hit_rate": 0.0253,
+      "cohort_apps": 13469
+    },
+    "Parenting": {
+      "top10_share": 0.3609,
+      "hit_rate": 0.0821,
+      "cohort_apps": 1535
+    },
+    "Personalization": {
+      "top10_share": 0.2964,
+      "hit_rate": 0.0854,
+      "cohort_apps": 30828
+    },
+    "Photography": {
+      "top10_share": 0.3714,
+      "hit_rate": 0.1366,
+      "cohort_apps": 13099
+    },
+    "Productivity": {
+      "top10_share": 0.4959,
+      "hit_rate": 0.0388,
+      "cohort_apps": 28125
+    },
+    "Puzzle": {
+      "top10_share": 0.1131,
+      "hit_rate": 0.0851,
+      "cohort_apps": 15385
+    },
+    "Racing": {
+      "top10_share": 0.2189,
+      "hit_rate": 0.2308,
+      "cohort_apps": 2994
+    },
+    "Role Playing": {
+      "top10_share": 0.1201,
+      "hit_rate": 0.3669,
+      "cohort_apps": 3025
+    },
+    "Shopping": {
+      "top10_share": 0.2697,
+      "hit_rate": 0.0299,
+      "cohort_apps": 24521
+    },
+    "Simulation": {
+      "top10_share": 0.0641,
+      "hit_rate": 0.3716,
+      "cohort_apps": 6906
+    },
+    "Social": {
+      "top10_share": 0.6212,
+      "hit_rate": 0.0612,
+      "cohort_apps": 15370
+    },
+    "Sports": {
+      "top10_share": 0.1958,
+      "hit_rate": 0.07,
+      "cohort_apps": 15150
+    },
+    "Strategy": {
+      "top10_share": 0.3182,
+      "hit_rate": 0.1896,
+      "cohort_apps": 2352
+    },
+    "Tools": {
+      "top10_share": 0.4403,
+      "hit_rate": 0.0911,
+      "cohort_apps": 48255
+    },
+    "Travel & Local": {
+      "top10_share": 0.4755,
+      "hit_rate": 0.0291,
+      "cohort_apps": 24424
+    },
+    "Trivia": {
+      "top10_share": 0.3422,
+      "hit_rate": 0.0713,
+      "cohort_apps": 3884
+    },
+    "Video Players & Editors": {
+      "top10_share": 0.6473,
+      "hit_rate": 0.2344,
+      "cohort_apps": 3630
+    },
+    "Weather": {
+      "top10_share": 0.315,
+      "hit_rate": 0.2322,
+      "cohort_apps": 2011
+    },
+    "Word": {
+      "top10_share": 0.2035,
+      "hit_rate": 0.1181,
+      "cohort_apps": 2795
+    }
+  },
+  "model": {
+    "train_apps": 334566,
+    "test_apps": 480665,
+    "test_hit_rate": 0.052015436946730054,
+    "auc_gradient_boosting": 0.8673843271111072,
+    "auc_logistic": 0.8405477421680778,
+    "top10pct_captures": 0.5354371650267978,
+    "lift_top10pct": 5.354371650267978
+  }
+}
