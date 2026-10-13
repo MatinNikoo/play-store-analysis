@@ -4,6 +4,8 @@ There are over 2 million apps on Google Play, and most of them go nowhere. I wan
 
 I used a scrape of 2.24 million Play Store apps from June 2021 and focused on the 815K apps released in 2018 and 2019, since those had at least a year and a half to grow. "Breaking out" here means reaching 100K installs. Only 6% of them did.
 
+**Try it:** [Will your app hit 100K installs?](https://matinnikoo.github.io/simulator.html) is a simulator built from this data. Pick a category, how the app makes money and a few other launch choices, and it estimates the chance of reaching 100K installs and which change would raise it most.
+
 ## Summary
 
 - About 2,200 apps get 62% of all installs. The median app has around 700.
@@ -65,6 +67,18 @@ Instead of a random split, I trained on apps released in 2018 and tested on apps
 
 It can't pick individual winners, but it would help with something like deciding which new apps to look at first.
 
+## 6. The simulator
+
+I turned the findings into a page anyone can use, so you don't need to read the analysis to get something out of it. It runs entirely in the browser, so I used a logistic regression instead of the gradient boosting model: the whole model is just a list of weights. Trained on 2018 launches and tested on 2019 launches, it scores 0.84 AUC, close to the 0.87 above.
+
+For any setup, the page shows:
+
+- the estimated chance of reaching 100K installs, next to the category average and the average new app
+- the changes that would raise it most, like switching how the app makes money or adding a developer website
+- how many real apps had the same category and monetization, and how many of them made it
+
+Code is in [`simulator/`](simulator). `build_model.py` trains and exports the model to `model.json`, and `build_page.py` puts it into the page.
+
 ## If I were launching an app
 
 1. Don't charge upfront. Launch free and plan to make money with ads and in-app purchases.
@@ -92,6 +106,8 @@ It can't pick individual winners, but it would help with something like deciding
 pip install -r requirements.txt
 ./get_data.sh          # downloads about 650 MB of data
 python analysis.py     # about a minute
+python simulator/build_model.py   # rebuilds the simulator's model
+python simulator/build_page.py    # rebuilds simulator/index.html
 ```
 
 It prints every number in this README, saves the charts to `figures/`, and writes all the results to `results/summary.json`.

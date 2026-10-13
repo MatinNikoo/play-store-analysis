@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Will Your App Hit 100K?</title>
+<meta name="description" content="Pick a category, how your app makes money and a few other launch choices, and see how often apps like yours reached 100K installs on Google Play.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: form on the left, live result on the right; stacks to one column on phones.
+   Tokens match matinnikoo.github.io so the simulator reads as part of the site. */
+:root{
+  --bg:#EEF1F4; --panel:#F8F9FB; --ink:#14213D; --muted:#59636F; --line:#CDD4DC;
+  --accent:#2F4BC4; --accent-soft:#DCE3FF; --bench:#8A94A1; --good:#1E7A4E; --bad:#B23A3A;
+  --font:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121821; --panel:#18202B; --ink:#E6EAF0; --muted:#98A2AF; --line:#2A3441;
+    --accent:#8FA3FF; --accent-soft:#25305A; --bench:#6C7683; --good:#5CC48F; --bad:#E07A7A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121821; --panel:#18202B; --ink:#E6EAF0; --muted:#98A2AF; --line:#2A3441;
+  --accent:#8FA3FF; --accent-soft:#25305A; --bench:#6C7683; --good:#5CC48F; --bad:#E07A7A;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.55;-webkit-text-size-adjust:100%}
+a{color:inherit;text-underline-offset:3px;text-decoration-color:var(--line)}
+a:hover{color:var(--accent);text-decoration-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{max-width:68rem;margin:0 auto;padding:3rem 1.25rem 3rem}
+.back{font-size:.9rem;color:var(--muted)}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.05;letter-spacing:-.02em;margin:.6rem 0 .8rem;text-wrap:balance}
+.lede{max-width:40rem;color:var(--muted);margin:0 0 2.2rem}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:2rem;align-items:start}
+@media (max-width:820px){.grid{grid-template-columns:minmax(0,1fr)}}
+form{display:grid;gap:1.25rem}
+.field{display:grid;gap:.45rem}
+.field>label,.field>.lab{font-weight:600;font-size:.95rem}
+.hint{font-size:.85rem;color:var(--muted);margin-top:-.2rem}
+select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.6rem .7rem;width:100%}
+.seg{display:flex;flex-wrap:wrap;gap:.4rem}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:.4rem .8rem;font-size:.9rem;cursor:pointer;user-select:none}
+.seg input:checked+label{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.seg input:focus-visible+label{outline:2px solid var(--accent);outline-offset:2px}
+.toggles{display:flex;flex-wrap:wrap;gap:1.2rem}
+.toggles label{display:flex;gap:.5rem;align-items:center;cursor:pointer;font-size:.95rem}
+.toggles input{width:1.1rem;height:1.1rem;accent-color:var(--accent)}
+.result{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.6rem;position:sticky;top:calc(env(safe-area-inset-top,0px) + 1rem)}
+@media (max-width:820px){.result{position:static}}
+.kicker{font-size:.85rem;color:var(--muted);margin:0}
+.big{font-size:clamp(3rem,9vw,4.6rem);font-weight:700;line-height:1;letter-spacing:-.03em;margin:.35rem 0 .3rem;font-variant-numeric:tabular-nums}
+.verdict{margin:0 0 1.3rem;font-weight:500}
+.bars{display:grid;gap:.55rem;margin:0 0 1.5rem}
+.bar{display:grid;grid-template-columns:8.5rem minmax(0,1fr) 3.4rem;gap:.6rem;align-items:center;font-size:.88rem}
+.bar .name{color:var(--muted)}
+.track{display:block;height:.6rem;background:var(--accent-soft);border-radius:999px;overflow:hidden}
+.fill{display:block;height:100%;background:var(--bench);border-radius:999px;transition:width .35s ease}
+.bar.you .fill{background:var(--accent)}
+.bar.you .name{color:var(--ink);font-weight:600}
+.bar .val{text-align:right;font-variant-numeric:tabular-nums}
+h2{font-size:1rem;margin:0 0 .6rem}
+.levers{list-style:none;margin:0 0 1.4rem;padding:0;display:grid;gap:.5rem}
+.levers li{display:flex;justify-content:space-between;gap:1rem;align-items:baseline;border-top:1px solid var(--line);padding-top:.55rem;font-size:.92rem}
+.levers li span:first-child{min-width:0}
+.delta{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.up{color:var(--good)} .down{color:var(--bad)}
+.levers button{font:inherit;font-size:.85rem;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.similar{font-size:.92rem;margin:0;color:var(--muted)}
+.similar b{color:var(--ink)}
+.about{margin-top:3rem;max-width:44rem;color:var(--muted);font-size:.93rem;display:grid;gap:.7rem}
+.about h2{color:var(--ink)}
+.about p{margin:0}
+.reset{font:inherit;font-size:.88rem;background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:.45rem .8rem;cursor:pointer;justify-self:start}
+@media (prefers-reduced-motion:reduce){.fill{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="https://matinnikoo.github.io">Matin Nikoomanzar</a>
+  <h1>Will your app hit 100K installs?</h1>
+  <p class="lede">Pick the choices you'd make at launch. The estimate comes from about 800,000 Google Play apps released in 2018 and 2019, and how many of them had reached 100K installs by mid 2021. It starts filled in with an example app.</p>
+
+  <div class="grid">
+    <form id="f" autocomplete="off">
+      <div class="field">
+        <label for="cat">Category</label>
+        <select id="cat"></select>
+      </div>
+      <div class="field">
+        <span class="lab" id="mon-lab">How it makes money</span>
+        <div class="seg" id="mon" role="radiogroup" aria-labelledby="mon-lab"></div>
+      </div>
+      <div class="field">
+        <label for="size">App size</label>
+        <select id="size"></select>
+      </div>
+      <div class="field">
+        <label for="dev">Apps you've already published on Play</label>
+        <select id="dev"></select>
+      </div>
+      <div class="field">
+        <label for="rating">Content rating</label>
+        <select id="rating"></select>
+      </div>
+      <div class="field">
+        <span class="lab">Store listing</span>
+        <div class="toggles">
+          <label><input type="checkbox" id="priv"> Has a privacy policy</label>
+          <label><input type="checkbox" id="web"> Has a developer website</label>
+        </div>
+      </div>
+      <button type="button" class="reset" id="reset">Back to the example app</button>
+    </form>
+
+    <section class="result" aria-live="polite">
+      <p class="kicker">Estimated chance of reaching 100K installs</p>
+      <p class="big" id="pct">-</p>
+      <p class="verdict" id="verdict"></p>
+      <div class="bars" id="bars"></div>
+      <h2>What would raise it most</h2>
+      <ul class="levers" id="levers"></ul>
+      <h2>Real apps like yours</h2>
+      <p class="similar" id="similar"></p>
+    </section>
+  </div>
+
+  <section class="about">
+    <h2>How this works</h2>
+    <p>It's a logistic regression trained on every app released in 2018 and 2019 that had a known size and content rating. Before fitting the final version I trained it only on 2018 launches and tested it on 2019 launches, and it scored <span id="auc">0.84</span> AUC on those unseen apps.</p>
+    <p>It shows what went along with success, not what causes it. Apps that already have users tend to add in-app purchases and websites later, and bigger apps usually had more work put into them. So treat the levers as patterns worth knowing, not guarantees.</p>
+    <p>Data is a June 2021 scrape of 2.3M Google Play apps. Full analysis and code are on <a href="https://github.com/MatinNikoo/play-store-analysis" target="_blank" rel="noopener">GitHub</a>.</p>
+  </section>
+</div>
+
+<script>
+const M = __MODEL__;
+const EXAMPLE = {cat:"Casual", mon:"Ads only", size:"15 to 40 MB", dev:"This is my first app", rating:"Everyone", priv:true, web:false};
+const $ = id => document.getElementById(id);
+const pctText = p => p < 0.01 ? "under 1%" : Math.round(p * 100) + "%";
+
+function fillSelect(el, items){ el.innerHTML = items.map(v => `<option>${v}</option>`).join(""); }
+fillSelect($("cat"), M.options.Category);
+fillSelect($("size"), M.options.size);
+fillSelect($("dev"), M.options.dev);
+fillSelect($("rating"), M.options.rating);
+$("mon").innerHTML = M.options.model.map((v, i) =>
+  `<input type="radio" name="mon" id="mon${i}" value="${v}"><label for="mon${i}">${v}</label>`).join("");
+$("auc").textContent = M.meta.holdout_auc.toFixed(2);
+
+function read(){
+  return {cat:$("cat").value, mon:document.querySelector('input[name="mon"]:checked').value,
+          size:$("size").value, dev:$("dev").value, rating:$("rating").value,
+          priv:$("priv").checked, web:$("web").checked};
+}
+function write(s){
+  $("cat").value = s.cat; $("size").value = s.size; $("dev").value = s.dev; $("rating").value = s.rating;
+  $("priv").checked = s.priv; $("web").checked = s.web;
+  document.querySelectorAll('input[name="mon"]').forEach(r => r.checked = r.value === s.mon);
+}
+function prob(s){
+  const w = M.weights;
+  let z = M.intercept
+    + (w["Category=" + s.cat] || 0) + (w["model=" + s.mon] || 0) + (w["size=" + s.size] || 0)
+    + (w["dev=" + s.dev] || 0) + (w["rating=" + s.rating] || 0)
+    + (s.priv ? w["privacy=yes"] : 0) + (s.web ? w["website=yes"] : 0);
+  return 1 / (1 + Math.exp(-z));
+}
+
+function levers(s, base){
+  const out = [];
+  M.options.model.forEach(m => { if (m !== s.mon) out.push({text:`Switch to ${m.toLowerCase()}`, s:{...s, mon:m}}); });
+  if (!s.priv) out.push({text:"Add a privacy policy", s:{...s, priv:true}});
+  if (!s.web) out.push({text:"Add a developer website", s:{...s, web:true}});
+  return out.map(o => ({...o, p:prob(o.s)}))
+            .filter(o => o.p - base >= 0.005)
+            .sort((a, b) => b.p - a.p)
+            .slice(0, 3);
+}
+
+function render(){
+  const s = read();
+  const p = prob(s);
+  $("pct").textContent = pctText(p);
+  const ratio = p / M.meta.base_rate;
+  $("verdict").textContent =
+    ratio >= 1.5 ? `About ${ratio.toFixed(1)}x the typical new app.` :
+    ratio >= 0.67 ? "About the same as a typical new app." :
+    `About ${(1 / ratio).toFixed(1)}x less likely than a typical new app.`;
+
+  const catRate = M.category_rates[s.cat];
+  const rows = [
+    {name:"Your app", v:p, you:true},
+    {name:`Avg ${s.cat}`, v:catRate},
+    {name:"Avg new app", v:M.meta.base_rate},
+  ];
+  const max = Math.max(...rows.map(r => r.v), 0.05);
+  $("bars").innerHTML = rows.map(r =>
+    `<div class="bar${r.you ? " you" : ""}"><span class="name">${r.name}</span>
+      <span class="track"><span class="fill" style="width:${(r.v / max * 100).toFixed(1)}%"></span></span>
+      <span class="val">${(r.v * 100).toFixed(r.v < 0.1 ? 1 : 0)}%</span></div>`).join("");
+
+  const L = levers(s, p);
+  $("levers").innerHTML = L.length
+    ? L.map((l, i) => `<li><span>${l.text} <button type="button" data-i="${i}">Try it</button></span>
+        <span class="delta up">${pctText(p)} → ${pctText(l.p)}</span></li>`).join("")
+    : `<li><span>Your launch choices are already the strongest ones the model sees for this category.</span></li>`;
+  $("levers").querySelectorAll("button").forEach(b => b.onclick = () => { write(L[+b.dataset.i].s); render(); });
+
+  const cell = M.cells[s.cat + "|" + s.mon];
+  $("similar").innerHTML = cell && cell[0] >= 30
+    ? `Of <b>${cell[0].toLocaleString()}</b> ${s.cat} apps that used ${s.mon.toLowerCase()}, <b>${(cell[1] * 100).toFixed(1)}%</b> reached 100K installs.`
+    : `Fewer than 30 ${s.cat} apps used ${s.mon.toLowerCase()}, so there aren't enough to compare against.`;
+}
+
+write(EXAMPLE);
+let counted = false;
+function countUse(){
+  if (counted) return; counted = true;
+  try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({path:"simulator-used-full", title:"Simulator used (full page)", event:true}); } catch(e) {}
+}
+$("f").addEventListener("input", () => { render(); countUse(); });
+$("f").addEventListener("change", () => { render(); countUse(); });
+$("reset").onclick = () => { write(EXAMPLE); render(); };
+render();
+</script>
+<script data-goatcounter="https://matinnikoo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
