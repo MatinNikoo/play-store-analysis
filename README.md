@@ -10,9 +10,9 @@ I used a scrape of 2.24 million Play Store apps from June 2021 and focused on th
 
 - About 2,200 apps get 62% of all installs. The median app has around 700.
 - Free apps with both ads and in-app purchases reached 100K 31% of the time. Paid apps, 1.7%.
-- Developers with 6 to 20 apps did best (9.8%). Developers with 100+ apps did worst (1.7%).
+- Developers with 6 to 20 apps already out did best (7.9%). Developers with 100+ did worst (1.1%).
 - In Simulation over a third of new apps broke out. In Social and Communication the top 10 apps take about two thirds of all installs.
-- A model trained on 2018 launches and tested on 2019 launches got 0.87 AUC, and its top 10% of picks had 54% of the real hits.
+- A model trained on 2018 launches and tested on 2019 launches got 0.86 AUC, and its top 10% of picks had 53% of the real hits.
 
 ## 1. A few apps get almost everything
 
@@ -40,7 +40,7 @@ One catch is that the data shows how apps made money in 2021, not on launch day.
 
 ![Breakout rate by developer portfolio size](figures/3_developers.png)
 
-First time developers broke out 4.6% of the time. That climbs to 9.8% for developers with 6 to 20 apps, probably because they've learned what works. After that it drops, and developers with 100+ apps do the worst of anyone (1.7%). So some experience helps, but just putting out a lot of apps doesn't.
+This counts how many apps the developer already had out when each app launched. First apps broke out 5.9% of the time. That climbs to 7.9% for developers with 6 to 20 apps out, probably because they've learned what works. After that it drops, and developers with 100+ do the worst of anyone (1.1%). So some experience helps, but just putting out a lot of apps doesn't.
 
 ## 4. Where new apps still have room
 
@@ -62,14 +62,14 @@ I trained a gradient boosting model only on things you'd know at launch: categor
 
 Instead of a random split, I trained on apps released in 2018 and tested on apps released in 2019. That's closer to how you'd actually use it, predicting new launches from older ones.
 
-- Gradient boosting AUC was 0.87 (a logistic regression baseline got 0.84)
-- Only 5.2% of 2019 apps broke out, but the model's top 10% of picks had 54% of them, about 5.4x better than random
+- Gradient boosting AUC was 0.86 (a logistic regression baseline got 0.84)
+- Only 5.2% of 2019 apps broke out, but the model's top 10% of picks had 53% of them, about 5.3x better than random
 
 It can't pick individual winners, but it would help with something like deciding which new apps to look at first.
 
 ## 6. The simulator
 
-I turned the findings into a page anyone can use, so you don't need to read the analysis to get something out of it. It runs entirely in the browser, so I used a logistic regression instead of the gradient boosting model: the whole model is just a list of weights. Trained on 2018 launches and tested on 2019 launches, it scores 0.84 AUC, close to the 0.87 above.
+I turned the findings into a page anyone can use, so you don't need to read the analysis to get something out of it. It runs entirely in the browser, so I used a logistic regression instead of the gradient boosting model: the whole model is just a list of weights. Trained on 2018 launches and tested on 2019 launches, it scores 0.84 AUC, close to the 0.86 above.
 
 For any setup, the page shows:
 
@@ -90,7 +90,7 @@ Code is in [`simulator/`](simulator). `build_model.py` trains and exports the mo
 
 - Installs are as of June 2021. Apps released in 2019 had less time to grow than 2018 apps, which is part of why I tested on them (it's the harder case).
 - Monetization flags reflect the app in 2021, not at launch, so that section shows correlation, not proof of cause.
-- "Developer apps" counts everything the developer had on the store in 2021, including apps released later.
+- "Developer apps" counts only apps the developer released before this one, so nothing from the future leaks in. Apps that were taken down before the June 2021 scrape can't be counted, so it can run a little low.
 - This only covers Google Play, not the App Store.
 
 ## Data cleaning

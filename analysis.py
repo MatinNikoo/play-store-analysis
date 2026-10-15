@@ -80,7 +80,9 @@ def load():
     df["iap"] = df["In App Purchases"].astype(bool)
     df["has_privacy"] = df["Privacy Policy"].notna()
     df["has_website"] = df["Developer Website"].notna()
-    df["dev_apps"] = df.groupby("Developer Id")["App Id"].transform("count")
+    # how many apps the developer had out when this one launched, counting this one. Only earlier
+    # releases count, so the model never sees apps the developer put out later.
+    df["dev_apps"] = df.groupby("Developer Id")["released"].rank(method="min")
     df["model"] = np.select(
         [df["paid"], df["ads"] & df["iap"], df["ads"], df["iap"]],
         ["Paid upfront", "Ads + in-app purchases", "Ads only", "In-app purchases only"],

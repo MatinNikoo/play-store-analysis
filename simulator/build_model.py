@@ -6,7 +6,7 @@ Writes simulator/model.json, which the simulator page reads in the browser.
 
 Why logistic regression and not the gradient boosting model from analysis.py:
 it has to run in a browser with no server, and a logistic model is just a list
-of weights. It scores 0.84 AUC on the 2019 holdout, close to the 0.87 from
+of weights. It scores 0.84 AUC on the 2019 holdout, close to the 0.86 from
 gradient boosting, and every weight can be read and explained.
 """
 
