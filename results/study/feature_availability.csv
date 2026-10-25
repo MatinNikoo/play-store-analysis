@@ -1,0 +1,33 @@
+feature,source column,first known,success can change it,old model,launch model,note
+Category,Category,launch,low,True,True,"picked at launch, can be changed later but rarely is"
+rel_month,Released,launch,none,False,True,release date never changes
+rel_dow,Released,launch,none,False,True,release date never changes
+dev_prior_apps,Developer Id + Released,launch,none,False,True,apps by the same developer released earlier
+dev_same_day,Developer Id + Released,launch,none,False,True,other apps the developer released the same day
+dev_prior_30d,Developer Id + Released,launch,none,False,True,apps the developer released in the 30 days before
+dev_days_active,Developer Id + Released,launch,none,False,True,days since the developer's first app
+dev_prior_cats,Developer Id + Category,launch,low,False,True,distinct categories among earlier apps
+dev_prior_same_cat,Developer Id + Category,launch,low,False,True,earlier apps in the same category
+pkg_prior,App Id + Released,launch,none,False,True,earlier apps sharing the package prefix (app builders)
+pkg_segments,App Id,launch,none,False,True,package names can never change
+pkg_len,App Id,launch,none,False,True,package names can never change
+name_len,App Name,launch,low,False,True,title can be edited later (store optimization)
+name_words,App Name,launch,low,False,True,title can be edited later
+name_nonascii,App Name,launch,low,False,True,title can be edited later
+name_digit,App Name,launch,low,False,True,title can be edited later
+dev_apps,Developer Id + Released,launch,none,True,False,"old feature, same as dev_prior_apps + 1"
+Content Rating,Content Rating,snapshot,low,True,False,questionnaire is redone when features like chat get added
+size_mb,Size,snapshot,high,True,False,apps grow with every update and hits update more
+min_android,Minimum Android,snapshot,medium,True,False,"raised in updates, hits update more"
+paid,Free,snapshot,medium,True,False,"price can change, paid apps often go free"
+price,Price,snapshot,medium,False,False,price can change
+ads,Ad Supported,snapshot,high,True,False,ads are easy to add once an app has traffic
+iap,In App Purchases,snapshot,high,True,False,purchases get added after an app has users
+has_privacy,Privacy Policy,snapshot,high,True,False,policies got added as Google required them and as apps grew
+has_website,Developer Website,snapshot,medium,True,False,developers with a hit build a site
+dev_prior_hit_share,Developer Id + Maximum Installs,after,high,False,False,earlier apps' installs measured in 2021
+dev_prior_max_installs,Developer Id + Maximum Installs,after,high,False,False,earlier apps' installs measured in 2021
+rating,Rating,after,high,False,False,needs users
+rating_count,Rating Count,after,high,False,False,basically a second install count
+editors_choice,Editors Choice,after,high,False,False,given to apps that already did well
+days_since_update,Last Updated,after,high,False,False,hits keep getting updated

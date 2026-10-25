@@ -1,16 +1,9 @@
 """
-What actually gets an app to 100K installs? An analysis of 2.3M Google Play apps.
+The first round of the analysis, on 2018 and 2019 launches. "Hit" here means 100K installs by June 2021, which
+gives older apps more time. The launch-day study that fixes that is in study/.
 
-Setup:  ./get_data.sh            (downloads the data into data/)
-Run:    python analysis.py       (prints every number in the README, saves charts to figures/)
-
-Sections:
-  1. Load and clean
-  2. How concentrated installs are
-  3. Monetization model vs. breaking out
-  4. Developer experience (portfolio size)
-  5. Category map: where new apps can still break out
-  6. Model: can you spot a future hit from its listing? (trained on 2018, tested on 2019)
+Setup:  bash get_data.sh         (downloads the data into data/)
+Run:    python analysis.py       (prints the numbers in README sections 1 to 4, saves charts to figures/)
 """
 
 import json
@@ -32,6 +25,9 @@ FIG.mkdir(exist_ok=True)
 RES.mkdir(exist_ok=True)
 
 HIT = 100_000           # "breaking out" = 100K+ installs
+# game genres on Play. "Sports" is left out since the scrape merges the Sports app and game categories
+GAMES = ["Action", "Adventure", "Arcade", "Board", "Card", "Casino", "Casual", "Educational", "Music",
+         "Puzzle", "Racing", "Role Playing", "Simulation", "Strategy", "Trivia", "Word"]
 COHORT = (2018, 2019)   # apps old enough (1.5 to 3.5 years at scrape time) to have had a fair shot
 
 BLUE, GRAY, DARK = "#2F4BC4", "#8A94A1", "#333333"
@@ -51,7 +47,7 @@ def save(fig, name):
 
 
 # --------------------------------------------------------------------------
-# 1. Load and clean
+# load and clean
 # --------------------------------------------------------------------------
 def load():
     if CACHE.exists():
@@ -97,7 +93,7 @@ def load():
 
 
 # --------------------------------------------------------------------------
-# 2. Concentration
+# concentration
 # --------------------------------------------------------------------------
 def concentration(df):
     s = np.sort(df["installs"].to_numpy())[::-1]
@@ -139,13 +135,32 @@ def cohort(df):
 
 
 # --------------------------------------------------------------------------
-# 3. Monetization
+# monetization
 # --------------------------------------------------------------------------
 def monetization(c):
     g = c.groupby("model")["hit"].agg(["size", "mean"]).sort_values("mean")
     results["monetization"] = {k: {"apps": int(r["size"]), "hit_rate": float(r["mean"])} for k, r in g.iterrows()}
     print("\nBreakout rate by monetization model:")
     print(g.to_string())
+
+    # is ads + in-app purchases just a games thing? check games vs the rest and every category
+    both = c["model"] == "Ads + in-app purchases"
+    game = c["Category"].isin(GAMES)
+    t = c.groupby(["Category", "model"])["hit"].mean().unstack()
+    best = t.idxmax(axis=1)
+    results["monetization_checks"] = {
+        "ads_iap_games": float(c.loc[both & game, "hit"].mean()),
+        "ads_iap_non_games": float(c.loc[both & ~game, "hit"].mean()),
+        "categories": int(len(t)),
+        "ads_iap_highest_in": int((best == "Ads + in-app purchases").sum()),
+        "iap_only_highest_in": sorted(best[best != "Ads + in-app purchases"].index.tolist()),
+        "ads_iap_beats_ads_only_in": int((t["Ads + in-app purchases"] > t["Ads only"]).sum()),
+        "ads_iap_beats_no_monetization_in": int((t["Ads + in-app purchases"] > t["Free, no ads or purchases"]).sum()),
+    }
+    m = results["monetization_checks"]
+    print(f"Ads + in-app purchases: games {m['ads_iap_games']:.1%}, everything else {m['ads_iap_non_games']:.1%}. "
+          f"Highest of the five in {m['ads_iap_highest_in']} of {m['categories']} categories, "
+          f"above ads only in {m['ads_iap_beats_ads_only_in']}")
 
     fig, ax = plt.subplots(figsize=(7.5, 3.8))
     colors = [BLUE if m == "Ads + in-app purchases" else GRAY for m in g.index]
@@ -160,29 +175,29 @@ def monetization(c):
 
 
 # --------------------------------------------------------------------------
-# 4. Developer experience
+# developer experience
 # --------------------------------------------------------------------------
 def developers(c):
-    bins, labels = [0, 1, 5, 20, 100, np.inf], ["1 app", "2 to 5", "6 to 20", "21 to 100", "100+"]
+    bins, labels = [0, 1, 5, 20, 100, np.inf], ["1st app", "2nd to 5th", "6th to 20th", "21st to 100th", "101st or later"]
     c = c.assign(port=pd.cut(c["dev_apps"], bins, labels=labels))
     g = c.groupby("port", observed=True)["hit"].agg(["size", "mean"])
     results["developers"] = {k: {"apps": int(r["size"]), "hit_rate": float(r["mean"])} for k, r in g.iterrows()}
-    print("\nBreakout rate by how many apps the developer has on the store:")
+    print("\nBreakout rate by which app this was for the developer (counting earlier releases):")
     print(g.to_string())
 
     fig, ax = plt.subplots(figsize=(7, 3.8))
-    ax.bar(g.index.astype(str), g["mean"], color=[BLUE if l == "6 to 20" else GRAY for l in g.index])
+    ax.bar(g.index.astype(str), g["mean"], color=[BLUE if l == "6th to 20th" else GRAY for l in g.index])
     for i, v in enumerate(g["mean"]):
         ax.text(i, v + 0.002, f"{v:.1%}", ha="center", fontsize=9, color=DARK)
     ax.yaxis.set_major_formatter(pct)
-    ax.set_xlabel("Apps the developer has published")
+    ax.set_xlabel("Which app this was for its developer (1st = their first)")
     ax.set_ylabel("Share reaching 100K+ installs")
     ax.set_title("Experience helps, up to a point")
     save(fig, "3_developers.png")
 
 
 # --------------------------------------------------------------------------
-# 5. Category map
+# category map
 # --------------------------------------------------------------------------
 def categories(df, c):
     def top10_share(s):
@@ -222,10 +237,10 @@ def categories(df, c):
 
 
 # --------------------------------------------------------------------------
-# 6. Model: train on 2018 launches, test on 2019 launches
+# old model, trained on 2018 launches and tested on 2019 launches
 # --------------------------------------------------------------------------
 def model(c):
-    # only things you'd know at launch. No ratings, reviews or update history, since those come after
+    # the first version's inputs. Most of these are June 2021 fields, so this model is not a launch-day model
     num = ["size_mb", "min_android", "dev_apps"]
     flags = ["paid", "ads", "iap", "has_privacy", "has_website"]
     cats = ["Category", "Content Rating"]
@@ -277,7 +292,7 @@ def model(c):
     ax.yaxis.set_major_formatter(pct)
     ax.set_xlabel("Share of 2019 apps reviewed, highest score first")
     ax.set_ylabel("Share of 100K+ hits found")
-    ax.set_title("Trained on 2018 launches, tested on 2019 launches")
+    ax.set_title("Old model with 2021 fields. Trained on 2018, tested on 2019")
     ax.legend(frameon=False, loc="lower right")
     save(fig, "5_model_gain.png")
 

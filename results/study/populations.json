@@ -1,0 +1,439 @@
+{
+  "raw_rows": 2312944,
+  "after_dropping_missing": 2241891,
+  "after_dropping_duplicates": 2241891,
+  "cleaned_apps": 2241891,
+  "cohort_2018_2019": 815231,
+  "cohort_2018": 334566,
+  "cohort_2019": 480665,
+  "simulator_population": 799763,
+  "simulator_2018": 327704,
+  "simulator_2019": 472059,
+  "cohort_dropped_size_unknown": 15422,
+  "cohort_dropped_rating_other": 46,
+  "cohort_dropped_both": 0,
+  "milestone_window_2016_01_to_2021_05": 1959938,
+  "developers": 736124,
+  "first_release": "2010-01-28",
+  "last_release": "2021-06-16",
+  "share_never_updated": 0.21639,
+  "share_size_unknown": 0.022864,
+  "share_free": 0.980271,
+  "share_ads_2021": 0.506403,
+  "share_iap_2021": 0.085463,
+  "apps_with_zero_installs": 11035,
+  "apps_by_year": {
+    "2010": 4641,
+    "2011": 14362,
+    "2012": 25747,
+    "2013": 42476,
+    "2014": 71815,
+    "2015": 115432,
+    "2016": 167112,
+    "2017": 259685,
+    "2018": 334566,
+    "2019": 480665,
+    "2020": 544882,
+    "2021": 180508
+  },
+  "by_launch_month": {
+    "2016-01": {
+      "apps": 11814.0,
+      "median_installs": 2712.0,
+      "rate_100k": 0.137549,
+      "top5_cutoff": 598932.9
+    },
+    "2016-02": {
+      "apps": 11998.0,
+      "median_installs": 2443.5,
+      "rate_100k": 0.130688,
+      "top5_cutoff": 571599.3
+    },
+    "2016-03": {
+      "apps": 13663.0,
+      "median_installs": 2279.0,
+      "rate_100k": 0.125521,
+      "top5_cutoff": 500389.3
+    },
+    "2016-04": {
+      "apps": 12710.0,
+      "median_installs": 2532.0,
+      "rate_100k": 0.133674,
+      "top5_cutoff": 548065.25
+    },
+    "2016-05": {
+      "apps": 13575.0,
+      "median_installs": 2232.0,
+      "rate_100k": 0.127808,
+      "top5_cutoff": 514922.5
+    },
+    "2016-06": {
+      "apps": 13885.0,
+      "median_installs": 2161.0,
+      "rate_100k": 0.123731,
+      "top5_cutoff": 499364.0
+    },
+    "2016-07": {
+      "apps": 12792.0,
+      "median_installs": 2385.5,
+      "rate_100k": 0.130785,
+      "top5_cutoff": 604813.5
+    },
+    "2016-08": {
+      "apps": 14291.0,
+      "median_installs": 2063.0,
+      "rate_100k": 0.123504,
+      "top5_cutoff": 515476.0
+    },
+    "2016-09": {
+      "apps": 14496.0,
+      "median_installs": 2426.0,
+      "rate_100k": 0.129829,
+      "top5_cutoff": 577021.5
+    },
+    "2016-10": {
+      "apps": 15737.0,
+      "median_installs": 2325.0,
+      "rate_100k": 0.129567,
+      "top5_cutoff": 554265.6
+    },
+    "2016-11": {
+      "apps": 15650.0,
+      "median_installs": 2393.5,
+      "rate_100k": 0.127796,
+      "top5_cutoff": 595562.05
+    },
+    "2016-12": {
+      "apps": 16501.0,
+      "median_installs": 2301.0,
+      "rate_100k": 0.130053,
+      "top5_cutoff": 555472.0
+    },
+    "2017-01": {
+      "apps": 16470.0,
+      "median_installs": 1968.0,
+      "rate_100k": 0.114876,
+      "top5_cutoff": 410310.15
+    },
+    "2017-02": {
+      "apps": 16755.0,
+      "median_installs": 1578.0,
+      "rate_100k": 0.104864,
+      "top5_cutoff": 364138.5
+    },
+    "2017-03": {
+      "apps": 20068.0,
+      "median_installs": 1621.0,
+      "rate_100k": 0.104445,
+      "top5_cutoff": 356921.65
+    },
+    "2017-04": {
+      "apps": 19222.0,
+      "median_installs": 1649.0,
+      "rate_100k": 0.100354,
+      "top5_cutoff": 353337.65
+    },
+    "2017-05": {
+      "apps": 22948.0,
+      "median_installs": 1177.5,
+      "rate_100k": 0.092819,
+      "top5_cutoff": 292606.95
+    },
+    "2017-06": {
+      "apps": 22564.0,
+      "median_installs": 1293.5,
+      "rate_100k": 0.092138,
+      "top5_cutoff": 314721.65
+    },
+    "2017-07": {
+      "apps": 21850.0,
+      "median_installs": 1480.0,
+      "rate_100k": 0.097162,
+      "top5_cutoff": 317102.65
+    },
+    "2017-08": {
+      "apps": 24258.0,
+      "median_installs": 1337.0,
+      "rate_100k": 0.088383,
+      "top5_cutoff": 293283.7
+    },
+    "2017-09": {
+      "apps": 23663.0,
+      "median_installs": 1330.0,
+      "rate_100k": 0.090225,
+      "top5_cutoff": 300403.9
+    },
+    "2017-10": {
+      "apps": 24172.0,
+      "median_installs": 1235.0,
+      "rate_100k": 0.089815,
+      "top5_cutoff": 278729.1
+    },
+    "2017-11": {
+      "apps": 23869.0,
+      "median_installs": 1263.0,
+      "rate_100k": 0.09108,
+      "top5_cutoff": 285099.4
+    },
+    "2017-12": {
+      "apps": 23846.0,
+      "median_installs": 1188.5,
+      "rate_100k": 0.091336,
+      "top5_cutoff": 303104.25
+    },
+    "2018-01": {
+      "apps": 24832.0,
+      "median_installs": 1042.0,
+      "rate_100k": 0.082917,
+      "top5_cutoff": 238022.7
+    },
+    "2018-02": {
+      "apps": 23411.0,
+      "median_installs": 1002.0,
+      "rate_100k": 0.075904,
+      "top5_cutoff": 210367.0
+    },
+    "2018-03": {
+      "apps": 27208.0,
+      "median_installs": 1081.0,
+      "rate_100k": 0.076705,
+      "top5_cutoff": 211566.7
+    },
+    "2018-04": {
+      "apps": 26232.0,
+      "median_installs": 854.0,
+      "rate_100k": 0.077729,
+      "top5_cutoff": 209168.75
+    },
+    "2018-05": {
+      "apps": 28459.0,
+      "median_installs": 879.0,
+      "rate_100k": 0.072069,
+      "top5_cutoff": 183001.3
+    },
+    "2018-06": {
+      "apps": 26852.0,
+      "median_installs": 773.5,
+      "rate_100k": 0.070162,
+      "top5_cutoff": 179895.75
+    },
+    "2018-07": {
+      "apps": 29285.0,
+      "median_installs": 864.0,
+      "rate_100k": 0.067441,
+      "top5_cutoff": 167805.6
+    },
+    "2018-08": {
+      "apps": 28165.0,
+      "median_installs": 745.0,
+      "rate_100k": 0.064477,
+      "top5_cutoff": 156484.8
+    },
+    "2018-09": {
+      "apps": 29587.0,
+      "median_installs": 785.0,
+      "rate_100k": 0.064893,
+      "top5_cutoff": 155434.6
+    },
+    "2018-10": {
+      "apps": 31632.0,
+      "median_installs": 783.0,
+      "rate_100k": 0.068949,
+      "top5_cutoff": 174600.45
+    },
+    "2018-11": {
+      "apps": 29905.0,
+      "median_installs": 817.0,
+      "rate_100k": 0.07039,
+      "top5_cutoff": 184283.6
+    },
+    "2018-12": {
+      "apps": 28998.0,
+      "median_installs": 823.0,
+      "rate_100k": 0.069901,
+      "top5_cutoff": 180417.95
+    },
+    "2019-01": {
+      "apps": 32222.0,
+      "median_installs": 716.0,
+      "rate_100k": 0.065856,
+      "top5_cutoff": 165072.25
+    },
+    "2019-02": {
+      "apps": 30741.0,
+      "median_installs": 705.0,
+      "rate_100k": 0.063889,
+      "top5_cutoff": 152535.0
+    },
+    "2019-03": {
+      "apps": 34202.0,
+      "median_installs": 741.0,
+      "rate_100k": 0.068417,
+      "top5_cutoff": 171505.15
+    },
+    "2019-04": {
+      "apps": 34190.0,
+      "median_installs": 680.0,
+      "rate_100k": 0.063732,
+      "top5_cutoff": 154610.5
+    },
+    "2019-05": {
+      "apps": 36916.0,
+      "median_installs": 662.0,
+      "rate_100k": 0.061356,
+      "top5_cutoff": 143082.5
+    },
+    "2019-06": {
+      "apps": 39419.0,
+      "median_installs": 392.0,
+      "rate_100k": 0.050864,
+      "top5_cutoff": 103099.1
+    },
+    "2019-07": {
+      "apps": 44771.0,
+      "median_installs": 401.0,
+      "rate_100k": 0.050836,
+      "top5_cutoff": 103319.5
+    },
+    "2019-08": {
+      "apps": 43031.0,
+      "median_installs": 321.0,
+      "rate_100k": 0.045734,
+      "top5_cutoff": 84683.5
+    },
+    "2019-09": {
+      "apps": 46684.0,
+      "median_installs": 304.0,
+      "rate_100k": 0.042756,
+      "top5_cutoff": 76232.75
+    },
+    "2019-10": {
+      "apps": 47615.0,
+      "median_installs": 300.0,
+      "rate_100k": 0.042193,
+      "top5_cutoff": 73167.9
+    },
+    "2019-11": {
+      "apps": 44674.0,
+      "median_installs": 276.0,
+      "rate_100k": 0.042306,
+      "top5_cutoff": 73686.25
+    },
+    "2019-12": {
+      "apps": 46200.0,
+      "median_installs": 289.0,
+      "rate_100k": 0.04303,
+      "top5_cutoff": 75237.3
+    },
+    "2020-01": {
+      "apps": 48254.0,
+      "median_installs": 275.0,
+      "rate_100k": 0.040204,
+      "top5_cutoff": 69374.45
+    },
+    "2020-02": {
+      "apps": 46683.0,
+      "median_installs": 256.0,
+      "rate_100k": 0.038965,
+      "top5_cutoff": 62987.3
+    },
+    "2020-03": {
+      "apps": 46643.0,
+      "median_installs": 315.0,
+      "rate_100k": 0.040435,
+      "top5_cutoff": 71665.2
+    },
+    "2020-04": {
+      "apps": 47945.0,
+      "median_installs": 322.0,
+      "rate_100k": 0.037147,
+      "top5_cutoff": 62409.0
+    },
+    "2020-05": {
+      "apps": 51947.0,
+      "median_installs": 306.0,
+      "rate_100k": 0.03313,
+      "top5_cutoff": 52487.3
+    },
+    "2020-06": {
+      "apps": 51805.0,
+      "median_installs": 291.0,
+      "rate_100k": 0.034611,
+      "top5_cutoff": 56444.4
+    },
+    "2020-07": {
+      "apps": 49557.0,
+      "median_installs": 286.0,
+      "rate_100k": 0.036927,
+      "top5_cutoff": 60843.2
+    },
+    "2020-08": {
+      "apps": 43392.0,
+      "median_installs": 290.0,
+      "rate_100k": 0.037726,
+      "top5_cutoff": 63277.45
+    },
+    "2020-09": {
+      "apps": 42178.0,
+      "median_installs": 276.0,
+      "rate_100k": 0.041372,
+      "top5_cutoff": 70523.25
+    },
+    "2020-10": {
+      "apps": 42910.0,
+      "median_installs": 261.0,
+      "rate_100k": 0.036914,
+      "top5_cutoff": 60049.5
+    },
+    "2020-11": {
+      "apps": 36987.0,
+      "median_installs": 289.0,
+      "rate_100k": 0.038392,
+      "top5_cutoff": 68133.8
+    },
+    "2020-12": {
+      "apps": 36581.0,
+      "median_installs": 244.0,
+      "rate_100k": 0.034061,
+      "top5_cutoff": 57372.0
+    },
+    "2021-01": {
+      "apps": 35137.0,
+      "median_installs": 159.0,
+      "rate_100k": 0.024533,
+      "top5_cutoff": 34130.4
+    },
+    "2021-02": {
+      "apps": 33456.0,
+      "median_installs": 124.0,
+      "rate_100k": 0.018861,
+      "top5_cutoff": 25740.0
+    },
+    "2021-03": {
+      "apps": 38394.0,
+      "median_installs": 115.0,
+      "rate_100k": 0.018727,
+      "top5_cutoff": 24132.2
+    },
+    "2021-04": {
+      "apps": 35042.0,
+      "median_installs": 77.0,
+      "rate_100k": 0.014754,
+      "top5_cutoff": 15632.25
+    },
+    "2021-05": {
+      "apps": 30999.0,
+      "median_installs": 47.0,
+      "rate_100k": 0.010678,
+      "top5_cutoff": 10026.1
+    },
+    "2021-06": {
+      "apps": 7480.0,
+      "median_installs": 14.0,
+      "rate_100k": 0.00762,
+      "top5_cutoff": 4048.25
+    }
+  },
+  "top5_rate_2018": 0.050017,
+  "top5_rate_2019": 0.050012
+}

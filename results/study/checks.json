@@ -1,0 +1,4029 @@
+{
+  "note": "observed = raw share past the milestone, model = model average at each app's own age, intervals are Wilson intervals for the observed share (apps treated as independent)",
+  "cohort_rates": {
+    "5 to 7 months": {
+      "apps": 72086,
+      "10K": {
+        "observed": 0.132009,
+        "lo": 0.129557,
+        "hi": 0.1345,
+        "model": 0.104041,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.03242,
+        "lo": 0.031151,
+        "hi": 0.033738,
+        "model": 0.025188,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.005632,
+        "lo": 0.005112,
+        "hi": 0.006205,
+        "model": 0.004602,
+        "model_inside_interval": false
+      },
+      "launch_months": [
+        "2020-11-14",
+        "2021-01-14"
+      ],
+      "pooled_npmle_at_midpoint": {
+        "10K": 0.135678,
+        "100K": 0.035347,
+        "1M": 0.005971
+      }
+    },
+    "8 to 10 months": {
+      "apps": 85952,
+      "10K": {
+        "observed": 0.137007,
+        "lo": 0.134724,
+        "hi": 0.139322,
+        "model": 0.122567,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.038638,
+        "lo": 0.03737,
+        "hi": 0.039947,
+        "model": 0.03136,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.006864,
+        "lo": 0.006334,
+        "hi": 0.007439,
+        "model": 0.005996,
+        "model_inside_interval": false
+      },
+      "launch_months": [
+        "2020-08-15",
+        "2020-10-15"
+      ],
+      "pooled_npmle_at_midpoint": {
+        "10K": null,
+        "100K": null,
+        "1M": null
+      }
+    },
+    "11 to 13 months": {
+      "apps": 102979,
+      "10K": {
+        "observed": 0.129774,
+        "lo": 0.127735,
+        "hi": 0.13184,
+        "model": 0.134177,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.034454,
+        "lo": 0.033357,
+        "hi": 0.035585,
+        "model": 0.03582,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.006409,
+        "lo": 0.00594,
+        "hi": 0.006915,
+        "model": 0.007113,
+        "model_inside_interval": false
+      },
+      "launch_months": [
+        "2020-05-16",
+        "2020-07-16"
+      ],
+      "pooled_npmle_at_midpoint": {
+        "10K": 0.135696,
+        "100K": 0.036842,
+        "1M": 0.006849
+      }
+    },
+    "14 to 16 months": {
+      "apps": 94017,
+      "10K": {
+        "observed": 0.141177,
+        "lo": 0.138965,
+        "hi": 0.143417,
+        "model": 0.149442,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.039397,
+        "lo": 0.038172,
+        "hi": 0.04066,
+        "model": 0.041981,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.00785,
+        "lo": 0.007305,
+        "hi": 0.008434,
+        "model": 0.008824,
+        "model_inside_interval": false
+      },
+      "launch_months": [
+        "2020-02-14",
+        "2020-04-15"
+      ],
+      "pooled_npmle_at_midpoint": {
+        "10K": null,
+        "100K": null,
+        "1M": null
+      }
+    },
+    "17 to 19 months": {
+      "apps": 90735,
+      "10K": {
+        "observed": 0.144079,
+        "lo": 0.141809,
+        "hi": 0.146379,
+        "model": 0.166135,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.041957,
+        "lo": 0.040672,
+        "hi": 0.043281,
+        "model": 0.048074,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.009632,
+        "lo": 0.009017,
+        "hi": 0.010289,
+        "model": 0.010262,
+        "model_inside_interval": true
+      },
+      "launch_months": [
+        "2019-11-15",
+        "2020-01-15"
+      ],
+      "pooled_npmle_at_midpoint": {
+        "10K": null,
+        "100K": null,
+        "1M": null
+      }
+    },
+    "23 to 25 months": {
+      "apps": 80098,
+      "10K": {
+        "observed": 0.173962,
+        "lo": 0.171352,
+        "hi": 0.176603,
+        "model": 0.194172,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.053959,
+        "lo": 0.052415,
+        "hi": 0.055545,
+        "model": 0.059701,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.012922,
+        "lo": 0.012163,
+        "hi": 0.013727,
+        "model": 0.013245,
+        "model_inside_interval": true
+      },
+      "launch_months": [
+        "2019-05-16",
+        "2019-07-16"
+      ],
+      "pooled_npmle_at_midpoint": {
+        "10K": 0.167126,
+        "100K": 0.05159,
+        "1M": 0.012476
+      }
+    }
+  },
+  "by_category_9_to_15_months": {
+    "Action": {
+      "apps": 3551,
+      "10K": {
+        "observed": 0.251478,
+        "lo": 0.237482,
+        "hi": 0.266012,
+        "model": 0.244011,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.107575,
+        "lo": 0.097805,
+        "hi": 0.118194,
+        "model": 0.108017,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.028161,
+        "lo": 0.023209,
+        "hi": 0.034133,
+        "model": 0.035319,
+        "model_inside_interval": false
+      }
+    },
+    "Adventure": {
+      "apps": 3219,
+      "10K": {
+        "observed": 0.279279,
+        "lo": 0.264051,
+        "hi": 0.295034,
+        "model": 0.266584,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.112457,
+        "lo": 0.102002,
+        "hi": 0.123837,
+        "model": 0.08965,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.021435,
+        "lo": 0.016973,
+        "hi": 0.027038,
+        "model": 0.021529,
+        "model_inside_interval": true
+      }
+    },
+    "Arcade": {
+      "apps": 7929,
+      "10K": {
+        "observed": 0.10594,
+        "lo": 0.099356,
+        "hi": 0.112906,
+        "model": 0.099665,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.036448,
+        "lo": 0.032543,
+        "hi": 0.040803,
+        "model": 0.033423,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.013873,
+        "lo": 0.011524,
+        "hi": 0.016693,
+        "model": 0.010414,
+        "model_inside_interval": false
+      }
+    },
+    "Art & Design": {
+      "apps": 2257,
+      "10K": {
+        "observed": 0.197607,
+        "lo": 0.181699,
+        "hi": 0.214543,
+        "model": 0.167753,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.046079,
+        "lo": 0.038174,
+        "hi": 0.055527,
+        "model": 0.046465,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.002658,
+        "lo": 0.001219,
+        "hi": 0.005788,
+        "model": 0.007402,
+        "model_inside_interval": false
+      }
+    },
+    "Auto & Vehicles": {
+      "apps": 2182,
+      "10K": {
+        "observed": 0.114115,
+        "lo": 0.101447,
+        "hi": 0.12814,
+        "model": 0.120664,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.020165,
+        "lo": 0.015055,
+        "hi": 0.026961,
+        "model": 0.023192,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.000917,
+        "lo": 0.000251,
+        "hi": 0.003336,
+        "model": 0.003616,
+        "model_inside_interval": false
+      }
+    },
+    "Beauty": {
+      "apps": 1569,
+      "10K": {
+        "observed": 0.117272,
+        "lo": 0.102278,
+        "hi": 0.134135,
+        "model": 0.097765,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.031867,
+        "lo": 0.024255,
+        "hi": 0.041766,
+        "model": 0.027789,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.003187,
+        "lo": 0.001362,
+        "hi": 0.007438,
+        "model": 0.004521,
+        "model_inside_interval": true
+      }
+    },
+    "Board": {
+      "apps": 1511,
+      "10K": {
+        "observed": 0.191264,
+        "lo": 0.172226,
+        "hi": 0.211868,
+        "model": 0.207291,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.059563,
+        "lo": 0.048709,
+        "hi": 0.072651,
+        "model": 0.063748,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.009265,
+        "lo": 0.005527,
+        "hi": 0.015493,
+        "model": 0.01438,
+        "model_inside_interval": true
+      }
+    },
+    "Books & Reference": {
+      "apps": 12005,
+      "10K": {
+        "observed": 0.138526,
+        "lo": 0.132462,
+        "hi": 0.144821,
+        "model": 0.166664,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.018659,
+        "lo": 0.016388,
+        "hi": 0.021238,
+        "model": 0.026258,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.001999,
+        "lo": 0.001344,
+        "hi": 0.002973,
+        "model": 0.00193,
+        "model_inside_interval": true
+      }
+    },
+    "Business": {
+      "apps": 15625,
+      "10K": {
+        "observed": 0.040704,
+        "lo": 0.037717,
+        "hi": 0.043917,
+        "model": 0.045488,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.006272,
+        "lo": 0.00515,
+        "hi": 0.007637,
+        "model": 0.007347,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.000448,
+        "lo": 0.000217,
+        "hi": 0.000925,
+        "model": 0.000933,
+        "model_inside_interval": false
+      }
+    },
+    "Card": {
+      "apps": 934,
+      "10K": {
+        "observed": 0.27409,
+        "lo": 0.246452,
+        "hi": 0.303579,
+        "model": 0.267683,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.099572,
+        "lo": 0.081978,
+        "hi": 0.120446,
+        "model": 0.094219,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.020343,
+        "lo": 0.013061,
+        "hi": 0.031554,
+        "model": 0.017368,
+        "model_inside_interval": true
+      }
+    },
+    "Casino": {
+      "apps": 471,
+      "10K": {
+        "observed": 0.326964,
+        "lo": 0.286147,
+        "hi": 0.370581,
+        "model": 0.298756,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.11465,
+        "lo": 0.088942,
+        "hi": 0.146593,
+        "model": 0.093699,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.010616,
+        "lo": 0.004543,
+        "hi": 0.024607,
+        "model": 0.014026,
+        "model_inside_interval": true
+      }
+    },
+    "Casual": {
+      "apps": 7046,
+      "10K": {
+        "observed": 0.156827,
+        "lo": 0.148523,
+        "hi": 0.165504,
+        "model": 0.160094,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.061879,
+        "lo": 0.056488,
+        "hi": 0.067747,
+        "model": 0.062828,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.018308,
+        "lo": 0.01543,
+        "hi": 0.021711,
+        "model": 0.018544,
+        "model_inside_interval": true
+      }
+    },
+    "Comics": {
+      "apps": 216,
+      "10K": {
+        "observed": 0.287037,
+        "lo": 0.230842,
+        "hi": 0.350674,
+        "model": 0.297317,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.083333,
+        "lo": 0.05336,
+        "hi": 0.127868,
+        "model": 0.105123,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.009259,
+        "lo": 0.002543,
+        "hi": 0.033126,
+        "model": 0.01789,
+        "model_inside_interval": true
+      }
+    },
+    "Communication": {
+      "apps": 6299,
+      "10K": {
+        "observed": 0.140975,
+        "lo": 0.132599,
+        "hi": 0.149788,
+        "model": 0.12468,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.041911,
+        "lo": 0.037236,
+        "hi": 0.047146,
+        "model": 0.035781,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.00635,
+        "lo": 0.004667,
+        "hi": 0.008635,
+        "model": 0.007668,
+        "model_inside_interval": true
+      }
+    },
+    "Dating": {
+      "apps": 1187,
+      "10K": {
+        "observed": 0.335299,
+        "lo": 0.309011,
+        "hi": 0.362649,
+        "model": 0.290301,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.090143,
+        "lo": 0.075146,
+        "hi": 0.107785,
+        "model": 0.079603,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.008425,
+        "lo": 0.004582,
+        "hi": 0.015438,
+        "model": 0.012886,
+        "model_inside_interval": true
+      }
+    },
+    "Education": {
+      "apps": 34456,
+      "10K": {
+        "observed": 0.080915,
+        "lo": 0.078082,
+        "hi": 0.083841,
+        "model": 0.099934,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.009026,
+        "lo": 0.008081,
+        "hi": 0.010081,
+        "model": 0.016918,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.000755,
+        "lo": 0.000515,
+        "hi": 0.001105,
+        "model": 0.001341,
+        "model_inside_interval": false
+      }
+    },
+    "Educational": {
+      "apps": 2495,
+      "10K": {
+        "observed": 0.142285,
+        "lo": 0.129126,
+        "hi": 0.156543,
+        "model": 0.154582,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.047695,
+        "lo": 0.040006,
+        "hi": 0.056776,
+        "model": 0.050736,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.018036,
+        "lo": 0.013507,
+        "hi": 0.024047,
+        "model": 0.015913,
+        "model_inside_interval": true
+      }
+    },
+    "Entertainment": {
+      "apps": 17811,
+      "10K": {
+        "observed": 0.241761,
+        "lo": 0.235529,
+        "hi": 0.248104,
+        "model": 0.202276,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.067992,
+        "lo": 0.064387,
+        "hi": 0.071783,
+        "model": 0.057325,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.007243,
+        "lo": 0.006099,
+        "hi": 0.008599,
+        "model": 0.009102,
+        "model_inside_interval": false
+      }
+    },
+    "Events": {
+      "apps": 1056,
+      "10K": {
+        "observed": 0.063447,
+        "lo": 0.050268,
+        "hi": 0.07979,
+        "model": 0.030329,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.013258,
+        "lo": 0.007913,
+        "hi": 0.02213,
+        "model": 0.003992,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.003788,
+        "lo": 0.001474,
+        "hi": 0.009699,
+        "model": 0.000538,
+        "model_inside_interval": false
+      }
+    },
+    "Finance": {
+      "apps": 6809,
+      "10K": {
+        "observed": 0.157439,
+        "lo": 0.148981,
+        "hi": 0.166283,
+        "model": 0.149529,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.034366,
+        "lo": 0.030295,
+        "hi": 0.038963,
+        "model": 0.036239,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.004406,
+        "lo": 0.003088,
+        "hi": 0.006283,
+        "model": 0.005862,
+        "model_inside_interval": true
+      }
+    },
+    "Food & Drink": {
+      "apps": 13717,
+      "10K": {
+        "observed": 0.036816,
+        "lo": 0.033792,
+        "hi": 0.040099,
+        "model": 0.048733,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.005541,
+        "lo": 0.004429,
+        "hi": 0.006929,
+        "model": 0.00846,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.000583,
+        "lo": 0.000296,
+        "hi": 0.001151,
+        "model": 0.000815,
+        "model_inside_interval": true
+      }
+    },
+    "Health & Fitness": {
+      "apps": 11739,
+      "10K": {
+        "observed": 0.078627,
+        "lo": 0.073894,
+        "hi": 0.083635,
+        "model": 0.0868,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.017634,
+        "lo": 0.015406,
+        "hi": 0.020177,
+        "model": 0.019292,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.002896,
+        "lo": 0.002073,
+        "hi": 0.004044,
+        "model": 0.002948,
+        "model_inside_interval": true
+      }
+    },
+    "House & Home": {
+      "apps": 2032,
+      "10K": {
+        "observed": 0.046752,
+        "lo": 0.038397,
+        "hi": 0.056817,
+        "model": 0.065717,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.008858,
+        "lo": 0.005611,
+        "hi": 0.01396,
+        "model": 0.014004,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.000984,
+        "lo": 0.00027,
+        "hi": 0.003582,
+        "model": 0.001521,
+        "model_inside_interval": true
+      }
+    },
+    "Libraries & Demo": {
+      "apps": 527,
+      "10K": {
+        "observed": 0.189753,
+        "lo": 0.158567,
+        "hi": 0.22543,
+        "model": 0.125287,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.051233,
+        "lo": 0.035446,
+        "hi": 0.073516,
+        "model": 0.035363,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.00759,
+        "lo": 0.002955,
+        "hi": 0.019352,
+        "model": 0.006403,
+        "model_inside_interval": true
+      }
+    },
+    "Lifestyle": {
+      "apps": 12521,
+      "10K": {
+        "observed": 0.091846,
+        "lo": 0.086911,
+        "hi": 0.09703,
+        "model": 0.115981,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.018449,
+        "lo": 0.016235,
+        "hi": 0.020958,
+        "model": 0.026564,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.002715,
+        "lo": 0.001944,
+        "hi": 0.003792,
+        "model": 0.003733,
+        "model_inside_interval": true
+      }
+    },
+    "Maps & Navigation": {
+      "apps": 1952,
+      "10K": {
+        "observed": 0.108094,
+        "lo": 0.095082,
+        "hi": 0.122647,
+        "model": 0.110652,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.023053,
+        "lo": 0.017273,
+        "hi": 0.030707,
+        "model": 0.022139,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.003074,
+        "lo": 0.001409,
+        "hi": 0.00669,
+        "model": 0.004323,
+        "model_inside_interval": true
+      }
+    },
+    "Medical": {
+      "apps": 3465,
+      "10K": {
+        "observed": 0.080519,
+        "lo": 0.071917,
+        "hi": 0.090051,
+        "model": 0.080993,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.022511,
+        "lo": 0.018075,
+        "hi": 0.028004,
+        "model": 0.011394,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.006061,
+        "lo": 0.003967,
+        "hi": 0.009248,
+        "model": 0.000445,
+        "model_inside_interval": false
+      }
+    },
+    "Music": {
+      "apps": 637,
+      "10K": {
+        "observed": 0.346939,
+        "lo": 0.310991,
+        "hi": 0.384722,
+        "model": 0.309669,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.098901,
+        "lo": 0.078067,
+        "hi": 0.124544,
+        "model": 0.087099,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.020408,
+        "lo": 0.011965,
+        "hi": 0.034602,
+        "model": 0.025022,
+        "model_inside_interval": true
+      }
+    },
+    "Music & Audio": {
+      "apps": 21306,
+      "10K": {
+        "observed": 0.122548,
+        "lo": 0.118212,
+        "hi": 0.127019,
+        "model": 0.122752,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.016897,
+        "lo": 0.015251,
+        "hi": 0.018716,
+        "model": 0.020983,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.001924,
+        "lo": 0.001419,
+        "hi": 0.002609,
+        "model": 0.00294,
+        "model_inside_interval": false
+      }
+    },
+    "News & Magazines": {
+      "apps": 4557,
+      "10K": {
+        "observed": 0.086241,
+        "lo": 0.078435,
+        "hi": 0.094744,
+        "model": 0.102437,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.013167,
+        "lo": 0.010243,
+        "hi": 0.01691,
+        "model": 0.017124,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.000439,
+        "lo": 0.00012,
+        "hi": 0.001599,
+        "model": 0.001345,
+        "model_inside_interval": true
+      }
+    },
+    "Parenting": {
+      "apps": 454,
+      "10K": {
+        "observed": 0.182819,
+        "lo": 0.149976,
+        "hi": 0.220986,
+        "model": 0.213764,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.04185,
+        "lo": 0.026953,
+        "hi": 0.064436,
+        "model": 0.05318,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.002203,
+        "lo": 0.000389,
+        "hi": 0.01237,
+        "model": 0.007187,
+        "model_inside_interval": true
+      }
+    },
+    "Personalization": {
+      "apps": 9372,
+      "10K": {
+        "observed": 0.212441,
+        "lo": 0.204279,
+        "hi": 0.22084,
+        "model": 0.208479,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.046842,
+        "lo": 0.042746,
+        "hi": 0.051308,
+        "model": 0.052188,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.004908,
+        "lo": 0.003682,
+        "hi": 0.00654,
+        "model": 0.007898,
+        "model_inside_interval": false
+      }
+    },
+    "Photography": {
+      "apps": 3377,
+      "10K": {
+        "observed": 0.211726,
+        "lo": 0.198279,
+        "hi": 0.225829,
+        "model": 0.225961,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.062778,
+        "lo": 0.055083,
+        "hi": 0.071466,
+        "model": 0.078445,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.017767,
+        "lo": 0.013829,
+        "hi": 0.022802,
+        "model": 0.019046,
+        "model_inside_interval": true
+      }
+    },
+    "Productivity": {
+      "apps": 8689,
+      "10K": {
+        "observed": 0.089654,
+        "lo": 0.083827,
+        "hi": 0.095843,
+        "model": 0.093663,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.021637,
+        "lo": 0.018782,
+        "hi": 0.024914,
+        "model": 0.022337,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.003222,
+        "lo": 0.002231,
+        "hi": 0.004653,
+        "model": 0.004116,
+        "model_inside_interval": true
+      }
+    },
+    "Puzzle": {
+      "apps": 6252,
+      "10K": {
+        "observed": 0.169866,
+        "lo": 0.160761,
+        "hi": 0.179376,
+        "model": 0.165271,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.06174,
+        "lo": 0.056039,
+        "hi": 0.06798,
+        "model": 0.054309,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.020473,
+        "lo": 0.017246,
+        "hi": 0.02429,
+        "model": 0.015072,
+        "model_inside_interval": false
+      }
+    },
+    "Racing": {
+      "apps": 1152,
+      "10K": {
+        "observed": 0.323785,
+        "lo": 0.297388,
+        "hi": 0.351353,
+        "model": 0.29189,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.125868,
+        "lo": 0.107948,
+        "hi": 0.146275,
+        "model": 0.138585,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.03125,
+        "lo": 0.022657,
+        "hi": 0.042959,
+        "model": 0.047648,
+        "model_inside_interval": false
+      }
+    },
+    "Role Playing": {
+      "apps": 1233,
+      "10K": {
+        "observed": 0.502028,
+        "lo": 0.474156,
+        "hi": 0.529887,
+        "model": 0.454063,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.273317,
+        "lo": 0.249174,
+        "hi": 0.298868,
+        "model": 0.218671,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.07056,
+        "lo": 0.057559,
+        "hi": 0.086228,
+        "model": 0.061899,
+        "model_inside_interval": true
+      }
+    },
+    "Shopping": {
+      "apps": 13480,
+      "10K": {
+        "observed": 0.062982,
+        "lo": 0.059004,
+        "hi": 0.067209,
+        "model": 0.086815,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.011128,
+        "lo": 0.009491,
+        "hi": 0.013043,
+        "model": 0.017788,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.001187,
+        "lo": 0.000731,
+        "hi": 0.001927,
+        "model": 0.003093,
+        "model_inside_interval": false
+      }
+    },
+    "Simulation": {
+      "apps": 2518,
+      "10K": {
+        "observed": 0.511914,
+        "lo": 0.492387,
+        "hi": 0.531405,
+        "model": 0.477779,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.247419,
+        "lo": 0.230957,
+        "hi": 0.26465,
+        "model": 0.217364,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.056791,
+        "lo": 0.048408,
+        "hi": 0.066525,
+        "model": 0.05603,
+        "model_inside_interval": true
+      }
+    },
+    "Social": {
+      "apps": 6859,
+      "10K": {
+        "observed": 0.159498,
+        "lo": 0.151024,
+        "hi": 0.168354,
+        "model": 0.149742,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.049716,
+        "lo": 0.044819,
+        "hi": 0.055116,
+        "model": 0.044212,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.012392,
+        "lo": 0.010034,
+        "hi": 0.015297,
+        "model": 0.008474,
+        "model_inside_interval": false
+      }
+    },
+    "Sports": {
+      "apps": 4663,
+      "10K": {
+        "observed": 0.157409,
+        "lo": 0.147239,
+        "hi": 0.168144,
+        "model": 0.136867,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.043105,
+        "lo": 0.037642,
+        "hi": 0.04932,
+        "model": 0.036397,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.010079,
+        "lo": 0.007589,
+        "hi": 0.013377,
+        "model": 0.007903,
+        "model_inside_interval": true
+      }
+    },
+    "Strategy": {
+      "apps": 1131,
+      "10K": {
+        "observed": 0.244032,
+        "lo": 0.219893,
+        "hi": 0.269903,
+        "model": 0.277215,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.109637,
+        "lo": 0.092733,
+        "hi": 0.129185,
+        "model": 0.114307,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.027409,
+        "lo": 0.019376,
+        "hi": 0.038642,
+        "model": 0.026137,
+        "model_inside_interval": true
+      }
+    },
+    "Tools": {
+      "apps": 17187,
+      "10K": {
+        "observed": 0.193984,
+        "lo": 0.188141,
+        "hi": 0.199964,
+        "model": 0.177724,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.060744,
+        "lo": 0.05727,
+        "hi": 0.064414,
+        "model": 0.054097,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.012684,
+        "lo": 0.011116,
+        "hi": 0.014469,
+        "model": 0.011747,
+        "model_inside_interval": true
+      }
+    },
+    "Travel & Local": {
+      "apps": 5066,
+      "10K": {
+        "observed": 0.073431,
+        "lo": 0.066566,
+        "hi": 0.080941,
+        "model": 0.071984,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.020134,
+        "lo": 0.016614,
+        "hi": 0.024381,
+        "model": 0.017045,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.002961,
+        "lo": 0.001795,
+        "hi": 0.00488,
+        "model": 0.002762,
+        "model_inside_interval": true
+      }
+    },
+    "Trivia": {
+      "apps": 1875,
+      "10K": {
+        "observed": 0.160533,
+        "lo": 0.144613,
+        "hi": 0.177841,
+        "model": 0.165383,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.034667,
+        "lo": 0.027292,
+        "hi": 0.043945,
+        "model": 0.043522,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.0048,
+        "lo": 0.002527,
+        "hi": 0.009098,
+        "model": 0.009447,
+        "model_inside_interval": false
+      }
+    },
+    "Video Players & Editors": {
+      "apps": 1977,
+      "10K": {
+        "observed": 0.382398,
+        "lo": 0.361223,
+        "hi": 0.404028,
+        "model": 0.384583,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.149722,
+        "lo": 0.134674,
+        "hi": 0.166129,
+        "model": 0.153587,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.035407,
+        "lo": 0.02812,
+        "hi": 0.044497,
+        "model": 0.040087,
+        "model_inside_interval": true
+      }
+    },
+    "Weather": {
+      "apps": 611,
+      "10K": {
+        "observed": 0.379705,
+        "lo": 0.342088,
+        "hi": 0.418826,
+        "model": 0.342226,
+        "model_inside_interval": true
+      },
+      "100K": {
+        "observed": 0.238953,
+        "lo": 0.206836,
+        "hi": 0.274331,
+        "model": 0.155363,
+        "model_inside_interval": false
+      },
+      "1M": {
+        "observed": 0.067103,
+        "lo": 0.049847,
+        "hi": 0.089769,
+        "model": 0.052379,
+        "model_inside_interval": true
+      }
+    },
+    "Word": {
+      "apps": 1309,
+      "10K": {
+        "observed": 0.200153,
+        "lo": 0.179369,
+        "hi": 0.222692,
+        "model": 0.230384,
+        "model_inside_interval": false
+      },
+      "100K": {
+        "observed": 0.066463,
+        "lo": 0.054198,
+        "hi": 0.081265,
+        "model": 0.073626,
+        "model_inside_interval": true
+      },
+      "1M": {
+        "observed": 0.014515,
+        "lo": 0.009312,
+        "hi": 0.022559,
+        "model": 0.01655,
+        "model_inside_interval": true
+      }
+    }
+  },
+  "by_category_summary": {
+    "10K": {
+      "categories": 48,
+      "share_with_model_inside_interval": 0.458333,
+      "median_observed_over_model": 1.00867,
+      "min": 0.711409,
+      "max": 2.091927
+    },
+    "100K": {
+      "categories": 48,
+      "share_with_model_inside_interval": 0.520833,
+      "median_observed_over_model": 0.979866,
+      "min": 0.533504,
+      "max": 3.320978
+    },
+    "1M": {
+      "categories": 48,
+      "share_with_model_inside_interval": 0.666667,
+      "median_observed_over_model": 0.806481,
+      "min": 0.253453,
+      "max": 13.61959
+    }
+  },
+  "first_apps_2019_2020": {
+    "Action": {
+      "all_ages": {
+        "apps": 4409,
+        "10K": {
+          "observed": 0.198004,
+          "lo": 0.186506,
+          "hi": 0.210028,
+          "model": 0.255529,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.094579,
+          "lo": 0.086291,
+          "hi": 0.103574,
+          "model": 0.116219,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.026763,
+          "lo": 0.022396,
+          "hi": 0.031955,
+          "model": 0.039296,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 1498,
+        "10K": {
+          "observed": 0.156208,
+          "lo": 0.138705,
+          "hi": 0.17547,
+          "model": 0.214289,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.062083,
+          "lo": 0.050947,
+          "hi": 0.075459,
+          "model": 0.087705,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.010013,
+          "lo": 0.006077,
+          "hi": 0.016456,
+          "model": 0.026839,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.224462,
+        "100K": 0.093518,
+        "1M": 0.028888
+      }
+    },
+    "Adventure": {
+      "all_ages": {
+        "apps": 4157,
+        "10K": {
+          "observed": 0.198942,
+          "lo": 0.187086,
+          "hi": 0.211353,
+          "model": 0.273428,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.091172,
+          "lo": 0.082794,
+          "hi": 0.100304,
+          "model": 0.094392,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.018764,
+          "lo": 0.015061,
+          "hi": 0.023355,
+          "model": 0.023593,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 1361,
+        "10K": {
+          "observed": 0.174137,
+          "lo": 0.154914,
+          "hi": 0.195194,
+          "model": 0.236233,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.072006,
+          "lo": 0.059444,
+          "hi": 0.086978,
+          "model": 0.074164,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.013226,
+          "lo": 0.008382,
+          "hi": 0.020809,
+          "model": 0.017002,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.242552,
+        "100K": 0.076787,
+        "1M": 0.017691
+      }
+    },
+    "Arcade": {
+      "all_ages": {
+        "apps": 11741,
+        "10K": {
+          "observed": 0.086705,
+          "lo": 0.081749,
+          "hi": 0.091931,
+          "model": 0.110007,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.031769,
+          "lo": 0.028747,
+          "hi": 0.035098,
+          "model": 0.03866,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.009539,
+          "lo": 0.007934,
+          "hi": 0.011465,
+          "model": 0.01258,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 4095,
+        "10K": {
+          "observed": 0.069841,
+          "lo": 0.062431,
+          "hi": 0.078058,
+          "model": 0.093573,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.022711,
+          "lo": 0.018575,
+          "hi": 0.027741,
+          "model": 0.030406,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.005861,
+          "lo": 0.003942,
+          "hi": 0.008706,
+          "model": 0.00923,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.093954,
+        "100K": 0.030467,
+        "1M": 0.00921
+      }
+    },
+    "Art & Design": {
+      "all_ages": {
+        "apps": 2398,
+        "10K": {
+          "observed": 0.172644,
+          "lo": 0.158043,
+          "hi": 0.188291,
+          "model": 0.187188,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.052961,
+          "lo": 0.044691,
+          "hi": 0.062661,
+          "model": 0.057273,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.006255,
+          "lo": 0.003794,
+          "hi": 0.010295,
+          "model": 0.010274,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 651,
+        "10K": {
+          "observed": 0.170507,
+          "lo": 0.14357,
+          "hi": 0.201309,
+          "model": 0.158118,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.059908,
+          "lo": 0.04413,
+          "hi": 0.080849,
+          "model": 0.044114,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.003072,
+          "lo": 0.000843,
+          "hi": 0.011132,
+          "model": 0.007323,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.156571,
+        "100K": 0.043584,
+        "1M": 0.007214
+      }
+    },
+    "Auto & Vehicles": {
+      "all_ages": {
+        "apps": 4009,
+        "10K": {
+          "observed": 0.124969,
+          "lo": 0.11509,
+          "hi": 0.135566,
+          "model": 0.148054,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.024694,
+          "lo": 0.020326,
+          "hi": 0.029973,
+          "model": 0.031093,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.001996,
+          "lo": 0.001011,
+          "hi": 0.003933,
+          "model": 0.005154,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 1006,
+        "10K": {
+          "observed": 0.111332,
+          "lo": 0.093354,
+          "hi": 0.132267,
+          "model": 0.117255,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.016899,
+          "lo": 0.010577,
+          "hi": 0.026896,
+          "model": 0.021776,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.0,
+          "lo": 0.0,
+          "hi": 0.003804,
+          "model": 0.003269,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.117603,
+        "100K": 0.021863,
+        "1M": 0.003283
+      }
+    },
+    "Beauty": {
+      "all_ages": {
+        "apps": 1685,
+        "10K": {
+          "observed": 0.11276,
+          "lo": 0.098529,
+          "hi": 0.128752,
+          "model": 0.11716,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.032047,
+          "lo": 0.024645,
+          "hi": 0.041579,
+          "model": 0.03738,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.004154,
+          "lo": 0.002014,
+          "hi": 0.008551,
+          "model": 0.006793,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 493,
+        "10K": {
+          "observed": 0.115619,
+          "lo": 0.090316,
+          "hi": 0.146865,
+          "model": 0.098788,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.026369,
+          "lo": 0.015474,
+          "hi": 0.044589,
+          "model": 0.029004,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.002028,
+          "lo": 0.000358,
+          "hi": 0.011399,
+          "model": 0.004913,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.097616,
+        "100K": 0.028399,
+        "1M": 0.004754
+      }
+    },
+    "Board": {
+      "all_ages": {
+        "apps": 1757,
+        "10K": {
+          "observed": 0.207171,
+          "lo": 0.188869,
+          "hi": 0.226751,
+          "model": 0.218535,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.06716,
+          "lo": 0.056375,
+          "hi": 0.079833,
+          "model": 0.068655,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.01309,
+          "lo": 0.008739,
+          "hi": 0.019567,
+          "model": 0.015413,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 637,
+        "10K": {
+          "observed": 0.167975,
+          "lo": 0.140952,
+          "hi": 0.198978,
+          "model": 0.190722,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.047096,
+          "lo": 0.033186,
+          "hi": 0.066436,
+          "model": 0.055453,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.007849,
+          "lo": 0.003357,
+          "hi": 0.018242,
+          "model": 0.011643,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.19048,
+        "100K": 0.05494,
+        "1M": 0.011433
+      }
+    },
+    "Books & Reference": {
+      "all_ages": {
+        "apps": 7232,
+        "10K": {
+          "observed": 0.212528,
+          "lo": 0.203253,
+          "hi": 0.222108,
+          "model": 0.221865,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.048396,
+          "lo": 0.043685,
+          "hi": 0.053586,
+          "model": 0.041078,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.00719,
+          "lo": 0.005488,
+          "hi": 0.009416,
+          "model": 0.003505,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 2055,
+        "10K": {
+          "observed": 0.184428,
+          "lo": 0.168254,
+          "hi": 0.20178,
+          "model": 0.190893,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.03601,
+          "lo": 0.028781,
+          "hi": 0.04497,
+          "model": 0.032163,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.007786,
+          "lo": 0.004798,
+          "hi": 0.01261,
+          "model": 0.00257,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.187707,
+        "100K": 0.031206,
+        "1M": 0.002454
+      }
+    },
+    "Business": {
+      "all_ages": {
+        "apps": 29539,
+        "10K": {
+          "observed": 0.052405,
+          "lo": 0.049922,
+          "hi": 0.055005,
+          "model": 0.056537,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.008396,
+          "lo": 0.007417,
+          "hi": 0.009502,
+          "model": 0.009585,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.000609,
+          "lo": 0.000385,
+          "hi": 0.000963,
+          "model": 0.001225,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 7628,
+        "10K": {
+          "observed": 0.044573,
+          "lo": 0.040166,
+          "hi": 0.049437,
+          "model": 0.04535,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.006555,
+          "lo": 0.004976,
+          "hi": 0.008631,
+          "model": 0.007051,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.000393,
+          "lo": 0.000134,
+          "hi": 0.001156,
+          "model": 0.000837,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.045069,
+        "100K": 0.006934,
+        "1M": 0.000816
+      }
+    },
+    "Card": {
+      "all_ages": {
+        "apps": 1083,
+        "10K": {
+          "observed": 0.276085,
+          "lo": 0.250286,
+          "hi": 0.303467,
+          "model": 0.29854,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.0988,
+          "lo": 0.082421,
+          "hi": 0.118015,
+          "model": 0.108065,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.021237,
+          "lo": 0.014193,
+          "hi": 0.031667,
+          "model": 0.019506,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 391,
+        "10K": {
+          "observed": 0.237852,
+          "lo": 0.198328,
+          "hi": 0.282477,
+          "model": 0.253212,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.074169,
+          "lo": 0.052134,
+          "hi": 0.10449,
+          "model": 0.08186,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.012788,
+          "lo": 0.005474,
+          "hi": 0.029582,
+          "model": 0.013308,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.261225,
+        "100K": 0.085668,
+        "1M": 0.014022
+      }
+    },
+    "Casino": {
+      "all_ages": {
+        "apps": 771,
+        "10K": {
+          "observed": 0.350195,
+          "lo": 0.31734,
+          "hi": 0.384534,
+          "model": 0.3217,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.125811,
+          "lo": 0.104241,
+          "hi": 0.151091,
+          "model": 0.104084,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.020752,
+          "lo": 0.012813,
+          "hi": 0.033443,
+          "model": 0.015505,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 220,
+        "10K": {
+          "observed": 0.345455,
+          "lo": 0.285756,
+          "hi": 0.410458,
+          "model": 0.289657,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.145455,
+          "lo": 0.104954,
+          "hi": 0.198125,
+          "model": 0.086385,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.009091,
+          "lo": 0.002497,
+          "hi": 0.032535,
+          "model": 0.0119,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.284917,
+        "100K": 0.084057,
+        "1M": 0.011547
+      }
+    },
+    "Casual": {
+      "all_ages": {
+        "apps": 9349,
+        "10K": {
+          "observed": 0.108354,
+          "lo": 0.102213,
+          "hi": 0.114816,
+          "model": 0.171021,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.039362,
+          "lo": 0.035606,
+          "hi": 0.043497,
+          "model": 0.068903,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.00952,
+          "lo": 0.007743,
+          "hi": 0.011699,
+          "model": 0.020621,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 3227,
+        "10K": {
+          "observed": 0.096064,
+          "lo": 0.086372,
+          "hi": 0.106717,
+          "model": 0.147237,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.02789,
+          "lo": 0.022746,
+          "hi": 0.034156,
+          "model": 0.054847,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.004648,
+          "lo": 0.002819,
+          "hi": 0.007656,
+          "model": 0.0153,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.14805,
+        "100K": 0.055068,
+        "1M": 0.01528
+      }
+    },
+    "Comics": {
+      "all_ages": {
+        "apps": 376,
+        "10K": {
+          "observed": 0.385638,
+          "lo": 0.337831,
+          "hi": 0.435759,
+          "model": 0.334058,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.146277,
+          "lo": 0.114136,
+          "hi": 0.185572,
+          "model": 0.129562,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.031915,
+          "lo": 0.018349,
+          "hi": 0.054949,
+          "model": 0.024324,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 91,
+        "10K": {
+          "observed": 0.296703,
+          "lo": 0.212634,
+          "hi": 0.397242,
+          "model": 0.260506,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.076923,
+          "lo": 0.037759,
+          "hi": 0.150361,
+          "model": 0.08629,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.021978,
+          "lo": 0.006048,
+          "hi": 0.076633,
+          "model": 0.014254,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.277346,
+        "100K": 0.09407,
+        "1M": 0.015613
+      }
+    },
+    "Communication": {
+      "all_ages": {
+        "apps": 8778,
+        "10K": {
+          "observed": 0.157325,
+          "lo": 0.149858,
+          "hi": 0.165092,
+          "model": 0.144713,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.050581,
+          "lo": 0.04619,
+          "hi": 0.055365,
+          "model": 0.044256,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.012076,
+          "lo": 0.009995,
+          "hi": 0.014583,
+          "model": 0.009988,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 2677,
+        "10K": {
+          "observed": 0.13149,
+          "lo": 0.119215,
+          "hi": 0.144822,
+          "model": 0.121125,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.039223,
+          "lo": 0.032505,
+          "hi": 0.047261,
+          "model": 0.033996,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.007097,
+          "lo": 0.004548,
+          "hi": 0.011059,
+          "model": 0.007153,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.119869,
+        "100K": 0.033295,
+        "1M": 0.006914
+      }
+    },
+    "Dating": {
+      "all_ages": {
+        "apps": 2035,
+        "10K": {
+          "observed": 0.330713,
+          "lo": 0.310607,
+          "hi": 0.351456,
+          "model": 0.32095,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.103686,
+          "lo": 0.091178,
+          "hi": 0.117686,
+          "model": 0.094205,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.011302,
+          "lo": 0.007543,
+          "hi": 0.016903,
+          "model": 0.016235,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 644,
+        "10K": {
+          "observed": 0.338509,
+          "lo": 0.303015,
+          "hi": 0.375919,
+          "model": 0.30246,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.108696,
+          "lo": 0.086935,
+          "hi": 0.135097,
+          "model": 0.084253,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.009317,
+          "lo": 0.004277,
+          "hi": 0.020176,
+          "model": 0.013854,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.291593,
+        "100K": 0.079241,
+        "1M": 0.012811
+      }
+    },
+    "Education": {
+      "all_ages": {
+        "apps": 29339,
+        "10K": {
+          "observed": 0.119227,
+          "lo": 0.115569,
+          "hi": 0.122985,
+          "model": 0.142816,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.018303,
+          "lo": 0.016831,
+          "hi": 0.019901,
+          "model": 0.026951,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.002352,
+          "lo": 0.001859,
+          "hi": 0.002975,
+          "model": 0.002336,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 9010,
+        "10K": {
+          "observed": 0.095339,
+          "lo": 0.089446,
+          "hi": 0.101576,
+          "model": 0.120225,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.011654,
+          "lo": 0.009637,
+          "hi": 0.014087,
+          "model": 0.020818,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.001665,
+          "lo": 0.001009,
+          "hi": 0.002745,
+          "model": 0.001681,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.118386,
+        "100K": 0.020233,
+        "1M": 0.001619
+      }
+    },
+    "Educational": {
+      "all_ages": {
+        "apps": 2864,
+        "10K": {
+          "observed": 0.112081,
+          "lo": 0.101043,
+          "hi": 0.124158,
+          "model": 0.169643,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.030028,
+          "lo": 0.02438,
+          "hi": 0.036935,
+          "model": 0.05747,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.004888,
+          "lo": 0.002914,
+          "hi": 0.008189,
+          "model": 0.018078,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 945,
+        "10K": {
+          "observed": 0.095238,
+          "lo": 0.078127,
+          "hi": 0.115627,
+          "model": 0.143407,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.020106,
+          "lo": 0.012909,
+          "hi": 0.031189,
+          "model": 0.044442,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.001058,
+          "lo": 0.000187,
+          "hi": 0.00597,
+          "model": 0.012951,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.144054,
+        "100K": 0.044547,
+        "1M": 0.012917
+      }
+    },
+    "Entertainment": {
+      "all_ages": {
+        "apps": 19958,
+        "10K": {
+          "observed": 0.272121,
+          "lo": 0.265991,
+          "hi": 0.278339,
+          "model": 0.231062,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.089738,
+          "lo": 0.085852,
+          "hi": 0.093783,
+          "model": 0.072245,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.015032,
+          "lo": 0.013434,
+          "hi": 0.016815,
+          "model": 0.012917,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 5956,
+        "10K": {
+          "observed": 0.261753,
+          "lo": 0.250745,
+          "hi": 0.273068,
+          "model": 0.205504,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.081766,
+          "lo": 0.075074,
+          "hi": 0.088998,
+          "model": 0.059625,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.009234,
+          "lo": 0.007102,
+          "hi": 0.012,
+          "model": 0.009979,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.200773,
+        "100K": 0.057489,
+        "1M": 0.009506
+      }
+    },
+    "Events": {
+      "all_ages": {
+        "apps": 3090,
+        "10K": {
+          "observed": 0.033657,
+          "lo": 0.027855,
+          "hi": 0.040617,
+          "model": 0.039696,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.008091,
+          "lo": 0.005486,
+          "hi": 0.011917,
+          "model": 0.00569,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.002913,
+          "lo": 0.001533,
+          "hi": 0.005527,
+          "model": 0.000807,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 467,
+        "10K": {
+          "observed": 0.044968,
+          "lo": 0.029597,
+          "hi": 0.067764,
+          "model": 0.029542,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.006424,
+          "lo": 0.002187,
+          "hi": 0.018715,
+          "model": 0.003808,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.004283,
+          "lo": 0.001175,
+          "hi": 0.015479,
+          "model": 0.000494,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.029595,
+        "100K": 0.003777,
+        "1M": 0.000485
+      }
+    },
+    "Finance": {
+      "all_ages": {
+        "apps": 13230,
+        "10K": {
+          "observed": 0.194633,
+          "lo": 0.187976,
+          "hi": 0.201468,
+          "model": 0.179517,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.049206,
+          "lo": 0.04565,
+          "hi": 0.053025,
+          "model": 0.046914,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.005367,
+          "lo": 0.004257,
+          "hi": 0.006763,
+          "model": 0.00785,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 3696,
+        "10K": {
+          "observed": 0.167478,
+          "lo": 0.155787,
+          "hi": 0.179861,
+          "model": 0.150029,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.034361,
+          "lo": 0.028955,
+          "hi": 0.040734,
+          "model": 0.035333,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.003788,
+          "lo": 0.002258,
+          "hi": 0.006348,
+          "model": 0.005413,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.149635,
+        "100K": 0.035238,
+        "1M": 0.005398
+      }
+    },
+    "Food & Drink": {
+      "all_ages": {
+        "apps": 10697,
+        "10K": {
+          "observed": 0.083575,
+          "lo": 0.078479,
+          "hi": 0.08897,
+          "model": 0.074174,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.012059,
+          "lo": 0.010159,
+          "hi": 0.01431,
+          "model": 0.014458,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.000841,
+          "lo": 0.000443,
+          "hi": 0.001598,
+          "model": 0.001487,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 3900,
+        "10K": {
+          "observed": 0.063077,
+          "lo": 0.055869,
+          "hi": 0.071145,
+          "model": 0.062028,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.007179,
+          "lo": 0.004972,
+          "hi": 0.010357,
+          "model": 0.011138,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.000769,
+          "lo": 0.000262,
+          "hi": 0.002259,
+          "model": 0.001067,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.062823,
+        "100K": 0.011267,
+        "1M": 0.001077
+      }
+    },
+    "Health & Fitness": {
+      "all_ages": {
+        "apps": 13616,
+        "10K": {
+          "observed": 0.113837,
+          "lo": 0.10861,
+          "hi": 0.119281,
+          "model": 0.120006,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.022767,
+          "lo": 0.020393,
+          "hi": 0.025411,
+          "model": 0.02837,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.003892,
+          "lo": 0.002977,
+          "hi": 0.005088,
+          "model": 0.004452,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 4408,
+        "10K": {
+          "observed": 0.093013,
+          "lo": 0.084789,
+          "hi": 0.101945,
+          "model": 0.10225,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.018603,
+          "lo": 0.015013,
+          "hi": 0.023031,
+          "model": 0.022293,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.002949,
+          "lo": 0.001724,
+          "hi": 0.00504,
+          "model": 0.003266,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.101145,
+        "100K": 0.021812,
+        "1M": 0.003163
+      }
+    },
+    "House & Home": {
+      "all_ages": {
+        "apps": 3159,
+        "10K": {
+          "observed": 0.082305,
+          "lo": 0.07322,
+          "hi": 0.092403,
+          "model": 0.09653,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.016144,
+          "lo": 0.012301,
+          "hi": 0.021163,
+          "model": 0.022831,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.001899,
+          "lo": 0.000871,
+          "hi": 0.004138,
+          "model": 0.002596,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 860,
+        "10K": {
+          "observed": 0.054651,
+          "lo": 0.041345,
+          "hi": 0.071918,
+          "model": 0.07801,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.012791,
+          "lo": 0.007157,
+          "hi": 0.022758,
+          "model": 0.016737,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.002326,
+          "lo": 0.000638,
+          "hi": 0.00844,
+          "model": 0.001755,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.077521,
+        "100K": 0.016535,
+        "1M": 0.001722
+      }
+    },
+    "Libraries & Demo": {
+      "all_ages": {
+        "apps": 728,
+        "10K": {
+          "observed": 0.114011,
+          "lo": 0.092921,
+          "hi": 0.139153,
+          "model": 0.135555,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.031593,
+          "lo": 0.021143,
+          "hi": 0.046961,
+          "model": 0.039027,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.004121,
+          "lo": 0.001402,
+          "hi": 0.012045,
+          "model": 0.007157,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 187,
+        "10K": {
+          "observed": 0.117647,
+          "lo": 0.078988,
+          "hi": 0.171699,
+          "model": 0.106365,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.026738,
+          "lo": 0.011474,
+          "hi": 0.061056,
+          "model": 0.027405,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.005348,
+          "lo": 0.000945,
+          "hi": 0.029665,
+          "model": 0.004593,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.106863,
+        "100K": 0.027518,
+        "1M": 0.004602
+      }
+    },
+    "Lifestyle": {
+      "all_ages": {
+        "apps": 16965,
+        "10K": {
+          "observed": 0.10557,
+          "lo": 0.101035,
+          "hi": 0.110284,
+          "model": 0.143478,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.026643,
+          "lo": 0.024325,
+          "hi": 0.029176,
+          "model": 0.035791,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.004892,
+          "lo": 0.003949,
+          "hi": 0.00606,
+          "model": 0.005377,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 5192,
+        "10K": {
+          "observed": 0.084168,
+          "lo": 0.07692,
+          "hi": 0.092031,
+          "model": 0.121296,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.016949,
+          "lo": 0.013778,
+          "hi": 0.020834,
+          "model": 0.028016,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.003082,
+          "lo": 0.001898,
+          "hi": 0.005,
+          "model": 0.003961,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.120151,
+        "100K": 0.027311,
+        "1M": 0.003802
+      }
+    },
+    "Maps & Navigation": {
+      "all_ages": {
+        "apps": 4274,
+        "10K": {
+          "observed": 0.134768,
+          "lo": 0.124858,
+          "hi": 0.145335,
+          "model": 0.129366,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.029949,
+          "lo": 0.025245,
+          "hi": 0.035496,
+          "model": 0.026915,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.005381,
+          "lo": 0.003589,
+          "hi": 0.008062,
+          "model": 0.00522,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 973,
+        "10K": {
+          "observed": 0.11408,
+          "lo": 0.095604,
+          "hi": 0.135592,
+          "model": 0.103523,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.016444,
+          "lo": 0.010147,
+          "hi": 0.026545,
+          "model": 0.019425,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.002055,
+          "lo": 0.000564,
+          "hi": 0.007464,
+          "model": 0.003474,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.103254,
+        "100K": 0.019217,
+        "1M": 0.003399
+      }
+    },
+    "Medical": {
+      "all_ages": {
+        "apps": 5691,
+        "10K": {
+          "observed": 0.098401,
+          "lo": 0.090931,
+          "hi": 0.106413,
+          "model": 0.096874,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.021437,
+          "lo": 0.017985,
+          "hi": 0.025536,
+          "model": 0.014231,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.003163,
+          "lo": 0.002002,
+          "hi": 0.004994,
+          "model": 0.000551,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 1740,
+        "10K": {
+          "observed": 0.084483,
+          "lo": 0.072313,
+          "hi": 0.098483,
+          "model": 0.078973,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.026437,
+          "lo": 0.019878,
+          "hi": 0.035082,
+          "model": 0.010583,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.007471,
+          "lo": 0.004371,
+          "hi": 0.012741,
+          "model": 0.000383,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.078807,
+        "100K": 0.010463,
+        "1M": 0.000373
+      }
+    },
+    "Music": {
+      "all_ages": {
+        "apps": 502,
+        "10K": {
+          "observed": 0.340637,
+          "lo": 0.300529,
+          "hi": 0.383166,
+          "model": 0.347853,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.133466,
+          "lo": 0.106483,
+          "hi": 0.166017,
+          "model": 0.117027,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.027888,
+          "lo": 0.016684,
+          "hi": 0.046264,
+          "model": 0.042282,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 159,
+        "10K": {
+          "observed": 0.295597,
+          "lo": 0.230167,
+          "hi": 0.370672,
+          "model": 0.299319,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.069182,
+          "lo": 0.039066,
+          "hi": 0.119626,
+          "model": 0.090472,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.006289,
+          "lo": 0.001111,
+          "hi": 0.034762,
+          "model": 0.030024,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.31092,
+        "100K": 0.094789,
+        "1M": 0.031366
+      }
+    },
+    "Music & Audio": {
+      "all_ages": {
+        "apps": 10818,
+        "10K": {
+          "observed": 0.175263,
+          "lo": 0.168215,
+          "hi": 0.182543,
+          "model": 0.165298,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.04437,
+          "lo": 0.040649,
+          "hi": 0.048415,
+          "model": 0.035033,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.007672,
+          "lo": 0.006194,
+          "hi": 0.0095,
+          "model": 0.00628,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 3129,
+        "10K": {
+          "observed": 0.136146,
+          "lo": 0.124575,
+          "hi": 0.148609,
+          "model": 0.135585,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.033237,
+          "lo": 0.027507,
+          "hi": 0.040113,
+          "model": 0.026021,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.005433,
+          "lo": 0.003395,
+          "hi": 0.008684,
+          "model": 0.00433,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.136325,
+        "100K": 0.025985,
+        "1M": 0.004273
+      }
+    },
+    "News & Magazines": {
+      "all_ages": {
+        "apps": 6641,
+        "10K": {
+          "observed": 0.110074,
+          "lo": 0.10277,
+          "hi": 0.117828,
+          "model": 0.116322,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.017467,
+          "lo": 0.014584,
+          "hi": 0.020908,
+          "model": 0.020599,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.001054,
+          "lo": 0.000511,
+          "hi": 0.002174,
+          "model": 0.001696,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 2058,
+        "10K": {
+          "observed": 0.08552,
+          "lo": 0.074196,
+          "hi": 0.098388,
+          "model": 0.097665,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.01312,
+          "lo": 0.009032,
+          "hi": 0.019021,
+          "model": 0.015866,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.000972,
+          "lo": 0.000267,
+          "hi": 0.003537,
+          "model": 0.001214,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.094702,
+        "100K": 0.015148,
+        "1M": 0.001147
+      }
+    },
+    "Parenting": {
+      "all_ages": {
+        "apps": 887,
+        "10K": {
+          "observed": 0.193912,
+          "lo": 0.169236,
+          "hi": 0.221228,
+          "model": 0.234879,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.052988,
+          "lo": 0.040079,
+          "hi": 0.069751,
+          "model": 0.063007,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.006764,
+          "lo": 0.003104,
+          "hi": 0.014679,
+          "model": 0.008804,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 249,
+        "10K": {
+          "observed": 0.188755,
+          "lo": 0.145018,
+          "hi": 0.24195,
+          "model": 0.201583,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.044177,
+          "lo": 0.024844,
+          "hi": 0.077361,
+          "model": 0.048295,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.004016,
+          "lo": 0.000709,
+          "hi": 0.022395,
+          "model": 0.00612,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.196621,
+        "100K": 0.0471,
+        "1M": 0.005994
+      }
+    },
+    "Personalization": {
+      "all_ages": {
+        "apps": 4379,
+        "10K": {
+          "observed": 0.265814,
+          "lo": 0.252939,
+          "hi": 0.2791,
+          "model": 0.297669,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.094314,
+          "lo": 0.086009,
+          "hi": 0.103329,
+          "model": 0.093141,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.019182,
+          "lo": 0.015521,
+          "hi": 0.023687,
+          "model": 0.017674,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 1202,
+        "10K": {
+          "observed": 0.240433,
+          "lo": 0.217125,
+          "hi": 0.265394,
+          "model": 0.26196,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.080699,
+          "lo": 0.066603,
+          "hi": 0.097466,
+          "model": 0.074935,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.010815,
+          "lo": 0.006331,
+          "hi": 0.018416,
+          "model": 0.013228,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.254664,
+        "100K": 0.071669,
+        "1M": 0.012423
+      }
+    },
+    "Photography": {
+      "all_ages": {
+        "apps": 2745,
+        "10K": {
+          "observed": 0.268488,
+          "lo": 0.252241,
+          "hi": 0.285382,
+          "model": 0.285431,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.108197,
+          "lo": 0.097119,
+          "hi": 0.12037,
+          "model": 0.112137,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.031694,
+          "lo": 0.025767,
+          "hi": 0.03893,
+          "model": 0.03055,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 766,
+        "10K": {
+          "observed": 0.249347,
+          "lo": 0.220011,
+          "hi": 0.281185,
+          "model": 0.238405,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.092689,
+          "lo": 0.074136,
+          "hi": 0.115308,
+          "model": 0.083861,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.031332,
+          "lo": 0.021144,
+          "hi": 0.046197,
+          "model": 0.020592,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.245309,
+        "100K": 0.087025,
+        "1M": 0.021487
+      }
+    },
+    "Productivity": {
+      "all_ages": {
+        "apps": 14883,
+        "10K": {
+          "observed": 0.086407,
+          "lo": 0.081999,
+          "hi": 0.091029,
+          "model": 0.104808,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.023046,
+          "lo": 0.020756,
+          "hi": 0.025583,
+          "model": 0.025843,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.003628,
+          "lo": 0.002782,
+          "hi": 0.004731,
+          "model": 0.00478,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 4141,
+        "10K": {
+          "observed": 0.071239,
+          "lo": 0.063795,
+          "hi": 0.079477,
+          "model": 0.088501,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.014972,
+          "lo": 0.011697,
+          "hi": 0.019146,
+          "model": 0.02016,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.001207,
+          "lo": 0.000516,
+          "hi": 0.002824,
+          "model": 0.003489,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.086082,
+        "100K": 0.019306,
+        "1M": 0.003295
+      }
+    },
+    "Puzzle": {
+      "all_ages": {
+        "apps": 6801,
+        "10K": {
+          "observed": 0.122188,
+          "lo": 0.114617,
+          "hi": 0.130186,
+          "model": 0.174765,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.03823,
+          "lo": 0.033927,
+          "hi": 0.043054,
+          "model": 0.058862,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.010587,
+          "lo": 0.008416,
+          "hi": 0.01331,
+          "model": 0.016388,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 2235,
+        "10K": {
+          "observed": 0.105145,
+          "lo": 0.093099,
+          "hi": 0.118547,
+          "model": 0.153406,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.026398,
+          "lo": 0.02052,
+          "hi": 0.033901,
+          "model": 0.047932,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.007606,
+          "lo": 0.004754,
+          "hi": 0.012148,
+          "model": 0.012456,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.151628,
+        "100K": 0.04711,
+        "1M": 0.012195
+      }
+    },
+    "Racing": {
+      "all_ages": {
+        "apps": 1148,
+        "10K": {
+          "observed": 0.216028,
+          "lo": 0.19319,
+          "hi": 0.24076,
+          "model": 0.295094,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.087108,
+          "lo": 0.072142,
+          "hi": 0.104829,
+          "model": 0.143086,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.020035,
+          "lo": 0.013387,
+          "hi": 0.029884,
+          "model": 0.050793,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 373,
+        "10K": {
+          "observed": 0.201072,
+          "lo": 0.163538,
+          "hi": 0.244702,
+          "model": 0.245556,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.061662,
+          "lo": 0.041436,
+          "hi": 0.090825,
+          "model": 0.10707,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.010724,
+          "lo": 0.004178,
+          "hi": 0.027245,
+          "model": 0.034366,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.256967,
+        "100K": 0.114159,
+        "1M": 0.037148
+      }
+    },
+    "Role Playing": {
+      "all_ages": {
+        "apps": 1353,
+        "10K": {
+          "observed": 0.378418,
+          "lo": 0.352954,
+          "hi": 0.404571,
+          "model": 0.43929,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.179601,
+          "lo": 0.160063,
+          "hi": 0.200953,
+          "model": 0.204015,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.039911,
+          "lo": 0.030717,
+          "hi": 0.051711,
+          "model": 0.055938,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 395,
+        "10K": {
+          "observed": 0.329114,
+          "lo": 0.284614,
+          "hi": 0.376905,
+          "model": 0.39509,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.159494,
+          "lo": 0.126691,
+          "hi": 0.198856,
+          "model": 0.167861,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.032911,
+          "lo": 0.019333,
+          "hi": 0.055488,
+          "model": 0.041493,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.393019,
+        "100K": 0.165916,
+        "1M": 0.040852
+      }
+    },
+    "Shopping": {
+      "all_ages": {
+        "apps": 20636,
+        "10K": {
+          "observed": 0.103508,
+          "lo": 0.099426,
+          "hi": 0.107739,
+          "model": 0.104318,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.020547,
+          "lo": 0.018698,
+          "hi": 0.022573,
+          "model": 0.022923,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.003198,
+          "lo": 0.002515,
+          "hi": 0.004067,
+          "model": 0.004209,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 7088,
+        "10K": {
+          "observed": 0.073928,
+          "lo": 0.068064,
+          "hi": 0.080253,
+          "model": 0.090109,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.013826,
+          "lo": 0.011359,
+          "hi": 0.01682,
+          "model": 0.018369,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.001693,
+          "lo": 0.000969,
+          "hi": 0.002957,
+          "model": 0.003162,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.090857,
+        "100K": 0.018491,
+        "1M": 0.00318
+      }
+    },
+    "Simulation": {
+      "all_ages": {
+        "apps": 2432,
+        "10K": {
+          "observed": 0.395559,
+          "lo": 0.376305,
+          "hi": 0.415143,
+          "model": 0.487143,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.199424,
+          "lo": 0.184023,
+          "hi": 0.215773,
+          "model": 0.229022,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.048109,
+          "lo": 0.040293,
+          "hi": 0.057349,
+          "model": 0.062349,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 717,
+        "10K": {
+          "observed": 0.362622,
+          "lo": 0.32825,
+          "hi": 0.398458,
+          "model": 0.429841,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.172943,
+          "lo": 0.147022,
+          "hi": 0.20235,
+          "model": 0.180665,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.034868,
+          "lo": 0.023727,
+          "hi": 0.050966,
+          "model": 0.044168,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.43976,
+        "100K": 0.186648,
+        "1M": 0.045408
+      }
+    },
+    "Social": {
+      "all_ages": {
+        "apps": 11558,
+        "10K": {
+          "observed": 0.16508,
+          "lo": 0.158424,
+          "hi": 0.17196,
+          "model": 0.160465,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.059699,
+          "lo": 0.055524,
+          "hi": 0.064166,
+          "model": 0.049545,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.015747,
+          "lo": 0.013633,
+          "hi": 0.018183,
+          "model": 0.010034,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 3681,
+        "10K": {
+          "observed": 0.157023,
+          "lo": 0.145627,
+          "hi": 0.169133,
+          "model": 0.143983,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.056778,
+          "lo": 0.049754,
+          "hi": 0.064727,
+          "model": 0.041903,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.016028,
+          "lo": 0.012447,
+          "hi": 0.020619,
+          "model": 0.008056,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.138283,
+        "100K": 0.039509,
+        "1M": 0.007476
+      }
+    },
+    "Sports": {
+      "all_ages": {
+        "apps": 7095,
+        "10K": {
+          "observed": 0.179563,
+          "lo": 0.170806,
+          "hi": 0.188667,
+          "model": 0.170848,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.045102,
+          "lo": 0.040514,
+          "hi": 0.050182,
+          "model": 0.049291,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.005638,
+          "lo": 0.004143,
+          "hi": 0.007667,
+          "model": 0.011303,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 1867,
+        "10K": {
+          "observed": 0.160686,
+          "lo": 0.144726,
+          "hi": 0.178038,
+          "model": 0.138926,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.031601,
+          "lo": 0.024578,
+          "hi": 0.040549,
+          "model": 0.035987,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.001607,
+          "lo": 0.000547,
+          "hi": 0.004714,
+          "model": 0.007544,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.141101,
+        "100K": 0.036574,
+        "1M": 0.007655
+      }
+    },
+    "Strategy": {
+      "all_ages": {
+        "apps": 1464,
+        "10K": {
+          "observed": 0.217213,
+          "lo": 0.196845,
+          "hi": 0.239061,
+          "model": 0.292239,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.088798,
+          "lo": 0.075282,
+          "hi": 0.104466,
+          "model": 0.120878,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.01776,
+          "lo": 0.012148,
+          "hi": 0.025895,
+          "model": 0.0271,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 490,
+        "10K": {
+          "observed": 0.171429,
+          "lo": 0.140646,
+          "hi": 0.207323,
+          "model": 0.256765,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.063265,
+          "lo": 0.044924,
+          "hi": 0.088401,
+          "model": 0.098645,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.006122,
+          "lo": 0.002084,
+          "hi": 0.017844,
+          "model": 0.020684,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.257333,
+        "100K": 0.09806,
+        "1M": 0.020272
+      }
+    },
+    "Tools": {
+      "all_ages": {
+        "apps": 24638,
+        "10K": {
+          "observed": 0.195105,
+          "lo": 0.190204,
+          "hi": 0.200101,
+          "model": 0.191125,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.071272,
+          "lo": 0.068126,
+          "hi": 0.074552,
+          "model": 0.060532,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.018346,
+          "lo": 0.016743,
+          "hi": 0.020098,
+          "model": 0.013692,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 6968,
+        "10K": {
+          "observed": 0.177956,
+          "lo": 0.169154,
+          "hi": 0.187114,
+          "model": 0.166183,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.059845,
+          "lo": 0.054514,
+          "hi": 0.065661,
+          "model": 0.048918,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.013203,
+          "lo": 0.010779,
+          "hi": 0.016164,
+          "model": 0.010384,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.161061,
+        "100K": 0.046522,
+        "1M": 0.009713
+      }
+    },
+    "Travel & Local": {
+      "all_ages": {
+        "apps": 10875,
+        "10K": {
+          "observed": 0.091402,
+          "lo": 0.086129,
+          "hi": 0.096964,
+          "model": 0.089833,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.017655,
+          "lo": 0.015345,
+          "hi": 0.020306,
+          "model": 0.022551,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.002943,
+          "lo": 0.002085,
+          "hi": 0.004151,
+          "model": 0.003713,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 2373,
+        "10K": {
+          "observed": 0.065318,
+          "lo": 0.056062,
+          "hi": 0.075979,
+          "model": 0.068931,
+          "model_inside_interval": true
+        },
+        "100K": {
+          "observed": 0.010957,
+          "lo": 0.007488,
+          "hi": 0.016006,
+          "model": 0.015405,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.000843,
+          "lo": 0.000231,
+          "hi": 0.003068,
+          "model": 0.002305,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.070471,
+        "100K": 0.015814,
+        "1M": 0.002365
+      }
+    },
+    "Trivia": {
+      "all_ages": {
+        "apps": 1986,
+        "10K": {
+          "observed": 0.147533,
+          "lo": 0.132616,
+          "hi": 0.16381,
+          "model": 0.175471,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.039275,
+          "lo": 0.031583,
+          "hi": 0.048746,
+          "model": 0.048377,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.004532,
+          "lo": 0.002386,
+          "hi": 0.008591,
+          "model": 0.011098,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 751,
+        "10K": {
+          "observed": 0.103862,
+          "lo": 0.08402,
+          "hi": 0.127735,
+          "model": 0.147943,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.0253,
+          "lo": 0.016255,
+          "hi": 0.039176,
+          "model": 0.037149,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.0,
+          "lo": 0.0,
+          "hi": 0.005089,
+          "model": 0.0079,
+          "model_inside_interval": false
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.149701,
+        "100K": 0.037657,
+        "1M": 0.007996
+      }
+    },
+    "Video Players & Editors": {
+      "all_ages": {
+        "apps": 2317,
+        "10K": {
+          "observed": 0.437635,
+          "lo": 0.417554,
+          "hi": 0.457922,
+          "model": 0.392067,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.197238,
+          "lo": 0.181542,
+          "hi": 0.213936,
+          "model": 0.164023,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.058697,
+          "lo": 0.049836,
+          "hi": 0.069018,
+          "model": 0.045876,
+          "model_inside_interval": false
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 744,
+        "10K": {
+          "observed": 0.416667,
+          "lo": 0.381757,
+          "hi": 0.452432,
+          "model": 0.364555,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.169355,
+          "lo": 0.144118,
+          "hi": 0.197989,
+          "model": 0.142911,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.043011,
+          "lo": 0.030629,
+          "hi": 0.060088,
+          "model": 0.037294,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.356531,
+        "100K": 0.138504,
+        "1M": 0.035926
+      }
+    },
+    "Weather": {
+      "all_ages": {
+        "apps": 860,
+        "10K": {
+          "observed": 0.243023,
+          "lo": 0.215541,
+          "hi": 0.272791,
+          "model": 0.339372,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.119767,
+          "lo": 0.09974,
+          "hi": 0.143177,
+          "model": 0.150513,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.04186,
+          "lo": 0.030388,
+          "hi": 0.057408,
+          "model": 0.050519,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 223,
+        "10K": {
+          "observed": 0.161435,
+          "lo": 0.118946,
+          "hi": 0.215392,
+          "model": 0.272368,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.067265,
+          "lo": 0.041183,
+          "hi": 0.108003,
+          "model": 0.10773,
+          "model_inside_interval": true
+        },
+        "1M": {
+          "observed": 0.022422,
+          "lo": 0.009614,
+          "hi": 0.051405,
+          "model": 0.033072,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.293294,
+        "100K": 0.117395,
+        "1M": 0.035654
+      }
+    },
+    "Word": {
+      "all_ages": {
+        "apps": 1403,
+        "10K": {
+          "observed": 0.15253,
+          "lo": 0.134667,
+          "hi": 0.172291,
+          "model": 0.238079,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.048468,
+          "lo": 0.038411,
+          "hi": 0.06099,
+          "model": 0.076623,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.013542,
+          "lo": 0.008687,
+          "hi": 0.021055,
+          "model": 0.016748,
+          "model_inside_interval": true
+        }
+      },
+      "ages_9_to_15": {
+        "apps": 512,
+        "10K": {
+          "observed": 0.123047,
+          "lo": 0.097368,
+          "hi": 0.154341,
+          "model": 0.206036,
+          "model_inside_interval": false
+        },
+        "100K": {
+          "observed": 0.033203,
+          "lo": 0.020832,
+          "hi": 0.052527,
+          "model": 0.06081,
+          "model_inside_interval": false
+        },
+        "1M": {
+          "observed": 0.009766,
+          "lo": 0.004178,
+          "hi": 0.022655,
+          "model": 0.012368,
+          "model_inside_interval": true
+        }
+      },
+      "model_average_at_12_months": {
+        "10K": 0.206402,
+        "100K": 0.060697,
+        "1M": 0.012263
+      }
+    }
+  },
+  "npmle_interval_simulation": {
+    "apps": 200000,
+    "seeds": 20,
+    "draws": 100,
+    "nominal": 0.95,
+    "coverage": 0.85
+  }
+}

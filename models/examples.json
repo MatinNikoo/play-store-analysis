@@ -1,0 +1,3802 @@
+[
+ {
+  "app": {
+   "category": "Tools",
+   "name": "Clipboard CLPBRD",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 61.071,
+  "p": {
+   "10000": 0.30384550533803345,
+   "100000": 0.11523222810291267,
+   "1000000": 0.030692928416731102
+  }
+ },
+ {
+  "app": {
+   "category": "Photography",
+   "name": "Umiya Darshan",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 11.202,
+  "p": {
+   "10000": 0.14355352556289824,
+   "100000": 0.03970087256784327,
+   "1000000": 0.00848636412574666
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "LAM BRIEF",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 4.303547963206308,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 3,
+   "builder_apps": 2
+  },
+  "months": 22.339,
+  "p": {
+   "10000": 0.05722637368577066,
+   "100000": 0.009698123838705719,
+   "1000000": 0.0010701281799235796
+  }
+ },
+ {
+  "app": {
+   "category": "Food & Drink",
+   "name": "Anna's Pizza Buckroe",
+   "earlier_apps": 4488,
+   "same_day_apps": 3,
+   "apps_last_30_days": 80,
+   "months_since_first_app": 79.0735873850197,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 4469,
+   "builder_apps": 4490
+  },
+  "months": 8.246,
+  "p": {
+   "10000": 0.008329354131128452,
+   "100000": 0.0008550524018998695,
+   "1000000": 5.869623091014908e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "We Unveil Test Alpha",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 0.558,
+  "p": {
+   "10000": 0.020981002932817572,
+   "100000": 0.0027436632614656897,
+   "1000000": 0.0003095538057882319
+  }
+ },
+ {
+  "app": {
+   "category": "Finance",
+   "name": "BizChannel@CIMB Mobile",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 83.67279894875163,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 2
+  },
+  "months": 24.113,
+  "p": {
+   "10000": 0.20732088047676533,
+   "100000": 0.06866360820655104,
+   "1000000": 0.01797539579458529
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Simple Tap Calorie Counter",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 49.869,
+  "p": {
+   "10000": 0.265571468665154,
+   "100000": 0.08408267322601903,
+   "1000000": 0.016639184360549564
+  }
+ },
+ {
+  "app": {
+   "category": "Dating",
+   "name": "Live Video Chat Random Video Call Live Talk",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 15.999,
+  "p": {
+   "10000": 0.504544703076957,
+   "100000": 0.17871776080930069,
+   "1000000": 0.03514128543002548
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "\ud83e\udd47 KGLO Radio News App Mason City Iowa US",
+   "earlier_apps": 976,
+   "same_day_apps": 14,
+   "apps_last_30_days": 303,
+   "months_since_first_app": 8.409986859395532,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 975,
+   "builder_apps": 975
+  },
+  "months": 19.021,
+  "p": {
+   "10000": 0.04846728414629142,
+   "100000": 0.0034275193386300584,
+   "1000000": 0.00013936799673230915
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "Valentine's Day Photo Frame 2021",
+   "earlier_apps": 95,
+   "same_day_apps": 0,
+   "apps_last_30_days": 5,
+   "months_since_first_app": 28.843626806833115,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 95,
+   "builder_apps": 108
+  },
+  "months": 19.317,
+  "p": {
+   "10000": 0.176550395013236,
+   "100000": 0.058000340121372895,
+   "1000000": 0.01405603349200657
+  }
+ },
+ {
+  "app": {
+   "category": "Productivity",
+   "name": "Sugar Mobile Enhanced",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 29.205,
+  "p": {
+   "10000": 0.14272966724536384,
+   "100000": 0.03802517656557891,
+   "1000000": 0.007553655375038382
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Grow to Glow",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 882
+  },
+  "months": 8.87,
+  "p": {
+   "10000": 0.059479988815186347,
+   "100000": 0.011952856862226247,
+   "1000000": 0.0017492855672486263
+  }
+ },
+ {
+  "app": {
+   "category": "Educational",
+   "name": "Avez-vous de la monnaie ?",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 15.637319316688567,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 34.166,
+  "p": {
+   "10000": 0.2955800684654283,
+   "100000": 0.14031324299458636,
+   "1000000": 0.06544900904648732
+  }
+ },
+ {
+  "app": {
+   "category": "Social",
+   "name": "Insta Pro Downloader",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 3.088,
+  "p": {
+   "10000": 0.050663041445759616,
+   "100000": 0.009506862963208351,
+   "1000000": 0.001302532382052246
+  }
+ },
+ {
+  "app": {
+   "category": "Puzzle",
+   "name": "Hidden Objects - ROOMS",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 5.781865965834428,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 51.38,
+  "p": {
+   "10000": 0.3514393935460455,
+   "100000": 0.15921749545112873,
+   "1000000": 0.05374746340126191
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Division trainer",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 1.281208935611038,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 3,
+   "builder_apps": 3
+  },
+  "months": 18.955,
+  "p": {
+   "10000": 0.12810223710510127,
+   "100000": 0.021089951415082964,
+   "1000000": 0.0012437377860461396
+  }
+ },
+ {
+  "app": {
+   "category": "Role Playing",
+   "name": "\u77f3\u5668\u5927\u4f5c\u6230",
+   "earlier_apps": 5,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 7.128777923784494,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 3,
+   "builder_apps": 5
+  },
+  "months": 2.661,
+  "p": {
+   "10000": 0.11989317614287631,
+   "100000": 0.021299057719531223,
+   "1000000": 0.0019780744601927136
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Lagu Minang Terbaru Offline 2020",
+   "earlier_apps": 20,
+   "same_day_apps": 0,
+   "apps_last_30_days": 11,
+   "months_since_first_app": 1.3469119579500657,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 20,
+   "builder_apps": 20
+  },
+  "months": 8.673,
+  "p": {
+   "10000": 0.10566272624362649,
+   "100000": 0.013177928455918586,
+   "1000000": 0.001093424479182592
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Col\u00e9gio Su\u00ed\u00e7o-Brasileiro PR",
+   "earlier_apps": 0,
+   "same_day_apps": 1,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 136
+  },
+  "months": 24.737,
+  "p": {
+   "10000": 0.17237241688829819,
+   "100000": 0.02672395750108081,
+   "1000000": 0.001482615562794276
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "OptoPrep - NBEO\u00ae Part II Study Program",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 19.086727989487514,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 3,
+   "builder_apps": 1
+  },
+  "months": 25.887,
+  "p": {
+   "10000": 0.4090315769485604,
+   "100000": 0.10466474619593824,
+   "1000000": 0.009674575140641739
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Canton Academy \u2013\u00a0Mississippi",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 22.043,
+  "p": {
+   "10000": 0.2365776405304567,
+   "100000": 0.04049307974794303,
+   "1000000": 0.002743450584098084
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Islami Maloomat in Urdu (Islamic) - \u0627\u0633\u0644\u0627\u0645\u06cc \u0645\u0639\u0644\u0648\u0645\u0627\u062a",
+   "earlier_apps": 89,
+   "same_day_apps": 1,
+   "apps_last_30_days": 70,
+   "months_since_first_app": 2.4967148488830486,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 22,
+   "builder_apps": 91
+  },
+  "months": 53.088,
+  "p": {
+   "10000": 0.3722532139225526,
+   "100000": 0.060209428004850185,
+   "1000000": 0.0028426511244913355
+  }
+ },
+ {
+  "app": {
+   "category": "Simulation",
+   "name": "blue throttle flight simulator singleplayer",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 9.954,
+  "p": {
+   "10000": 0.5147992605226006,
+   "100000": 0.22037600037681404,
+   "1000000": 0.051766286779810655
+  }
+ },
+ {
+  "app": {
+   "category": "Travel & Local",
+   "name": "Portugal Offline Map and Travel Guide",
+   "earlier_apps": 193,
+   "same_day_apps": 7,
+   "apps_last_30_days": 24,
+   "months_since_first_app": 7.063074901445466,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 193,
+   "builder_apps": 193
+  },
+  "months": 16.393,
+  "p": {
+   "10000": 0.024860235302856304,
+   "100000": 0.002969636527135555,
+   "1000000": 0.00014989622815186898
+  }
+ },
+ {
+  "app": {
+   "category": "Arcade",
+   "name": "Tom and Bob",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 25.624,
+  "p": {
+   "10000": 0.12824838081798018,
+   "100000": 0.04695099736762742,
+   "1000000": 0.016232792352564362
+  }
+ },
+ {
+  "app": {
+   "category": "Casual",
+   "name": "Colorshape",
+   "earlier_apps": 6,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 60.545335085413925,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 6
+  },
+  "months": 52.037,
+  "p": {
+   "10000": 0.2762386248011929,
+   "100000": 0.15268083083097406,
+   "1000000": 0.06661105065982398
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Malayalam English Translator",
+   "earlier_apps": 79,
+   "same_day_apps": 0,
+   "apps_last_30_days": 37,
+   "months_since_first_app": 16.26149802890933,
+   "earlier_categories": 7,
+   "earlier_apps_same_category": 57,
+   "builder_apps": 77
+  },
+  "months": 39.947,
+  "p": {
+   "10000": 0.15898812654518912,
+   "100000": 0.030135787416402326,
+   "1000000": 0.003213830098524495
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "Krack Quick Fix - VPN Free Privacy Forever",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 10.348226018396845,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 1
+  },
+  "months": 52.76,
+  "p": {
+   "10000": 0.6437815117236232,
+   "100000": 0.38779229035045315,
+   "1000000": 0.13925152466212898
+  }
+ },
+ {
+  "app": {
+   "category": "Casual",
+   "name": "Jewel Blast:Match Gem",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 40
+  },
+  "months": 8.18,
+  "p": {
+   "10000": 0.10846484123056255,
+   "100000": 0.0367433522633317,
+   "1000000": 0.009539061490161482
+  }
+ },
+ {
+  "app": {
+   "category": "Weather",
+   "name": "Robot Car Police Snail Car Transform Robot Game",
+   "earlier_apps": 0,
+   "same_day_apps": 2,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 54
+  },
+  "months": 0.526,
+  "p": {
+   "10000": 0.0597677379297219,
+   "100000": 0.011178373841184475,
+   "1000000": 0.0014544229965254285
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "BO3GUARD EXPRESS",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 18707
+  },
+  "months": 3.154,
+  "p": {
+   "10000": 0.015845077463126023,
+   "100000": 0.0018347914310119506,
+   "1000000": 0.00017107405201011172
+  }
+ },
+ {
+  "app": {
+   "category": "Card",
+   "name": "Deck of Cards - Play your own games with friends",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 1.183,
+  "p": {
+   "10000": 0.16754591361532234,
+   "100000": 0.04119406863419728,
+   "1000000": 0.005286613801012696
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Kalia Siska SKA Offline",
+   "earlier_apps": 11,
+   "same_day_apps": 0,
+   "apps_last_30_days": 3,
+   "months_since_first_app": 2.6609724047306176,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 11,
+   "builder_apps": 11
+  },
+  "months": 16.459,
+  "p": {
+   "10000": 0.1459868957374746,
+   "100000": 0.02549780948021496,
+   "1000000": 0.003128491718911164
+  }
+ },
+ {
+  "app": {
+   "category": "Arcade",
+   "name": "Color Blaster",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 28.613666228646515,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 2
+  },
+  "months": 23.522,
+  "p": {
+   "10000": 0.12368693313876511,
+   "100000": 0.04946095751993229,
+   "1000000": 0.01974886221397565
+  }
+ },
+ {
+  "app": {
+   "category": "Comics",
+   "name": "\uc9f1\uc6c3\uae34\ub9cc\ud65433",
+   "earlier_apps": 39,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 66.06438896189225,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 35,
+   "builder_apps": 0
+  },
+  "months": 29.468,
+  "p": {
+   "10000": 0.34957302823068037,
+   "100000": 0.12121578719690995,
+   "1000000": 0.020175513947560786
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "IELTS Reading",
+   "earlier_apps": 14,
+   "same_day_apps": 0,
+   "apps_last_30_days": 11,
+   "months_since_first_app": 1.6425755584756898,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 5,
+   "builder_apps": 14
+  },
+  "months": 20.926,
+  "p": {
+   "10000": 0.1025890626480761,
+   "100000": 0.01364265896408745,
+   "1000000": 0.000776266978723017
+  }
+ },
+ {
+  "app": {
+   "category": "Video Players & Editors",
+   "name": "PANDA TV V1",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 99
+  },
+  "months": 12.221,
+  "p": {
+   "10000": 0.2340129656008909,
+   "100000": 0.07252150671290392,
+   "1000000": 0.016350622734561338
+  }
+ },
+ {
+  "app": {
+   "category": "Food & Drink",
+   "name": "Delivery Boy For Multi-Restaurants Flutter App",
+   "earlier_apps": 0,
+   "same_day_apps": 1,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1
+  },
+  "months": 17.773,
+  "p": {
+   "10000": 0.1307965327470867,
+   "100000": 0.027894079359492063,
+   "1000000": 0.00257230694343602
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Heater Sound",
+   "earlier_apps": 221,
+   "same_day_apps": 2,
+   "apps_last_30_days": 24,
+   "months_since_first_app": 8.21287779237845,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 221,
+   "builder_apps": 221
+  },
+  "months": 25.066,
+  "p": {
+   "10000": 0.03281324726615098,
+   "100000": 0.0033508483460267247,
+   "1000000": 0.000257945946613658
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "Baixar status - Status Downloader",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 34.264,
+  "p": {
+   "10000": 0.3619701181240832,
+   "100000": 0.14463799425851698,
+   "1000000": 0.03880194440988349
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Cimorelli",
+   "earlier_apps": 7,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 19.513797634691194,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 7,
+   "builder_apps": 7
+  },
+  "months": 55.913,
+  "p": {
+   "10000": 0.20131081608438417,
+   "100000": 0.05014939732560264,
+   "1000000": 0.010495724441528687
+  }
+ },
+ {
+  "app": {
+   "category": "Board",
+   "name": "Ludo for Stars",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 31.24178712220762,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 25.46,
+  "p": {
+   "10000": 0.2436706114099828,
+   "100000": 0.08999615372625502,
+   "1000000": 0.02854240645438244
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "Arabic Keyboard(\u0627\u0644\u0639\u0631\u0628\u064a\u0629)Arabic Language Keyboard",
+   "earlier_apps": 12,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 19.940867279894874,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 10,
+   "builder_apps": 1
+  },
+  "months": 25.591,
+  "p": {
+   "10000": 0.4827134262594329,
+   "100000": 0.1837016416249998,
+   "1000000": 0.034864361898262364
+  }
+ },
+ {
+  "app": {
+   "category": "Photography",
+   "name": "Eid Mubarak",
+   "earlier_apps": 5,
+   "same_day_apps": 1,
+   "apps_last_30_days": 5,
+   "months_since_first_app": 0.657030223390276,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 5,
+   "builder_apps": 53
+  },
+  "months": 51.051,
+  "p": {
+   "10000": 0.2444936188281902,
+   "100000": 0.06695804897318935,
+   "1000000": 0.008259962408723731
+  }
+ },
+ {
+  "app": {
+   "category": "Shopping",
+   "name": "Balia",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 27.924,
+  "p": {
+   "10000": 0.09608211691976964,
+   "100000": 0.020452915920252113,
+   "1000000": 0.00385063604469682
+  }
+ },
+ {
+  "app": {
+   "category": "Arcade",
+   "name": "Space Bubble Explore",
+   "earlier_apps": 15,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 35.873850197109064,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 5,
+   "builder_apps": 0
+  },
+  "months": 24.343,
+  "p": {
+   "10000": 0.17569338457596784,
+   "100000": 0.08139391114504058,
+   "1000000": 0.03631441154605619
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "Rex2018",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 4.139290407358739,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 1
+  },
+  "months": 32.95,
+  "p": {
+   "10000": 0.07531088407853737,
+   "100000": 0.012678203589037595,
+   "1000000": 0.0013427396062939412
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "Pegasusbot",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 3.7450722733245727,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 0
+  },
+  "months": 3.515,
+  "p": {
+   "10000": 0.048345706028470437,
+   "100000": 0.008302252545392186,
+   "1000000": 0.0009599371288681047
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Bullard ISD",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 314
+  },
+  "months": 57.884,
+  "p": {
+   "10000": 0.19449488210786292,
+   "100000": 0.046838618253495556,
+   "1000000": 0.005305128556127525
+  }
+ },
+ {
+  "app": {
+   "category": "Travel & Local",
+   "name": "Tokyo Parks Navi\u3000\u2010Tokyo parks guide application",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 8
+  },
+  "months": 62.516,
+  "p": {
+   "10000": 0.459339434527123,
+   "100000": 0.17826636765064574,
+   "1000000": 0.033420401115008436
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "English 11",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 0.2628120893561104,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 25.066,
+  "p": {
+   "10000": 0.13909754577310107,
+   "100000": 0.020351490135692818,
+   "1000000": 0.0011090073294298675
+  }
+ },
+ {
+  "app": {
+   "category": "Video Players & Editors",
+   "name": "Vdownloader - Video Downloader HD - All HD Videos",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 19.579500657030223,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 1.281,
+  "p": {
+   "10000": 0.186956273701967,
+   "100000": 0.05291953156132867,
+   "1000000": 0.011892375172031233
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Denver Fit 1",
+   "earlier_apps": 11,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 37.779237844940866,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 4,
+   "builder_apps": 3
+  },
+  "months": 17.181,
+  "p": {
+   "10000": 0.1397345801457034,
+   "100000": 0.03735612090094942,
+   "1000000": 0.007155448154324784
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "Thunder Surf VPN - Free VPN Proxy",
+   "earlier_apps": 4,
+   "same_day_apps": 0,
+   "apps_last_30_days": 4,
+   "months_since_first_app": 0.1314060446780552,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 4,
+   "builder_apps": 13
+  },
+  "months": 12.681,
+  "p": {
+   "10000": 0.21607229049917598,
+   "100000": 0.054643286736354324,
+   "1000000": 0.007312903496780487
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "Pentol stickers Maker Animated for whatsapp \ud83e\udd17",
+   "earlier_apps": 12,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 22.798948751642573,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 6,
+   "builder_apps": 0
+  },
+  "months": 5.42,
+  "p": {
+   "10000": 0.19788556187016215,
+   "100000": 0.04929177092990222,
+   "1000000": 0.007775641134781797
+  }
+ },
+ {
+  "app": {
+   "category": "Sports",
+   "name": "Fv Dersim Sport",
+   "earlier_apps": 7,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 8.377135348226018,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 29.796,
+  "p": {
+   "10000": 0.22135941659671554,
+   "100000": 0.06318348299858634,
+   "1000000": 0.012772727743226131
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "ANDIPA",
+   "earlier_apps": 4,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 5.289093298291721,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 772
+  },
+  "months": 17.313,
+  "p": {
+   "10000": 0.16695465219126615,
+   "100000": 0.04342964074961764,
+   "1000000": 0.006953240977975339
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Christmas Countdown",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 0.657030223390276,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 1
+  },
+  "months": 55.223,
+  "p": {
+   "10000": 0.34589151757107794,
+   "100000": 0.11295263499208863,
+   "1000000": 0.016745570728000314
+  }
+ },
+ {
+  "app": {
+   "category": "Social",
+   "name": "fax",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 3
+  },
+  "months": 11.235,
+  "p": {
+   "10000": 0.06984770438221943,
+   "100000": 0.015912854899877815,
+   "1000000": 0.002665351631869206
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Qasidah Mp3 Offline",
+   "earlier_apps": 7,
+   "same_day_apps": 0,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 2.759526938239159,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 4,
+   "builder_apps": 6155
+  },
+  "months": 44.58,
+  "p": {
+   "10000": 0.24999357000456346,
+   "100000": 0.0592921236800914,
+   "1000000": 0.009442883834805516
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "Ox Jobs - Get to Work with Ox",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 21.813,
+  "p": {
+   "10000": 0.12880891739109046,
+   "100000": 0.028853320425028195,
+   "1000000": 0.00470366594148508
+  }
+ },
+ {
+  "app": {
+   "category": "Productivity",
+   "name": "SimpliMe",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 37.286,
+  "p": {
+   "10000": 0.11130827047721881,
+   "100000": 0.027749678073366812,
+   "1000000": 0.005371766527099475
+  }
+ },
+ {
+  "app": {
+   "category": "Finance",
+   "name": "cash-HUB",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 12.516425755584756,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 7.819,
+  "p": {
+   "10000": 0.07298618205193508,
+   "100000": 0.014318656501651539,
+   "1000000": 0.0021209619351242326
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "Savohil asari",
+   "earlier_apps": 11,
+   "same_day_apps": 0,
+   "apps_last_30_days": 11,
+   "months_since_first_app": 0.2628120893561104,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 11,
+   "builder_apps": 10
+  },
+  "months": 18.528,
+  "p": {
+   "10000": 0.12905350207476063,
+   "100000": 0.01414773417276316,
+   "1000000": 0.000588167931698802
+  }
+ },
+ {
+  "app": {
+   "category": "Casual",
+   "name": "Life Jigsaw Puzzles",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 5.45335085413929,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1
+  },
+  "months": 34.79,
+  "p": {
+   "10000": 0.27195946770575885,
+   "100000": 0.13039877484813822,
+   "1000000": 0.04227778261128323
+  }
+ },
+ {
+  "app": {
+   "category": "Arcade",
+   "name": "Flying Soldier Hoverboard",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 0.7227332457293035,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1
+  },
+  "months": 33.574,
+  "p": {
+   "10000": 0.17836445467254758,
+   "100000": 0.061872540576274004,
+   "1000000": 0.015387840229082905
+  }
+ },
+ {
+  "app": {
+   "category": "Medical",
+   "name": "Behandelpad",
+   "earlier_apps": 10,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 29.00788436268068,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 5,
+   "builder_apps": 10
+  },
+  "months": 46.912,
+  "p": {
+   "10000": 0.15336355144932112,
+   "100000": 0.03212949325580827,
+   "1000000": 0.001832200961782382
+  }
+ },
+ {
+  "app": {
+   "category": "Productivity",
+   "name": "Saver for Instagram - Downloader Video Saver",
+   "earlier_apps": 2,
+   "same_day_apps": 1,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 0.42706964520367935,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 46
+  },
+  "months": 17.707,
+  "p": {
+   "10000": 0.16229930753950306,
+   "100000": 0.035634084082576734,
+   "1000000": 0.0035833670523632843
+  }
+ },
+ {
+  "app": {
+   "category": "Casual",
+   "name": "HungerMoji - Notification Game",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 62.122,
+  "p": {
+   "10000": 0.45660849917780366,
+   "100000": 0.2715538689249819,
+   "1000000": 0.11095548086145324
+  }
+ },
+ {
+  "app": {
+   "category": "Travel & Local",
+   "name": "Flights Deals - Direct  Cheap Flights",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 1.873,
+  "p": {
+   "10000": 0.03631898715021309,
+   "100000": 0.006027508556831762,
+   "1000000": 0.0006999731625840777
+  }
+ },
+ {
+  "app": {
+   "category": "Educational",
+   "name": "\u0643\u0646\u0648\u0632 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0643\u062a\u0627\u0628 \u0627\u0644\u062b\u0627\u0646\u064a",
+   "earlier_apps": 16,
+   "same_day_apps": 1,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 35.873850197109064,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 36.17,
+  "p": {
+   "10000": 0.31939456812999634,
+   "100000": 0.10724625697222667,
+   "1000000": 0.02363221648845315
+  }
+ },
+ {
+  "app": {
+   "category": "Travel & Local",
+   "name": "Kanchanaburi Express",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 6.438896189224704,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 0
+  },
+  "months": 3.219,
+  "p": {
+   "10000": 0.026125367760105656,
+   "100000": 0.0038266214432440826,
+   "1000000": 0.00036964403250272504
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "Shortcut Maker",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 53
+  },
+  "months": 3.647,
+  "p": {
+   "10000": 0.04896289486239558,
+   "100000": 0.009427522267864807,
+   "1000000": 0.0014842488701570788
+  }
+ },
+ {
+  "app": {
+   "category": "Shopping",
+   "name": "OntoSale Classified",
+   "earlier_apps": 4,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 31.50459921156373,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 4.599,
+  "p": {
+   "10000": 0.04778125399664901,
+   "100000": 0.008595283825445832,
+   "1000000": 0.001554173267944492
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "Kota Baru Parahyangan",
+   "earlier_apps": 70,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 67.1484888304862,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 70,
+   "builder_apps": 58
+  },
+  "months": 28.942,
+  "p": {
+   "10000": 0.07059517586283481,
+   "100000": 0.016360412728220086,
+   "1000000": 0.0030641841650584922
+  }
+ },
+ {
+  "app": {
+   "category": "Puzzle",
+   "name": "Mind puzzle",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 56.866,
+  "p": {
+   "10000": 0.2603252004584953,
+   "100000": 0.10298503125167258,
+   "1000000": 0.03367609601672639
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "Japanese Maltese Dictionary",
+   "earlier_apps": 304,
+   "same_day_apps": 40,
+   "apps_last_30_days": 72,
+   "months_since_first_app": 88.23915900131405,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 203,
+   "builder_apps": 0
+  },
+  "months": 4.534,
+  "p": {
+   "10000": 0.009144577804415688,
+   "100000": 0.00040623853354238015,
+   "1000000": 7.913915468393817e-06
+  }
+ },
+ {
+  "app": {
+   "category": "Shopping",
+   "name": "Sunglass Haven",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 24.573,
+  "p": {
+   "10000": 0.11315940059048502,
+   "100000": 0.02503757804384532,
+   "1000000": 0.004756906806861805
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Computer Concepts Tutorial",
+   "earlier_apps": 73,
+   "same_day_apps": 0,
+   "apps_last_30_days": 5,
+   "months_since_first_app": 15.735873850197109,
+   "earlier_categories": 6,
+   "earlier_apps_same_category": 49,
+   "builder_apps": 16487
+  },
+  "months": 13.896,
+  "p": {
+   "10000": 0.09119296797341703,
+   "100000": 0.0169075505134888,
+   "1000000": 0.0016073821292547086
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "Real Aquarium Wallpaper",
+   "earlier_apps": 93,
+   "same_day_apps": 3,
+   "apps_last_30_days": 42,
+   "months_since_first_app": 2.3981603153745072,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 93,
+   "builder_apps": 247
+  },
+  "months": 29.435,
+  "p": {
+   "10000": 0.13723964012650058,
+   "100000": 0.022508001548384504,
+   "1000000": 0.0016775717523422884
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "\uc2dd\ud488\uc548\uc804\ub098\ub77c",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 51.807,
+  "p": {
+   "10000": 0.19185530871406897,
+   "100000": 0.04152124971201321,
+   "1000000": 0.005327933917247396
+  }
+ },
+ {
+  "app": {
+   "category": "Maps & Navigation",
+   "name": "Urbano Norte - Motorista",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 40.867,
+  "p": {
+   "10000": 0.24983527819499007,
+   "100000": 0.06723342451723369,
+   "1000000": 0.016325378500520737
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Losing Coach\u00ae",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 7189
+  },
+  "months": 25.788,
+  "p": {
+   "10000": 0.13222869635297174,
+   "100000": 0.028126440582913692,
+   "1000000": 0.003622031235334333
+  }
+ },
+ {
+  "app": {
+   "category": "House & Home",
+   "name": "Calgary Firefighters",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 41
+  },
+  "months": 32.622,
+  "p": {
+   "10000": 0.12031559568380401,
+   "100000": 0.0323554661905846,
+   "1000000": 0.004198938816705411
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "Reportal",
+   "earlier_apps": 8,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 55.059132720105126,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 303
+  },
+  "months": 19.481,
+  "p": {
+   "10000": 0.04562893325295492,
+   "100000": 0.008763716878497196,
+   "1000000": 0.0014018086410050312
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Raks Digital",
+   "earlier_apps": 6,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 10.446780551905388,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 4,
+   "builder_apps": 2
+  },
+  "months": 10.053,
+  "p": {
+   "10000": 0.08580762840949185,
+   "100000": 0.0134057270422413,
+   "1000000": 0.0008959295168222692
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Q Online Zambia",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 0.39421813403416556,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 10.907,
+  "p": {
+   "10000": 0.1402736744850298,
+   "100000": 0.028724878211450755,
+   "1000000": 0.0029057091124348178
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "BTS J Hope calling ! - Callprank and wallapper",
+   "earlier_apps": 7,
+   "same_day_apps": 2,
+   "apps_last_30_days": 5,
+   "months_since_first_app": 1.2483574244415243,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 7,
+   "builder_apps": 0
+  },
+  "months": 4.961,
+  "p": {
+   "10000": 0.17505455901938327,
+   "100000": 0.03174595817076176,
+   "1000000": 0.0020255096302974618
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "StockWallp",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 12.089,
+  "p": {
+   "10000": 0.14203847233808697,
+   "100000": 0.031184909181020792,
+   "1000000": 0.004847719280753449
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Superhero dark spider mod",
+   "earlier_apps": 6,
+   "same_day_apps": 0,
+   "apps_last_30_days": 6,
+   "months_since_first_app": 0.657030223390276,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 6,
+   "builder_apps": 6
+  },
+  "months": 7.556,
+  "p": {
+   "10000": 0.1331738676110169,
+   "100000": 0.02373870141045753,
+   "1000000": 0.0018668579624866455
+  }
+ },
+ {
+  "app": {
+   "category": "Racing",
+   "name": "Mini Legend - Mini 4WD Simulation Racing Game",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 64.356,
+  "p": {
+   "10000": 0.8911133177850087,
+   "100000": 0.7723906468840765,
+   "1000000": 0.4845490120357052
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "Verheij vernieuwt Koperwiek",
+   "earlier_apps": 24,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 28.088042049934295,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 24,
+   "builder_apps": 8901
+  },
+  "months": 21.419,
+  "p": {
+   "10000": 0.13442608672439293,
+   "100000": 0.04787290910721309,
+   "1000000": 0.012051771342054929
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Shona - English Translator",
+   "earlier_apps": 141,
+   "same_day_apps": 11,
+   "apps_last_30_days": 123,
+   "months_since_first_app": 1.2483574244415243,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 141,
+   "builder_apps": 141
+  },
+  "months": 45.959,
+  "p": {
+   "10000": 0.037126343512055904,
+   "100000": 0.00254221243212549,
+   "1000000": 4.6302977730117156e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Social",
+   "name": "Heatic Debate App",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 8
+  },
+  "months": 13.206,
+  "p": {
+   "10000": 0.11652902249529395,
+   "100000": 0.031601893703877004,
+   "1000000": 0.005932872396096522
+  }
+ },
+ {
+  "app": {
+   "category": "Art & Design",
+   "name": "Indonesian batik pair model",
+   "earlier_apps": 22,
+   "same_day_apps": 1,
+   "apps_last_30_days": 22,
+   "months_since_first_app": 0.5584756898817346,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 22,
+   "builder_apps": 0
+  },
+  "months": 30.683,
+  "p": {
+   "10000": 0.1632194713208115,
+   "100000": 0.030480425402795275,
+   "1000000": 0.0021910470642551028
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Tutors Forum",
+   "earlier_apps": 625,
+   "same_day_apps": 2,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 12.220762155059132,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 624,
+   "builder_apps": 625
+  },
+  "months": 2.727,
+  "p": {
+   "10000": 0.010168890434619438,
+   "100000": 0.0008352107813551779,
+   "1000000": 2.681712407104353e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "Prairie Ag Partner",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 46
+  },
+  "months": 21.321,
+  "p": {
+   "10000": 0.06109707690599431,
+   "100000": 0.011140331505536283,
+   "1000000": 0.001552865364686129
+  }
+ },
+ {
+  "app": {
+   "category": "Maps & Navigation",
+   "name": "Driver",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 15.078843626806833,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 2
+  },
+  "months": 46.551,
+  "p": {
+   "10000": 0.16610743343246392,
+   "100000": 0.04075530305685948,
+   "1000000": 0.0092915883184016
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "\u0623\u062d\u0645\u062f \u0633\u0639\u062f 2021 \u0628\u062f\u0648\u0646 \u0646\u062a",
+   "earlier_apps": 26,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 3.679369250985545,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 26,
+   "builder_apps": 32
+  },
+  "months": 17.707,
+  "p": {
+   "10000": 0.2344722331288409,
+   "100000": 0.04138383198308837,
+   "1000000": 0.0038515446046465396
+  }
+ },
+ {
+  "app": {
+   "category": "Arcade",
+   "name": "Subway Princess - Endless Run",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 0.9198423127463863,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 51.643,
+  "p": {
+   "10000": 0.2995674445225498,
+   "100000": 0.12459952054986512,
+   "1000000": 0.03449419478560567
+  }
+ },
+ {
+  "app": {
+   "category": "Shopping",
+   "name": "HSN Shop By Remote",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 5
+  },
+  "months": 61.597,
+  "p": {
+   "10000": 0.24402546458985908,
+   "100000": 0.07770479238314643,
+   "1000000": 0.019802336519097796
+  }
+ },
+ {
+  "app": {
+   "category": "Productivity",
+   "name": "Purple DNS - Cyber Security Solution",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 16.72141918528252,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 89
+  },
+  "months": 2.53,
+  "p": {
+   "10000": 0.05334512287878179,
+   "100000": 0.010676261552336808,
+   "1000000": 0.0016645404417859888
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "Shabad Hazare Audio",
+   "earlier_apps": 46,
+   "same_day_apps": 0,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 11.727989487516425,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 46,
+   "builder_apps": 46
+  },
+  "months": 36.137,
+  "p": {
+   "10000": 0.23137831473291992,
+   "100000": 0.046886908394185633,
+   "1000000": 0.004059791725741224
+  }
+ },
+ {
+  "app": {
+   "category": "Arcade",
+   "name": "Safe Zone!",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 50.55847568988173,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 2
+  },
+  "months": 22.733,
+  "p": {
+   "10000": 0.11527359412612703,
+   "100000": 0.04876538819571952,
+   "1000000": 0.02273038355226864
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Rouming Viewer",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 23.850197109067015,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 3
+  },
+  "months": 16.163,
+  "p": {
+   "10000": 0.17990044425844576,
+   "100000": 0.0541376676462223,
+   "1000000": 0.01041814970675281
+  }
+ },
+ {
+  "app": {
+   "category": "Lifestyle",
+   "name": "Pizza Barbaros",
+   "earlier_apps": 3,
+   "same_day_apps": 1,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 6.701708278580814,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 3
+  },
+  "months": 64.455,
+  "p": {
+   "10000": 0.22804486406796376,
+   "100000": 0.06740805713122355,
+   "1000000": 0.00934127865694434
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Pixie - Pixel Art Color by Number",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 2.9894875164257555,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 2
+  },
+  "months": 8.936,
+  "p": {
+   "10000": 0.2521085765840587,
+   "100000": 0.07565593946658711,
+   "1000000": 0.011530268990922687
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "MemeXD WAStickerApps - Memes Stickers",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 5.387647831800263,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1
+  },
+  "months": 2.07,
+  "p": {
+   "10000": 0.07402518361394073,
+   "100000": 0.014734591498747451,
+   "1000000": 0.0020970349135738253
+  }
+ },
+ {
+  "app": {
+   "category": "Medical",
+   "name": "\u0644\u0627\u0628\u0627\u0633",
+   "earlier_apps": 0,
+   "same_day_apps": 1,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 38.009,
+  "p": {
+   "10000": 0.10704339970892884,
+   "100000": 0.012073151393543147,
+   "1000000": 0.0002944993013329622
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "Flowers Lock Screen",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 5
+  },
+  "months": 46.518,
+  "p": {
+   "10000": 0.4037887222319321,
+   "100000": 0.15044651712409918,
+   "1000000": 0.034871718100352056
+  }
+ },
+ {
+  "app": {
+   "category": "Puzzle",
+   "name": "Brain Challenge",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 28.351,
+  "p": {
+   "10000": 0.18449002467140496,
+   "100000": 0.06156177791356765,
+   "1000000": 0.01732298815319533
+  }
+ },
+ {
+  "app": {
+   "category": "Finance",
+   "name": "KubFin",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 39.159,
+  "p": {
+   "10000": 0.18569602639454819,
+   "100000": 0.048604489838838916,
+   "1000000": 0.008547381293878775
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "\ud83d\udc8e Kata Kata Mutiara Terbaik 2020",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1
+  },
+  "months": 25.756,
+  "p": {
+   "10000": 0.4789124183884498,
+   "100000": 0.09664969947407387,
+   "1000000": 0.0070247547351631745
+  }
+ },
+ {
+  "app": {
+   "category": "Travel & Local",
+   "name": "Union City Michigan",
+   "earlier_apps": 302,
+   "same_day_apps": 0,
+   "apps_last_30_days": 12,
+   "months_since_first_app": 46.484888304862025,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 291,
+   "builder_apps": 291
+  },
+  "months": 36.958,
+  "p": {
+   "10000": 0.04913090185803637,
+   "100000": 0.011272932344758346,
+   "1000000": 0.002074894832390317
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "Love Zipper Lock Screen",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 0.2956636005256242,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 0
+  },
+  "months": 60.447,
+  "p": {
+   "10000": 0.5161920089876963,
+   "100000": 0.17662073886527685,
+   "1000000": 0.025468331112406983
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "\u93e1\u30ea\u30e5\u30a6\u30b8\u306e\u5360\u3044",
+   "earlier_apps": 38,
+   "same_day_apps": 0,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 30.814717477003942,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 36,
+   "builder_apps": 38
+  },
+  "months": 3.384,
+  "p": {
+   "10000": 0.0540172204023307,
+   "100000": 0.008074146849508246,
+   "1000000": 0.0007382656737384696
+  }
+ },
+ {
+  "app": {
+   "category": "Action",
+   "name": "Brawlchambers",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 9.625,
+  "p": {
+   "10000": 0.12911932304691642,
+   "100000": 0.04173106747221256,
+   "1000000": 0.010686333925477243
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "\u0642\u0635\u0635 \u0645\u0646 \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 - \u0639\u064a\u0633\u0649 \u0628\u062f\u0648\u0646 \u0623\u0646\u062a\u0631\u0646\u062a",
+   "earlier_apps": 0,
+   "same_day_apps": 2,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 209
+  },
+  "months": 31.143,
+  "p": {
+   "10000": 0.43592188348896344,
+   "100000": 0.0901181908272497,
+   "1000000": 0.00569445975026972
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "SnapConnect",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 44.875,
+  "p": {
+   "10000": 0.17410005296446396,
+   "100000": 0.056652839103650154,
+   "1000000": 0.013938714262369145
+  }
+ },
+ {
+  "app": {
+   "category": "Productivity",
+   "name": "Its Your Turn",
+   "earlier_apps": 7,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 18.101182654402102,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 7
+  },
+  "months": 50.197,
+  "p": {
+   "10000": 0.20408915879037948,
+   "100000": 0.0690811657852024,
+   "1000000": 0.01640497258865059
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "Cake Wallpapers HD",
+   "earlier_apps": 62,
+   "same_day_apps": 4,
+   "apps_last_30_days": 62,
+   "months_since_first_app": 0.42706964520367935,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 62,
+   "builder_apps": 62
+  },
+  "months": 16.261,
+  "p": {
+   "10000": 0.07971512560807692,
+   "100000": 0.009143141670930888,
+   "1000000": 0.000438709238160806
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "Scheel + Koll Bestattungen",
+   "earlier_apps": 151,
+   "same_day_apps": 0,
+   "apps_last_30_days": 6,
+   "months_since_first_app": 14.126149802890932,
+   "earlier_categories": 15,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1130
+  },
+  "months": 48.949,
+  "p": {
+   "10000": 0.14764116032565844,
+   "100000": 0.04533310732798346,
+   "1000000": 0.011922392754261657
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "edu Foto",
+   "earlier_apps": 64,
+   "same_day_apps": 2,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 40.90013140604468,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 53,
+   "builder_apps": 137
+  },
+  "months": 22.076,
+  "p": {
+   "10000": 0.09948746287122934,
+   "100000": 0.02962031396955822,
+   "1000000": 0.005527792536941356
+  }
+ },
+ {
+  "app": {
+   "category": "Sports",
+   "name": "ZYRODRIVE",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 34.593,
+  "p": {
+   "10000": 0.167504880841156,
+   "100000": 0.04699786132179962,
+   "1000000": 0.010970991838121225
+  }
+ },
+ {
+  "app": {
+   "category": "Travel & Local",
+   "name": "SMART Train Schedule",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 51.4454664914586,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 3
+  },
+  "months": 45.696,
+  "p": {
+   "10000": 0.16602018848772104,
+   "100000": 0.06119915160064493,
+   "1000000": 0.01681113711052451
+  }
+ },
+ {
+  "app": {
+   "category": "Food & Drink",
+   "name": "Eatzy-A food recipes and nutrition facts app",
+   "earlier_apps": 1,
+   "same_day_apps": 1,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 0.0328515111695138,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 22.799,
+  "p": {
+   "10000": 0.15679182373905987,
+   "100000": 0.029437769850786166,
+   "1000000": 0.0017866890506190725
+  }
+ },
+ {
+  "app": {
+   "category": "Social",
+   "name": "Nijanand App",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 10
+  },
+  "months": 54.172,
+  "p": {
+   "10000": 0.2292961841781691,
+   "100000": 0.08433188103753608,
+   "1000000": 0.020441678599735003
+  }
+ },
+ {
+  "app": {
+   "category": "Food & Drink",
+   "name": "RHR PURE VEG RESTAURANT",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 36.00525624178712,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 2
+  },
+  "months": 10.775,
+  "p": {
+   "10000": 0.06270586191956451,
+   "100000": 0.011794066499915767,
+   "1000000": 0.001434131182065146
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "Kashful Mahjoob in Urdu (Complete)",
+   "earlier_apps": 49,
+   "same_day_apps": 1,
+   "apps_last_30_days": 29,
+   "months_since_first_app": 8.73850197109067,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 40,
+   "builder_apps": 0
+  },
+  "months": 62.582,
+  "p": {
+   "10000": 0.3176627021963724,
+   "100000": 0.05572877825414435,
+   "1000000": 0.003823670267167567
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Einb\u00fcrgerungstest SN",
+   "earlier_apps": 31,
+   "same_day_apps": 1,
+   "apps_last_30_days": 16,
+   "months_since_first_app": 2.923784494086728,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 31,
+   "builder_apps": 15
+  },
+  "months": 61.399,
+  "p": {
+   "10000": 0.1778735411927772,
+   "100000": 0.021698825835886892,
+   "1000000": 0.0007797145483320334
+  }
+ },
+ {
+  "app": {
+   "category": "Productivity",
+   "name": "GB Version 21.0",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 0.591,
+  "p": {
+   "10000": 0.011996459848855445,
+   "100000": 0.0012058943817997436,
+   "1000000": 0.00010553016430814299
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "NR Reservations",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 62.714,
+  "p": {
+   "10000": 0.11206120755341298,
+   "100000": 0.024156450156121778,
+   "1000000": 0.003818691046967415
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "\ud53c\ubc84\ucf00\uc5b4(IoT, \uccb4\uc628\uacc4, \ud328\uce58\ud615, \ud328\uce58 \uccb4\uc628\uacc4, \uccb4\uc628 \uad00\ub9ac),  FeverCare",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 33.771,
+  "p": {
+   "10000": 0.4789874192499983,
+   "100000": 0.15657565583229216,
+   "1000000": 0.024921209835795932
+  }
+ },
+ {
+  "app": {
+   "category": "Food & Drink",
+   "name": "Toper Crispy, Pontypridd",
+   "earlier_apps": 725,
+   "same_day_apps": 2,
+   "apps_last_30_days": 53,
+   "months_since_first_app": 57.75295663600525,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 712,
+   "builder_apps": 0
+  },
+  "months": 2.694,
+  "p": {
+   "10000": 0.005853193181580063,
+   "100000": 0.00043088811901625945,
+   "1000000": 2.1346313201831002e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "BTS SticX Whatsapp-KPOP BangtanBoys  WAStickerApp",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 0.22996057818659657,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 1
+  },
+  "months": 6.833,
+  "p": {
+   "10000": 0.21602730208275556,
+   "100000": 0.049392391231732335,
+   "1000000": 0.00489753307992391
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Beautiful Quran Recitation 2",
+   "earlier_apps": 44,
+   "same_day_apps": 3,
+   "apps_last_30_days": 28,
+   "months_since_first_app": 1.4126149802890933,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 26,
+   "builder_apps": 5075
+  },
+  "months": 48.982,
+  "p": {
+   "10000": 0.13417740238726494,
+   "100000": 0.017207734369553584,
+   "1000000": 0.0006247331269926271
+  }
+ },
+ {
+  "app": {
+   "category": "Finance",
+   "name": "Red Lobster CU Mobile Banking",
+   "earlier_apps": 0,
+   "same_day_apps": 2,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 31.833,
+  "p": {
+   "10000": 0.24562030724042294,
+   "100000": 0.06513961504849786,
+   "1000000": 0.008784245109705324
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "\ufeffBible",
+   "earlier_apps": 15,
+   "same_day_apps": 1,
+   "apps_last_30_days": 9,
+   "months_since_first_app": 23.028909329829172,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 13,
+   "builder_apps": 62
+  },
+  "months": 42.214,
+  "p": {
+   "10000": 0.1773305148702664,
+   "100000": 0.02293770466529632,
+   "1000000": 0.0013119737317511815
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "\u0623\u0644\u0639\u0627\u0628 \u062a\u0639\u0644\u064a\u0645\u064a\u0629 \u0644\u0644\u0623\u0637\u0641\u0627\u0644",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 31
+  },
+  "months": 31.275,
+  "p": {
+   "10000": 0.22517673991555076,
+   "100000": 0.04085669215340604,
+   "1000000": 0.002984906191989878
+  }
+ },
+ {
+  "app": {
+   "category": "Lifestyle",
+   "name": "Ironwood Country Club",
+   "earlier_apps": 290,
+   "same_day_apps": 0,
+   "apps_last_30_days": 5,
+   "months_since_first_app": 57.03022339027595,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 278,
+   "builder_apps": 288
+  },
+  "months": 4.763,
+  "p": {
+   "10000": 0.025593823801658422,
+   "100000": 0.0040359793293269774,
+   "1000000": 0.0005084062008167134
+  }
+ },
+ {
+  "app": {
+   "category": "Shopping",
+   "name": "Tent Catering Kart",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 5.946,
+  "p": {
+   "10000": 0.05413195832828055,
+   "100000": 0.008949662269953973,
+   "1000000": 0.001338160064782823
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "OLA",
+   "earlier_apps": 3,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 19.415243101182654,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 3,
+   "builder_apps": 2
+  },
+  "months": 11.991,
+  "p": {
+   "10000": 0.030983064614390154,
+   "100000": 0.0048390815509589125,
+   "1000000": 0.0006233641376529597
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "\u062c\u0645\u0644\u0627\u062a \u0632\u0631\u062a\u0634\u062a \u067e\u06cc\u0627\u0645\u0628\u0631",
+   "earlier_apps": 8,
+   "same_day_apps": 0,
+   "apps_last_30_days": 3,
+   "months_since_first_app": 2.2339027595269383,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 11
+  },
+  "months": 27.957,
+  "p": {
+   "10000": 0.28522469392335104,
+   "100000": 0.03867226029303128,
+   "1000000": 0.0017309013985953303
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Benchmark Gym",
+   "earlier_apps": 3885,
+   "same_day_apps": 8,
+   "apps_last_30_days": 135,
+   "months_since_first_app": 47.20762155059133,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 3882,
+   "builder_apps": 3992
+  },
+  "months": 10.808,
+  "p": {
+   "10000": 0.008777284819574183,
+   "100000": 0.0008132319329416937,
+   "1000000": 5.443648658742806e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Everyday Inspirational Quotes",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 28.679,
+  "p": {
+   "10000": 0.3193234987575265,
+   "100000": 0.10919091686076454,
+   "1000000": 0.02084818953087919
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "V\u00eddeo Telemensagem: mensagens em video whatsapp",
+   "earlier_apps": 5,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 29.993429697766096,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 5
+  },
+  "months": 23.784,
+  "p": {
+   "10000": 0.44117508667465277,
+   "100000": 0.1784829236940968,
+   "1000000": 0.04052389475279927
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Appp.io - Katydid sounds",
+   "earlier_apps": 176,
+   "same_day_apps": 1,
+   "apps_last_30_days": 77,
+   "months_since_first_app": 3.1865965834428382,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 176,
+   "builder_apps": 160
+  },
+  "months": 42.214,
+  "p": {
+   "10000": 0.06724932231385672,
+   "100000": 0.0075409521595324325,
+   "1000000": 0.0006200355121296353
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "Gaming Wallpapers",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 8.442838370565045,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 13.732,
+  "p": {
+   "10000": 0.18763458783527742,
+   "100000": 0.042874663558013504,
+   "1000000": 0.006185312265798104
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "FGAS manager",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 24.639,
+  "p": {
+   "10000": 0.058952785740133185,
+   "100000": 0.01002992183852014,
+   "1000000": 0.0013237796438210214
+  }
+ },
+ {
+  "app": {
+   "category": "Adventure",
+   "name": "Hunters & Monsters: Frank's Waking Up",
+   "earlier_apps": 4,
+   "same_day_apps": 0,
+   "apps_last_30_days": 4,
+   "months_since_first_app": 0.8212877792378449,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 3406
+  },
+  "months": 10.25,
+  "p": {
+   "10000": 0.2707589377102858,
+   "100000": 0.07686235179599743,
+   "1000000": 0.013049608648028621
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "Sajal Aly Wallpapers HD",
+   "earlier_apps": 69,
+   "same_day_apps": 1,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 26.116951379763467,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 69,
+   "builder_apps": 69
+  },
+  "months": 6.603,
+  "p": {
+   "10000": 0.10487686251702988,
+   "100000": 0.02228496392959911,
+   "1000000": 0.0028733049502349672
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Radio Israel",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 4.270696452036794,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 2
+  },
+  "months": 34.231,
+  "p": {
+   "10000": 0.1832362096112633,
+   "100000": 0.040723653416660954,
+   "1000000": 0.00675945801655875
+  }
+ },
+ {
+  "app": {
+   "category": "Food & Drink",
+   "name": "Proper Pizza",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 42.411,
+  "p": {
+   "10000": 0.10990456108457791,
+   "100000": 0.024692892603513816,
+   "1000000": 0.0029614427210634675
+  }
+ },
+ {
+  "app": {
+   "category": "Educational",
+   "name": "test t\u00f4 m\u00e0u webview",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 0.7555847568988173,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1
+  },
+  "months": 24.704,
+  "p": {
+   "10000": 0.2360846598661691,
+   "100000": 0.060379885515334686,
+   "1000000": 0.01033296255367544
+  }
+ },
+ {
+  "app": {
+   "category": "Finance",
+   "name": "Sectors Made Simple",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 3.909,
+  "p": {
+   "10000": 0.06623575128637893,
+   "100000": 0.011025733827094375,
+   "1000000": 0.0013187112260849565
+  }
+ },
+ {
+  "app": {
+   "category": "News & Magazines",
+   "name": "EarlyBird - News for Android\u2122",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 64.422,
+  "p": {
+   "10000": 0.3904063289319798,
+   "100000": 0.09052678837273209,
+   "1000000": 0.0075427230469953255
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Weight Machine Check info",
+   "earlier_apps": 3,
+   "same_day_apps": 5,
+   "apps_last_30_days": 3,
+   "months_since_first_app": 0.6898817345597897,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 3
+  },
+  "months": 28.121,
+  "p": {
+   "10000": 0.18316193519848922,
+   "100000": 0.036584893559648335,
+   "1000000": 0.0024341399035988642
+  }
+ },
+ {
+  "app": {
+   "category": "Maps & Navigation",
+   "name": "Coast RTA",
+   "earlier_apps": 12,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 56.93166885676741,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 12,
+   "builder_apps": 7
+  },
+  "months": 61.104,
+  "p": {
+   "10000": 0.21279028724069549,
+   "100000": 0.06491032020000487,
+   "1000000": 0.020507679685989433
+  }
+ },
+ {
+  "app": {
+   "category": "Travel & Local",
+   "name": "Albania Hotel Booking",
+   "earlier_apps": 24,
+   "same_day_apps": 1,
+   "apps_last_30_days": 17,
+   "months_since_first_app": 2.2010512483574245,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 24,
+   "builder_apps": 24
+  },
+  "months": 30.979,
+  "p": {
+   "10000": 0.06532462486680313,
+   "100000": 0.01096043691449844,
+   "1000000": 0.0008770940509731373
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "AJ and Sara Radio",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 8.673,
+  "p": {
+   "10000": 0.09511605697862824,
+   "100000": 0.016166467550981944,
+   "1000000": 0.0026385528940190417
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Intermittent Fasting",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 31.997,
+  "p": {
+   "10000": 0.15587028352307974,
+   "100000": 0.039052180186214924,
+   "1000000": 0.006467318837115599
+  }
+ },
+ {
+  "app": {
+   "category": "Video Players & Editors",
+   "name": "WiFi_Scope",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 54.501,
+  "p": {
+   "10000": 0.42087981905000593,
+   "100000": 0.17739870394012447,
+   "1000000": 0.051748761943295696
+  }
+ },
+ {
+  "app": {
+   "category": "Lifestyle",
+   "name": "Gift Explosion",
+   "earlier_apps": 111,
+   "same_day_apps": 9,
+   "apps_last_30_days": 104,
+   "months_since_first_app": 3.1537450722733245,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 111,
+   "builder_apps": 111
+  },
+  "months": 32.884,
+  "p": {
+   "10000": 0.023183594395242313,
+   "100000": 0.0019094160619264056,
+   "1000000": 6.308479225525243e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "Pirlo 360 Application",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 4.369250985545335,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 2
+  },
+  "months": 20.894,
+  "p": {
+   "10000": 0.18867330176396935,
+   "100000": 0.05428038513988942,
+   "1000000": 0.009238100027954
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Foreign Trained Dentists",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 2
+  },
+  "months": 27.989,
+  "p": {
+   "10000": 0.1833019274221307,
+   "100000": 0.03790772666089459,
+   "1000000": 0.0036175155894744293
+  }
+ },
+ {
+  "app": {
+   "category": "Auto & Vehicles",
+   "name": "\uc5e0\uce74 - \ucd9c\uc7a5\uc138\ucc28\ubc31\ud654\uc810 MKAR",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 1
+  },
+  "months": 25.0,
+  "p": {
+   "10000": 0.2257369262858785,
+   "100000": 0.04318160145683925,
+   "1000000": 0.005829328489014185
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "Holi Best Hindi Shayari 2021 \u0939\u0948\u092a\u094d\u092a\u0940 \u0939\u094b\u0932\u0940 \u0936\u093e\u092f\u0930\u0940",
+   "earlier_apps": 10,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 20.302233902759525,
+   "earlier_categories": 6,
+   "earlier_apps_same_category": 3,
+   "builder_apps": 22
+  },
+  "months": 3.154,
+  "p": {
+   "10000": 0.29701276569098134,
+   "100000": 0.07607872792524517,
+   "1000000": 0.009340026434556448
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Wild Prairie Yoga",
+   "earlier_apps": 611,
+   "same_day_apps": 1,
+   "apps_last_30_days": 28,
+   "months_since_first_app": 46.9119579500657,
+   "earlier_categories": 7,
+   "earlier_apps_same_category": 587,
+   "builder_apps": 0
+  },
+  "months": 2.07,
+  "p": {
+   "10000": 0.00868049617165767,
+   "100000": 0.0007947374909961225,
+   "1000000": 6.848425954442128e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "\u092e\u0939\u093f\u0932\u093e\u090f\u0902 \u091c\u093e\u0928\u0947 \u0915\u093e\u0928\u0942\u0928 \u0935 \u0905\u0927\u093f\u0915\u093e\u0930",
+   "earlier_apps": 7,
+   "same_day_apps": 10,
+   "apps_last_30_days": 7,
+   "months_since_first_app": 0.0657030223390276,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 3,
+   "builder_apps": 7
+  },
+  "months": 31.045,
+  "p": {
+   "10000": 0.2017206615166649,
+   "100000": 0.017175241267425534,
+   "1000000": 0.000290752577462583
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "My beneFIT",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 40.013,
+  "p": {
+   "10000": 0.152133730095678,
+   "100000": 0.0390493277811923,
+   "1000000": 0.006814795838178456
+  }
+ },
+ {
+  "app": {
+   "category": "Lifestyle",
+   "name": "DIY Recycled Wooden Pallets",
+   "earlier_apps": 29,
+   "same_day_apps": 0,
+   "apps_last_30_days": 6,
+   "months_since_first_app": 3.219448094612352,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 29,
+   "builder_apps": 0
+  },
+  "months": 50.887,
+  "p": {
+   "10000": 0.25678716217775355,
+   "100000": 0.06578094178476113,
+   "1000000": 0.00757389537618125
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "Green Stars Tools",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 18.857,
+  "p": {
+   "10000": 0.059570206855629415,
+   "100000": 0.010048662896746219,
+   "1000000": 0.0013061810273289343
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "Mentor Kochas",
+   "earlier_apps": 77,
+   "same_day_apps": 4,
+   "apps_last_30_days": 13,
+   "months_since_first_app": 13.140604467805518,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 74,
+   "builder_apps": 77
+  },
+  "months": 1.938,
+  "p": {
+   "10000": 0.01041475464570607,
+   "100000": 0.0007009519746254966,
+   "1000000": 2.0334972403501794e-05
+  }
+ },
+ {
+  "app": {
+   "category": "Shopping",
+   "name": "Gasconnect",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 49.277,
+  "p": {
+   "10000": 0.1483198079535436,
+   "100000": 0.037011443741812755,
+   "1000000": 0.007773685972799038
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "The Best Songs of Petula Clark",
+   "earlier_apps": 26,
+   "same_day_apps": 1,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 7.1616294349540075,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 25,
+   "builder_apps": 19465
+  },
+  "months": 1.413,
+  "p": {
+   "10000": 0.0309533294187595,
+   "100000": 0.0039430239674600465,
+   "1000000": 0.00034230541063040576
+  }
+ },
+ {
+  "app": {
+   "category": "Beauty",
+   "name": "Marcus Dobre Wallpaper free",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 3.844,
+  "p": {
+   "10000": 0.053670071794828855,
+   "100000": 0.012163192936614275,
+   "1000000": 0.0016892332590826564
+  }
+ },
+ {
+  "app": {
+   "category": "Casual",
+   "name": "All Valentine Pairs Memory Game",
+   "earlier_apps": 6,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 11.629434954007884,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 5,
+   "builder_apps": 5
+  },
+  "months": 28.187,
+  "p": {
+   "10000": 0.37375787648024206,
+   "100000": 0.20839069174273317,
+   "1000000": 0.06992844035554047
+  }
+ },
+ {
+  "app": {
+   "category": "Video Players & Editors",
+   "name": "Xnxx video player - sax player",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 1.149802890932983,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 2
+  },
+  "months": 3.909,
+  "p": {
+   "10000": 0.20145107291046227,
+   "100000": 0.04699716427305112,
+   "1000000": 0.006194870588654866
+  }
+ },
+ {
+  "app": {
+   "category": "Business",
+   "name": "Trackplan Manager",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 32.194,
+  "p": {
+   "10000": 0.07609288575074413,
+   "100000": 0.014002060796681759,
+   "1000000": 0.0019378923898465406
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "Engelenburgerbrug",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 2.0039421813403417,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 2,
+   "builder_apps": 2857
+  },
+  "months": 47.503,
+  "p": {
+   "10000": 0.19090792020769143,
+   "100000": 0.06732148137286631,
+   "1000000": 0.01338510164524076
+  }
+ },
+ {
+  "app": {
+   "category": "Maps & Navigation",
+   "name": "Heritage Guide",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 3.975,
+  "p": {
+   "10000": 0.0413254426421259,
+   "100000": 0.005477874627870194,
+   "1000000": 0.000776671651158356
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "CINE 7",
+   "earlier_apps": 7,
+   "same_day_apps": 0,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 18.528252299605782,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 16.426,
+  "p": {
+   "10000": 0.18565272237585773,
+   "100000": 0.047796854070826456,
+   "1000000": 0.007353785539528923
+  }
+ },
+ {
+  "app": {
+   "category": "Medical",
+   "name": "PSA STORE",
+   "earlier_apps": 5,
+   "same_day_apps": 0,
+   "apps_last_30_days": 3,
+   "months_since_first_app": 3.876478318002628,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 6
+  },
+  "months": 15.703,
+  "p": {
+   "10000": 0.06716599864419959,
+   "100000": 0.007415654752659151,
+   "1000000": 0.00019345794174252529
+  }
+ },
+ {
+  "app": {
+   "category": "Social",
+   "name": "Glorious Plus",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 2.8580814717477003,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 81
+  },
+  "months": 5.815,
+  "p": {
+   "10000": 0.05880400506974437,
+   "100000": 0.012400653160879016,
+   "1000000": 0.0016522444198816544
+  }
+ },
+ {
+  "app": {
+   "category": "Entertainment",
+   "name": "TV Cameroun",
+   "earlier_apps": 4,
+   "same_day_apps": 4,
+   "apps_last_30_days": 1,
+   "months_since_first_app": 9.85545335085414,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 1
+  },
+  "months": 11.235,
+  "p": {
+   "10000": 0.08028023353148517,
+   "100000": 0.014581135424863056,
+   "1000000": 0.0012770628925202754
+  }
+ },
+ {
+  "app": {
+   "category": "Music & Audio",
+   "name": "Sambalpuri MP3",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 752
+  },
+  "months": 22.47,
+  "p": {
+   "10000": 0.13757131978487636,
+   "100000": 0.028180007080059966,
+   "1000000": 0.005180590078719294
+  }
+ },
+ {
+  "app": {
+   "category": "Personalization",
+   "name": "Death Theme For AppLock",
+   "earlier_apps": 33,
+   "same_day_apps": 1,
+   "apps_last_30_days": 2,
+   "months_since_first_app": 7.128777923784494,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 33,
+   "builder_apps": 157
+  },
+  "months": 36.761,
+  "p": {
+   "10000": 0.2894458607913659,
+   "100000": 0.08603077247361546,
+   "1000000": 0.011710931471249908
+  }
+ },
+ {
+  "app": {
+   "category": "Simulation",
+   "name": "Mega Ramp Impossible 3D",
+   "earlier_apps": 19,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 59.49408672798948,
+   "earlier_categories": 6,
+   "earlier_apps_same_category": 10,
+   "builder_apps": 68
+  },
+  "months": 23.226,
+  "p": {
+   "10000": 0.6632127712836127,
+   "100000": 0.4327934102639819,
+   "1000000": 0.19234812725666894
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "Texas Business and Commerce 2020",
+   "earlier_apps": 7,
+   "same_day_apps": 4,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 4.369250985545335,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 7,
+   "builder_apps": 7
+  },
+  "months": 65.44,
+  "p": {
+   "10000": 0.44154301335991286,
+   "100000": 0.09705258364810387,
+   "1000000": 0.004817273199593686
+  }
+ },
+ {
+  "app": {
+   "category": "Tools",
+   "name": "VolumeLink Beta",
+   "earlier_apps": 2,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 87.12220762155059,
+   "earlier_categories": 2,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 12.122,
+  "p": {
+   "10000": 0.1261620021184805,
+   "100000": 0.04012023839697487,
+   "1000000": 0.012244667274308174
+  }
+ },
+ {
+  "app": {
+   "category": "Books & Reference",
+   "name": "How to Reduce Stress and Anxiety",
+   "earlier_apps": 36,
+   "same_day_apps": 0,
+   "apps_last_30_days": 4,
+   "months_since_first_app": 15.83442838370565,
+   "earlier_categories": 4,
+   "earlier_apps_same_category": 22,
+   "builder_apps": 15
+  },
+  "months": 37.418,
+  "p": {
+   "10000": 0.36533310463365676,
+   "100000": 0.09025655243996922,
+   "1000000": 0.009958474846086252
+  }
+ },
+ {
+  "app": {
+   "category": "Maps & Navigation",
+   "name": "Location Finder - Jagtial | Get Any Location",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 40.572,
+  "p": {
+   "10000": 0.4547079334960161,
+   "100000": 0.16437133210413746,
+   "1000000": 0.04771536538935195
+  }
+ },
+ {
+  "app": {
+   "category": "Health & Fitness",
+   "name": "Maik Wiedenbach Coaching",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 13.436,
+  "p": {
+   "10000": 0.10695252789068699,
+   "100000": 0.022740695446988646,
+   "1000000": 0.0032900625494425295
+  }
+ },
+ {
+  "app": {
+   "category": "Lifestyle",
+   "name": "\u0623\u0648\u0642\u0627\u062a \u0627\u0644\u0635\u0644\u0627\u0629 \u0641\u0631\u0646\u0633\u0627",
+   "earlier_apps": 24,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 39.38896189224704,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 10,
+   "builder_apps": 1
+  },
+  "months": 13.568,
+  "p": {
+   "10000": 0.14960691735439746,
+   "100000": 0.032038414372726476,
+   "1000000": 0.003735965155855503
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "\u00c7al\u0131\u015fma G\u00fcnl\u00fc\u011f\u00fcm",
+   "earlier_apps": 1,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 3.2851511169513796,
+   "earlier_categories": 1,
+   "earlier_apps_same_category": 1,
+   "builder_apps": 0
+  },
+  "months": 7.95,
+  "p": {
+   "10000": 0.09077850131438692,
+   "100000": 0.01047317456257335,
+   "1000000": 0.0004803309846308501
+  }
+ },
+ {
+  "app": {
+   "category": "Educational",
+   "name": "Tak Break",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 7
+  },
+  "months": 38.666,
+  "p": {
+   "10000": 0.1795268538180479,
+   "100000": 0.06549447228075711,
+   "1000000": 0.023217155962799052
+  }
+ },
+ {
+  "app": {
+   "category": "Education",
+   "name": "HUST Student - \u1ee8ng d\u1ee5ng d\u00e0nh cho sinh vi\u00ean \u0110H BKHN",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 13.173,
+  "p": {
+   "10000": 0.43438091852837823,
+   "100000": 0.10204156307401191,
+   "1000000": 0.008394356869800723
+  }
+ },
+ {
+  "app": {
+   "category": "Communication",
+   "name": "NC PETS",
+   "earlier_apps": 584,
+   "same_day_apps": 0,
+   "apps_last_30_days": 4,
+   "months_since_first_app": 62.74638633377135,
+   "earlier_categories": 5,
+   "earlier_apps_same_category": 440,
+   "builder_apps": 607
+  },
+  "months": 5.289,
+  "p": {
+   "10000": 0.019390864382783257,
+   "100000": 0.0038260349411741723,
+   "1000000": 0.0007877151419035666
+  }
+ },
+ {
+  "app": {
+   "category": "Lifestyle",
+   "name": "WELLSPRING COMMONS",
+   "earlier_apps": 0,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 0.0,
+   "earlier_categories": 0,
+   "earlier_apps_same_category": 0,
+   "builder_apps": 0
+  },
+  "months": 17.313,
+  "p": {
+   "10000": 0.12358298720990546,
+   "100000": 0.027619752196357927,
+   "1000000": 0.003885303611608104
+  }
+ },
+ {
+  "app": {
+   "category": "Shopping",
+   "name": "PLASSON",
+   "earlier_apps": 10,
+   "same_day_apps": 0,
+   "apps_last_30_days": 0,
+   "months_since_first_app": 44.250985545335084,
+   "earlier_categories": 3,
+   "earlier_apps_same_category": 7,
+   "builder_apps": 106
+  },
+  "months": 15.243,
+  "p": {
+   "10000": 0.07420177571160624,
+   "100000": 0.018012957531013618,
+   "1000000": 0.004107626072118564
+  }
+ }
+]

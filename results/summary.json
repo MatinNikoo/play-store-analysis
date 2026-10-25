@@ -35,24 +35,39 @@
       "hit_rate": 0.31329389440785804
     }
   },
+  "monetization_checks": {
+    "ads_iap_games": 0.33860995395746546,
+    "ads_iap_non_games": 0.2870395634379263,
+    "categories": 48,
+    "ads_iap_highest_in": 43,
+    "iap_only_highest_in": [
+      "Books & Reference",
+      "Casino",
+      "Dating",
+      "Food & Drink",
+      "Role Playing"
+    ],
+    "ads_iap_beats_ads_only_in": 48,
+    "ads_iap_beats_no_monetization_in": 48
+  },
   "developers": {
-    "1 app": {
+    "1st app": {
       "apps": 267068,
       "hit_rate": 0.05887264666676652
     },
-    "2 to 5": {
+    "2nd to 5th": {
       "apps": 200641,
       "hit_rate": 0.0757771342846178
     },
-    "6 to 20": {
+    "6th to 20th": {
       "apps": 148817,
       "hit_rate": 0.07878804168878556
     },
-    "21 to 100": {
+    "21st to 100th": {
       "apps": 125319,
       "hit_rate": 0.04380022183387994
     },
-    "100+": {
+    "101st or later": {
       "apps": 73359,
       "hit_rate": 0.010659905396747502
     }

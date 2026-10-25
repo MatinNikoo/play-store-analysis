@@ -1,0 +1,1222 @@
+{
+  "split": {
+    "train": "released 2018",
+    "test": "released 2019",
+    "train_apps": 334566,
+    "test_apps": 480665,
+    "shared_developers": 37243,
+    "test_developers": 207381,
+    "ablation_train_apps": 135263
+  },
+  "main": {
+    "gbm_launch": {
+      "auc": 0.836101,
+      "brier": 0.041734,
+      "brier_skill": 0.121598,
+      "cal_intercept": -0.045387,
+      "cal_slope": 0.915914,
+      "ece": 0.003641,
+      "top10_captures": 0.470236,
+      "mean_pred": 0.051869,
+      "rate": 0.050012,
+      "lo": 0.831092,
+      "hi": 0.840548,
+      "se": 0.002468,
+      "diff_vs_gbm_launch": 0.0,
+      "diff_lo": 0.0,
+      "diff_hi": 0.0,
+      "within_month_auc": 0.835892
+    },
+    "logit_launch": {
+      "auc": 0.824951,
+      "brier": 0.042485,
+      "brier_skill": 0.105788,
+      "cal_intercept": -0.063703,
+      "cal_slope": 0.992262,
+      "ece": 0.003568,
+      "top10_captures": 0.451225,
+      "mean_pred": 0.052738,
+      "rate": 0.050012,
+      "lo": 0.820164,
+      "hi": 0.829754,
+      "se": 0.002514,
+      "diff_vs_gbm_launch": -0.01115,
+      "diff_lo": -0.013337,
+      "diff_hi": -0.00898
+    },
+    "gbm_strict": {
+      "auc": 0.710522,
+      "brier": 0.045428,
+      "brier_skill": 0.043832,
+      "cal_intercept": 0.00677,
+      "cal_slope": 0.861623,
+      "ece": 0.003266,
+      "top10_captures": 0.306585,
+      "mean_pred": 0.04971,
+      "rate": 0.050012,
+      "lo": 0.70351,
+      "hi": 0.718038,
+      "se": 0.003947,
+      "diff_vs_gbm_launch": -0.125579,
+      "diff_lo": -0.131391,
+      "diff_hi": -0.119851
+    },
+    "base_category_dev": {
+      "auc": 0.74992,
+      "brier": 0.044829,
+      "brier_skill": 0.056446,
+      "cal_intercept": 0.010495,
+      "cal_slope": 1.020996,
+      "ece": 0.002427,
+      "top10_captures": 0.327426,
+      "mean_pred": 0.049542,
+      "rate": 0.050012,
+      "lo": 0.743414,
+      "hi": 0.756656,
+      "se": 0.003363,
+      "diff_vs_gbm_launch": -0.086181,
+      "diff_lo": -0.090354,
+      "diff_hi": -0.081838
+    },
+    "base_category": {
+      "auc": 0.726245,
+      "brier": 0.045294,
+      "brier_skill": 0.046664,
+      "cal_intercept": -0.00238,
+      "cal_slope": 0.972788,
+      "ece": 0.003691,
+      "top10_captures": 0.3127,
+      "mean_pred": 0.050119,
+      "rate": 0.050012,
+      "lo": 0.719239,
+      "hi": 0.733303,
+      "se": 0.003424,
+      "diff_vs_gbm_launch": -0.109856,
+      "diff_lo": -0.115944,
+      "diff_hi": -0.104497
+    },
+    "base_dev": {
+      "auc": 0.593345,
+      "brier": 0.047212,
+      "brier_skill": 0.006282,
+      "cal_intercept": -0.011881,
+      "cal_slope": 1.190608,
+      "ece": 0.002215,
+      "top10_captures": 0.129664,
+      "mean_pred": 0.050577,
+      "rate": 0.050012,
+      "lo": 0.584896,
+      "hi": 0.602118,
+      "se": 0.004506,
+      "diff_vs_gbm_launch": -0.242756,
+      "diff_lo": -0.250479,
+      "diff_hi": -0.234738
+    },
+    "gbm_old": {
+      "auc": 0.861321,
+      "brier": 0.039497,
+      "brier_skill": 0.168682,
+      "cal_intercept": -0.106874,
+      "cal_slope": 0.903118,
+      "ece": 0.005231,
+      "top10_captures": 0.531761,
+      "mean_pred": 0.054165,
+      "rate": 0.050012,
+      "lo": 0.856964,
+      "hi": 0.865265,
+      "se": 0.002185,
+      "diff_vs_gbm_launch": 0.02522,
+      "diff_lo": 0.021306,
+      "diff_hi": 0.028926,
+      "within_month_auc": 0.861
+    },
+    "logit_old": {
+      "auc": 0.84452,
+      "brier": 0.040523,
+      "brier_skill": 0.147075,
+      "cal_intercept": -0.068017,
+      "cal_slope": 0.998225,
+      "ece": 0.002905,
+      "top10_captures": 0.50443,
+      "mean_pred": 0.052815,
+      "rate": 0.050012,
+      "lo": 0.839414,
+      "hi": 0.848962,
+      "se": 0.002479,
+      "diff_vs_gbm_launch": 0.008419,
+      "diff_lo": 0.004138,
+      "diff_hi": 0.012249
+    }
+  },
+  "main_100k": {
+    "gbm_old_100k": {
+      "auc": 0.860743,
+      "brier": 0.042199,
+      "brier_skill": 0.150748,
+      "cal_intercept": -0.519709,
+      "cal_slope": 1.00351,
+      "ece": 0.025078,
+      "top10_captures": 0.523958,
+      "mean_pred": 0.077094,
+      "rate": 0.052015,
+      "within_month_auc": 0.860957
+    },
+    "gbm_launch_100k": {
+      "auc": 0.835035,
+      "brier": 0.044305,
+      "brier_skill": 0.108357,
+      "cal_intercept": -0.440436,
+      "cal_slope": 0.971897,
+      "ece": 0.021849,
+      "top10_captures": 0.468283,
+      "mean_pred": 0.073855,
+      "rate": 0.052015,
+      "within_month_auc": 0.833812
+    }
+  },
+  "simulator_population_test": {
+    "apps": 472059,
+    "auc_gbm_launch": 0.834112,
+    "auc_gbm_old": 0.859239
+  },
+  "ablation": {
+    "old features (all)": 0.856554,
+    "old minus monetization": 0.815777,
+    "old minus monetization and listing": 0.801386,
+    "old minus all snapshot fields": 0.747981,
+    "monetization only": 0.745788,
+    "launch features": 0.829552,
+    "launch + monetization": 0.858134,
+    "launch + all snapshot fields": 0.876369,
+    "launch + earlier apps' 2021 success": 0.893111,
+    "launch + post-launch fields": 0.984012,
+    "launch minus title": 0.78314,
+    "launch minus category": 0.779026
+  },
+  "ablation_ci": {
+    "old features (all)": {
+      "auc": 0.856554,
+      "lo": 0.852161,
+      "hi": 0.860374,
+      "se": 0.002288,
+      "diff_vs_old features (all)": 0.0,
+      "diff_lo": 0.0,
+      "diff_hi": 0.0
+    },
+    "old minus monetization": {
+      "auc": 0.815777,
+      "lo": 0.810457,
+      "hi": 0.820397,
+      "se": 0.002578,
+      "diff_vs_old features (all)": -0.040777,
+      "diff_lo": -0.042798,
+      "diff_hi": -0.037867
+    },
+    "old minus monetization and listing": {
+      "auc": 0.801386,
+      "lo": 0.795625,
+      "hi": 0.806113,
+      "se": 0.002655,
+      "diff_vs_old features (all)": -0.055168,
+      "diff_lo": -0.057598,
+      "diff_hi": -0.052375
+    },
+    "old minus all snapshot fields": {
+      "auc": 0.747981,
+      "lo": 0.741967,
+      "hi": 0.755601,
+      "se": 0.00336,
+      "diff_vs_old features (all)": -0.108573,
+      "diff_lo": -0.11239,
+      "diff_hi": -0.104141
+    },
+    "monetization only": {
+      "auc": 0.745788,
+      "lo": 0.740359,
+      "hi": 0.749543,
+      "se": 0.00272,
+      "diff_vs_old features (all)": -0.110766,
+      "diff_lo": -0.116492,
+      "diff_hi": -0.106377
+    },
+    "launch features": {
+      "auc": 0.829552,
+      "lo": 0.824346,
+      "hi": 0.835296,
+      "se": 0.002739,
+      "diff_vs_old features (all)": -0.027002,
+      "diff_lo": -0.030034,
+      "diff_hi": -0.023248
+    },
+    "launch + monetization": {
+      "auc": 0.858134,
+      "lo": 0.853288,
+      "hi": 0.862261,
+      "se": 0.002381,
+      "diff_vs_old features (all)": 0.00158,
+      "diff_lo": -0.001001,
+      "diff_hi": 0.004373
+    },
+    "launch + all snapshot fields": {
+      "auc": 0.876369,
+      "lo": 0.871837,
+      "hi": 0.880754,
+      "se": 0.00215,
+      "diff_vs_old features (all)": 0.019816,
+      "diff_lo": 0.017571,
+      "diff_hi": 0.02197
+    },
+    "launch + earlier apps' 2021 success": {
+      "auc": 0.893111,
+      "lo": 0.889966,
+      "hi": 0.897101,
+      "se": 0.001811,
+      "diff_vs_old features (all)": 0.036557,
+      "diff_lo": 0.034051,
+      "diff_hi": 0.039491
+    },
+    "launch + post-launch fields": {
+      "auc": 0.984012,
+      "lo": 0.983175,
+      "hi": 0.985013,
+      "se": 0.000451,
+      "diff_vs_old features (all)": 0.127458,
+      "diff_lo": 0.124089,
+      "diff_hi": 0.131824
+    },
+    "launch minus title": {
+      "auc": 0.78314,
+      "lo": 0.777214,
+      "hi": 0.788803,
+      "se": 0.003299,
+      "diff_vs_old features (all)": -0.073414,
+      "diff_lo": -0.078533,
+      "diff_hi": -0.069287
+    },
+    "launch minus category": {
+      "auc": 0.779026,
+      "lo": 0.772268,
+      "hi": 0.786569,
+      "se": 0.003642,
+      "diff_vs_old features (all)": -0.077528,
+      "diff_lo": -0.082582,
+      "diff_hi": -0.07134
+    }
+  },
+  "launch_gap_share_of_old_auc_above_half": 0.07573,
+  "snapshot_share_of_old_auc_above_half": 0.304507,
+  "outcome_sensitivity": {
+    "top1": {
+      "rate": 0.010013,
+      "auc_launch": 0.874287,
+      "auc_old": 0.911149
+    },
+    "top10": {
+      "rate": 0.100016,
+      "auc_launch": 0.788385,
+      "auc_old": 0.816801
+    }
+  },
+  "seeds": {
+    "launch": {
+      "aucs": [
+        0.830992,
+        0.831064,
+        0.829465
+      ],
+      "mean": 0.830507,
+      "sd": 0.000903,
+      "min": 0.829465,
+      "max": 0.831064
+    },
+    "old": {
+      "aucs": [
+        0.858267,
+        0.859562,
+        0.858498
+      ],
+      "mean": 0.858776,
+      "sd": 0.00069,
+      "min": 0.858267,
+      "max": 0.859562
+    }
+  },
+  "by_category": [
+    {
+      "group": "Action",
+      "apps": 5263,
+      "rate": 0.175565,
+      "auc_launch": 0.765456,
+      "mean_pred_launch": 0.186019,
+      "auc_old": 0.827495,
+      "mean_pred_old": 0.196519
+    },
+    {
+      "group": "Adventure",
+      "apps": 4571,
+      "rate": 0.148108,
+      "auc_launch": 0.800589,
+      "mean_pred_launch": 0.132314,
+      "auc_old": 0.853355,
+      "mean_pred_old": 0.132282
+    },
+    {
+      "group": "Arcade",
+      "apps": 10327,
+      "rate": 0.059746,
+      "auc_launch": 0.760994,
+      "mean_pred_launch": 0.060338,
+      "auc_old": 0.823162,
+      "mean_pred_old": 0.057422
+    },
+    {
+      "group": "Art & Design",
+      "apps": 5545,
+      "rate": 0.061317,
+      "auc_launch": 0.792596,
+      "mean_pred_launch": 0.05878,
+      "auc_old": 0.816192,
+      "mean_pred_old": 0.059423
+    },
+    {
+      "group": "Auto & Vehicles",
+      "apps": 4865,
+      "rate": 0.041727,
+      "auc_launch": 0.823735,
+      "mean_pred_launch": 0.055341,
+      "auc_old": 0.85689,
+      "mean_pred_old": 0.053041
+    },
+    {
+      "group": "Beauty",
+      "apps": 2916,
+      "rate": 0.042524,
+      "auc_launch": 0.869316,
+      "mean_pred_launch": 0.04476,
+      "auc_old": 0.871184,
+      "mean_pred_old": 0.041059
+    },
+    {
+      "group": "Board",
+      "apps": 1864,
+      "rate": 0.10515,
+      "auc_launch": 0.72222,
+      "mean_pred_launch": 0.126354,
+      "auc_old": 0.788892,
+      "mean_pred_old": 0.135334
+    },
+    {
+      "group": "Books & Reference",
+      "apps": 24369,
+      "rate": 0.022036,
+      "auc_launch": 0.782878,
+      "mean_pred_launch": 0.021969,
+      "auc_old": 0.772934,
+      "mean_pred_old": 0.024569
+    },
+    {
+      "group": "Business",
+      "apps": 32770,
+      "rate": 0.008544,
+      "auc_launch": 0.780487,
+      "mean_pred_launch": 0.009221,
+      "auc_old": 0.752101,
+      "mean_pred_old": 0.008479
+    },
+    {
+      "group": "Card",
+      "apps": 1244,
+      "rate": 0.149518,
+      "auc_launch": 0.715559,
+      "mean_pred_launch": 0.15944,
+      "auc_old": 0.772003,
+      "mean_pred_old": 0.162772
+    },
+    {
+      "group": "Casino",
+      "apps": 709,
+      "rate": 0.157969,
+      "auc_launch": 0.73482,
+      "mean_pred_launch": 0.192029,
+      "auc_old": 0.768096,
+      "mean_pred_old": 0.179709
+    },
+    {
+      "group": "Casual",
+      "apps": 9304,
+      "rate": 0.090176,
+      "auc_launch": 0.785441,
+      "mean_pred_launch": 0.102197,
+      "auc_old": 0.832804,
+      "mean_pred_old": 0.11416
+    },
+    {
+      "group": "Comics",
+      "apps": 948,
+      "rate": 0.17827,
+      "auc_launch": 0.661552,
+      "mean_pred_launch": 0.24061,
+      "auc_old": 0.6805,
+      "mean_pred_old": 0.212238
+    },
+    {
+      "group": "Communication",
+      "apps": 11476,
+      "rate": 0.050453,
+      "auc_launch": 0.813599,
+      "mean_pred_launch": 0.047021,
+      "auc_old": 0.835363,
+      "mean_pred_old": 0.054601
+    },
+    {
+      "group": "Dating",
+      "apps": 1454,
+      "rate": 0.091472,
+      "auc_launch": 0.745636,
+      "mean_pred_launch": 0.088263,
+      "auc_old": 0.733649,
+      "mean_pred_old": 0.096109
+    },
+    {
+      "group": "Education",
+      "apps": 48894,
+      "rate": 0.021168,
+      "auc_launch": 0.782721,
+      "mean_pred_launch": 0.025528,
+      "auc_old": 0.821467,
+      "mean_pred_old": 0.024284
+    },
+    {
+      "group": "Educational",
+      "apps": 3659,
+      "rate": 0.080623,
+      "auc_launch": 0.844523,
+      "mean_pred_launch": 0.094655,
+      "auc_old": 0.882431,
+      "mean_pred_old": 0.086315
+    },
+    {
+      "group": "Entertainment",
+      "apps": 29463,
+      "rate": 0.076672,
+      "auc_launch": 0.718515,
+      "mean_pred_launch": 0.070096,
+      "auc_old": 0.78522,
+      "mean_pred_old": 0.071106
+    },
+    {
+      "group": "Events",
+      "apps": 4538,
+      "rate": 0.00595,
+      "auc_launch": 0.805028,
+      "mean_pred_launch": 0.005065,
+      "auc_old": 0.917465,
+      "mean_pred_old": 0.004809
+    },
+    {
+      "group": "Finance",
+      "apps": 11835,
+      "rate": 0.057203,
+      "auc_launch": 0.727273,
+      "mean_pred_launch": 0.054546,
+      "auc_old": 0.760712,
+      "mean_pred_old": 0.05465
+    },
+    {
+      "group": "Food & Drink",
+      "apps": 15084,
+      "rate": 0.009812,
+      "auc_launch": 0.81987,
+      "mean_pred_launch": 0.013335,
+      "auc_old": 0.86992,
+      "mean_pred_old": 0.01305
+    },
+    {
+      "group": "Health & Fitness",
+      "apps": 16526,
+      "rate": 0.022207,
+      "auc_launch": 0.824243,
+      "mean_pred_launch": 0.025421,
+      "auc_old": 0.857019,
+      "mean_pred_old": 0.025413
+    },
+    {
+      "group": "House & Home",
+      "apps": 3595,
+      "rate": 0.018081,
+      "auc_launch": 0.726559,
+      "mean_pred_launch": 0.014321,
+      "auc_old": 0.783295,
+      "mean_pred_old": 0.014226
+    },
+    {
+      "group": "Libraries & Demo",
+      "apps": 1030,
+      "rate": 0.075728,
+      "auc_launch": 0.840868,
+      "mean_pred_launch": 0.040232,
+      "auc_old": 0.91468,
+      "mean_pred_old": 0.072458
+    },
+    {
+      "group": "Lifestyle",
+      "apps": 21234,
+      "rate": 0.033767,
+      "auc_launch": 0.826049,
+      "mean_pred_launch": 0.036045,
+      "auc_old": 0.839033,
+      "mean_pred_old": 0.038102
+    },
+    {
+      "group": "Maps & Navigation",
+      "apps": 6104,
+      "rate": 0.025393,
+      "auc_launch": 0.853508,
+      "mean_pred_launch": 0.024552,
+      "auc_old": 0.877166,
+      "mean_pred_old": 0.023175
+    },
+    {
+      "group": "Medical",
+      "apps": 6251,
+      "rate": 0.014078,
+      "auc_launch": 0.69096,
+      "mean_pred_launch": 0.011765,
+      "auc_old": 0.735113,
+      "mean_pred_old": 0.01127
+    },
+    {
+      "group": "Music",
+      "apps": 852,
+      "rate": 0.143192,
+      "auc_launch": 0.815254,
+      "mean_pred_launch": 0.132216,
+      "auc_old": 0.831434,
+      "mean_pred_old": 0.174212
+    },
+    {
+      "group": "Music & Audio",
+      "apps": 43049,
+      "rate": 0.025064,
+      "auc_launch": 0.801717,
+      "mean_pred_launch": 0.024722,
+      "auc_old": 0.822969,
+      "mean_pred_old": 0.030328
+    },
+    {
+      "group": "News & Magazines",
+      "apps": 7438,
+      "rate": 0.019091,
+      "auc_launch": 0.759995,
+      "mean_pred_launch": 0.020479,
+      "auc_old": 0.74865,
+      "mean_pred_old": 0.018648
+    },
+    {
+      "group": "Parenting",
+      "apps": 897,
+      "rate": 0.059086,
+      "auc_launch": 0.7593,
+      "mean_pred_launch": 0.058691,
+      "auc_old": 0.790653,
+      "mean_pred_old": 0.066979
+    },
+    {
+      "group": "Personalization",
+      "apps": 17768,
+      "rate": 0.071814,
+      "auc_launch": 0.748864,
+      "mean_pred_launch": 0.074553,
+      "auc_old": 0.771988,
+      "mean_pred_old": 0.091823
+    },
+    {
+      "group": "Photography",
+      "apps": 7552,
+      "rate": 0.101165,
+      "auc_launch": 0.734417,
+      "mean_pred_launch": 0.134847,
+      "auc_old": 0.738372,
+      "mean_pred_old": 0.133101
+    },
+    {
+      "group": "Productivity",
+      "apps": 16635,
+      "rate": 0.033003,
+      "auc_launch": 0.783406,
+      "mean_pred_launch": 0.03329,
+      "auc_old": 0.833032,
+      "mean_pred_old": 0.032199
+    },
+    {
+      "group": "Puzzle",
+      "apps": 8463,
+      "rate": 0.075387,
+      "auc_launch": 0.766815,
+      "mean_pred_launch": 0.073736,
+      "auc_old": 0.870067,
+      "mean_pred_old": 0.080747
+    },
+    {
+      "group": "Racing",
+      "apps": 1692,
+      "rate": 0.173168,
+      "auc_launch": 0.720196,
+      "mean_pred_launch": 0.217445,
+      "auc_old": 0.800097,
+      "mean_pred_old": 0.247965
+    },
+    {
+      "group": "Role Playing",
+      "apps": 1849,
+      "rate": 0.354786,
+      "auc_launch": 0.740147,
+      "mean_pred_launch": 0.343471,
+      "auc_old": 0.806153,
+      "mean_pred_old": 0.329475
+    },
+    {
+      "group": "Shopping",
+      "apps": 15059,
+      "rate": 0.02384,
+      "auc_launch": 0.743033,
+      "mean_pred_launch": 0.02853,
+      "auc_old": 0.782756,
+      "mean_pred_old": 0.031755
+    },
+    {
+      "group": "Simulation",
+      "apps": 3877,
+      "rate": 0.316998,
+      "auc_launch": 0.671763,
+      "mean_pred_launch": 0.310644,
+      "auc_old": 0.733669,
+      "mean_pred_old": 0.331611
+    },
+    {
+      "group": "Social",
+      "apps": 9597,
+      "rate": 0.057518,
+      "auc_launch": 0.782801,
+      "mean_pred_launch": 0.04926,
+      "auc_old": 0.820659,
+      "mean_pred_old": 0.053039
+    },
+    {
+      "group": "Sports",
+      "apps": 8506,
+      "rate": 0.061721,
+      "auc_launch": 0.819316,
+      "mean_pred_launch": 0.061027,
+      "auc_old": 0.881759,
+      "mean_pred_old": 0.058601
+    },
+    {
+      "group": "Strategy",
+      "apps": 1378,
+      "rate": 0.161829,
+      "auc_launch": 0.740935,
+      "mean_pred_launch": 0.175328,
+      "auc_old": 0.849017,
+      "mean_pred_old": 0.167086
+    },
+    {
+      "group": "Tools",
+      "apps": 28874,
+      "rate": 0.079345,
+      "auc_launch": 0.755316,
+      "mean_pred_launch": 0.08258,
+      "auc_old": 0.804999,
+      "mean_pred_old": 0.082249
+    },
+    {
+      "group": "Travel & Local",
+      "apps": 13981,
+      "rate": 0.026107,
+      "auc_launch": 0.87065,
+      "mean_pred_launch": 0.026889,
+      "auc_old": 0.866337,
+      "mean_pred_old": 0.033751
+    },
+    {
+      "group": "Trivia",
+      "apps": 2268,
+      "rate": 0.059965,
+      "auc_launch": 0.746887,
+      "mean_pred_launch": 0.056401,
+      "auc_old": 0.736061,
+      "mean_pred_old": 0.056171
+    },
+    {
+      "group": "Video Players & Editors",
+      "apps": 2287,
+      "rate": 0.210756,
+      "auc_launch": 0.705927,
+      "mean_pred_launch": 0.240691,
+      "auc_old": 0.788325,
+      "mean_pred_old": 0.23253
+    },
+    {
+      "group": "Weather",
+      "apps": 1201,
+      "rate": 0.263947,
+      "auc_launch": 0.902412,
+      "mean_pred_launch": 0.267583,
+      "auc_old": 0.931895,
+      "mean_pred_old": 0.291775
+    },
+    {
+      "group": "Word",
+      "apps": 1604,
+      "rate": 0.100374,
+      "auc_launch": 0.773509,
+      "mean_pred_launch": 0.112097,
+      "auc_old": 0.821552,
+      "mean_pred_old": 0.113448
+    }
+  ],
+  "by_developer": [
+    {
+      "group": "First app",
+      "apps": 158661,
+      "rate": 0.049016,
+      "auc_launch": 0.799244,
+      "mean_pred_launch": 0.051732,
+      "auc_old": 0.828694,
+      "mean_pred_old": 0.052945
+    },
+    {
+      "group": "1 to 4 earlier",
+      "apps": 120066,
+      "rate": 0.064056,
+      "auc_launch": 0.800555,
+      "mean_pred_launch": 0.068102,
+      "auc_old": 0.837898,
+      "mean_pred_old": 0.069508
+    },
+    {
+      "group": "5 to 19 earlier",
+      "apps": 87882,
+      "rate": 0.067374,
+      "auc_launch": 0.826675,
+      "mean_pred_launch": 0.066306,
+      "auc_old": 0.852649,
+      "mean_pred_old": 0.069541
+    },
+    {
+      "group": "20 to 99 earlier",
+      "apps": 72451,
+      "rate": 0.03216,
+      "auc_launch": 0.880125,
+      "mean_pred_launch": 0.03425,
+      "auc_old": 0.894169,
+      "mean_pred_old": 0.038698
+    },
+    {
+      "group": "100+ earlier",
+      "apps": 41605,
+      "rate": 0.007691,
+      "auc_launch": 0.94302,
+      "mean_pred_launch": 0.005728,
+      "auc_old": 0.954216,
+      "mean_pred_old": 0.008991
+    }
+  ],
+  "by_quarter": [
+    {
+      "group": "2019 Q1",
+      "apps": 97165,
+      "rate": 0.050028,
+      "auc_launch": 0.842137,
+      "mean_pred_launch": 0.053524,
+      "auc_old": 0.866921,
+      "mean_pred_old": 0.05622
+    },
+    {
+      "group": "2019 Q2",
+      "apps": 110525,
+      "rate": 0.050007,
+      "auc_launch": 0.83939,
+      "mean_pred_launch": 0.054239,
+      "auc_old": 0.865203,
+      "mean_pred_old": 0.055929
+    },
+    {
+      "group": "2019 Q3",
+      "apps": 134486,
+      "rate": 0.050013,
+      "auc_launch": 0.830075,
+      "mean_pred_launch": 0.052068,
+      "auc_old": 0.85995,
+      "mean_pred_old": 0.052262
+    },
+    {
+      "group": "2019 Q4",
+      "apps": 138489,
+      "rate": 0.050004,
+      "auc_launch": 0.835748,
+      "mean_pred_launch": 0.048621,
+      "auc_old": 0.856206,
+      "mean_pred_old": 0.053162
+    }
+  ],
+  "by_game": [
+    {
+      "group": "Apps",
+      "apps": 421741,
+      "rate": 0.039681,
+      "auc_launch": 0.824692,
+      "mean_pred_launch": 0.041172,
+      "auc_old": 0.848094,
+      "mean_pred_old": 0.043053
+    },
+    {
+      "group": "Games",
+      "apps": 58924,
+      "rate": 0.123956,
+      "auc_launch": 0.804531,
+      "mean_pred_launch": 0.128428,
+      "auc_old": 0.853618,
+      "mean_pred_old": 0.133696
+    }
+  ],
+  "shift": {
+    "train": "released 2016-2017",
+    "train_rate": 0.050028,
+    "2018": {
+      "launch": {
+        "auc": 0.8244,
+        "intercept": -0.076295,
+        "slope": 0.849915,
+        "mean_pred": 0.053126
+      },
+      "old": {
+        "auc": 0.864474,
+        "intercept": -0.105971,
+        "slope": 0.920033,
+        "mean_pred": 0.054126
+      },
+      "rate": 0.050017
+    },
+    "2019": {
+      "launch": {
+        "auc": 0.825492,
+        "intercept": -0.149497,
+        "slope": 0.820619,
+        "mean_pred": 0.056211
+      },
+      "old": {
+        "auc": 0.853987,
+        "intercept": -0.228312,
+        "slope": 0.898534,
+        "mean_pred": 0.059389
+      },
+      "rate": 0.050012
+    },
+    "2020": {
+      "launch": {
+        "auc": 0.81297,
+        "intercept": -0.314182,
+        "slope": 0.775977,
+        "mean_pred": 0.063909
+      },
+      "old": {
+        "auc": 0.824043,
+        "intercept": -0.436759,
+        "slope": 0.794465,
+        "mean_pred": 0.069526
+      },
+      "rate": 0.050013
+    },
+    "train_2018_test_2020": {
+      "launch": 0.817044,
+      "old": 0.828348
+    }
+  },
+  "reliability": {
+    "gbm_launch": [
+      {
+        "n": 48067,
+        "pred": 0.000575,
+        "obs": 0.001394,
+        "lo": 0.001098,
+        "hi": 0.00177
+      },
+      {
+        "n": 48067,
+        "pred": 0.003152,
+        "obs": 0.003641,
+        "lo": 0.003141,
+        "hi": 0.00422
+      },
+      {
+        "n": 48067,
+        "pred": 0.006985,
+        "obs": 0.008426,
+        "lo": 0.007647,
+        "hi": 0.009283
+      },
+      {
+        "n": 48067,
+        "pred": 0.011848,
+        "obs": 0.012004,
+        "lo": 0.011069,
+        "hi": 0.013017
+      },
+      {
+        "n": 48067,
+        "pred": 0.017666,
+        "obs": 0.017268,
+        "lo": 0.016141,
+        "hi": 0.018471
+      },
+      {
+        "n": 48066,
+        "pred": 0.025403,
+        "obs": 0.025444,
+        "lo": 0.024074,
+        "hi": 0.02689
+      },
+      {
+        "n": 48066,
+        "pred": 0.037149,
+        "obs": 0.037677,
+        "lo": 0.036012,
+        "hi": 0.039417
+      },
+      {
+        "n": 48066,
+        "pred": 0.056588,
+        "obs": 0.059397,
+        "lo": 0.057319,
+        "hi": 0.061546
+      },
+      {
+        "n": 48066,
+        "pred": 0.097059,
+        "obs": 0.099696,
+        "lo": 0.09705,
+        "hi": 0.102407
+      },
+      {
+        "n": 48066,
+        "pred": 0.262265,
+        "obs": 0.235177,
+        "lo": 0.231406,
+        "hi": 0.238989
+      }
+    ],
+    "gbm_old": [
+      {
+        "n": 48067,
+        "pred": 0.000479,
+        "obs": 0.000957,
+        "lo": 0.000718,
+        "hi": 0.001276
+      },
+      {
+        "n": 48067,
+        "pred": 0.002331,
+        "obs": 0.003287,
+        "lo": 0.002814,
+        "hi": 0.00384
+      },
+      {
+        "n": 48067,
+        "pred": 0.004822,
+        "obs": 0.005659,
+        "lo": 0.005027,
+        "hi": 0.00637
+      },
+      {
+        "n": 48067,
+        "pred": 0.008256,
+        "obs": 0.009216,
+        "lo": 0.0084,
+        "hi": 0.010111
+      },
+      {
+        "n": 48067,
+        "pred": 0.013304,
+        "obs": 0.015437,
+        "lo": 0.014373,
+        "hi": 0.016578
+      },
+      {
+        "n": 48066,
+        "pred": 0.020796,
+        "obs": 0.020826,
+        "lo": 0.019587,
+        "hi": 0.022141
+      },
+      {
+        "n": 48066,
+        "pred": 0.032649,
+        "obs": 0.03077,
+        "lo": 0.029263,
+        "hi": 0.032352
+      },
+      {
+        "n": 48066,
+        "pred": 0.055169,
+        "obs": 0.052802,
+        "lo": 0.050839,
+        "hi": 0.054838
+      },
+      {
+        "n": 48066,
+        "pred": 0.100462,
+        "obs": 0.095223,
+        "lo": 0.092631,
+        "hi": 0.09788
+      },
+      {
+        "n": 48066,
+        "pred": 0.303383,
+        "obs": 0.265947,
+        "lo": 0.262016,
+        "hi": 0.269915
+      }
+    ],
+    "logit_launch": [
+      {
+        "n": 48067,
+        "pred": 0.002277,
+        "obs": 0.001789,
+        "lo": 0.001449,
+        "hi": 0.002209
+      },
+      {
+        "n": 48067,
+        "pred": 0.006798,
+        "obs": 0.005035,
+        "lo": 0.00444,
+        "hi": 0.005708
+      },
+      {
+        "n": 48067,
+        "pred": 0.011284,
+        "obs": 0.008904,
+        "lo": 0.008103,
+        "hi": 0.009784
+      },
+      {
+        "n": 48067,
+        "pred": 0.01638,
+        "obs": 0.012774,
+        "lo": 0.011808,
+        "hi": 0.013817
+      },
+      {
+        "n": 48067,
+        "pred": 0.022498,
+        "obs": 0.019369,
+        "lo": 0.018175,
+        "hi": 0.02064
+      },
+      {
+        "n": 48066,
+        "pred": 0.030545,
+        "obs": 0.02817,
+        "lo": 0.026728,
+        "hi": 0.029687
+      },
+      {
+        "n": 48066,
+        "pred": 0.041845,
+        "obs": 0.039279,
+        "lo": 0.037579,
+        "hi": 0.041053
+      },
+      {
+        "n": 48066,
+        "pred": 0.059748,
+        "obs": 0.059481,
+        "lo": 0.057401,
+        "hi": 0.061631
+      },
+      {
+        "n": 48066,
+        "pred": 0.095446,
+        "obs": 0.099655,
+        "lo": 0.097009,
+        "hi": 0.102365
+      },
+      {
+        "n": 48066,
+        "pred": 0.240566,
+        "obs": 0.225669,
+        "lo": 0.221954,
+        "hi": 0.229428
+      }
+    ]
+  },
+  "errors": {
+    "flag_cutoff_score": 0.132619,
+    "caught_hits": {
+      "apps": 11304,
+      "first_app": 0.277512,
+      "prolific_100plus": 0.012208,
+      "games": 0.461695,
+      "never_updated": 0.04954,
+      "has_iap_2021": 0.468153,
+      "has_ads_2021": 0.891897,
+      "bulk_same_day_5plus": 0.000885,
+      "builder_prefix_1000plus": 0.012385,
+      "median_installs": 483341.5
+    },
+    "missed_hits": {
+      "apps": 2054,
+      "first_app": 0.374391,
+      "prolific_100plus": 0.033106,
+      "games": 0.072541,
+      "never_updated": 0.067673,
+      "has_iap_2021": 0.149464,
+      "has_ads_2021": 0.600292,
+      "bulk_same_day_5plus": 0.076923,
+      "builder_prefix_1000plus": 0.038462,
+      "median_installs": 205468.0
+    },
+    "false_alarms": {
+      "apps": 36763,
+      "first_app": 0.314555,
+      "prolific_100plus": 0.005522,
+      "games": 0.356935,
+      "never_updated": 0.208878,
+      "has_iap_2021": 0.171259,
+      "has_ads_2021": 0.760384,
+      "bulk_same_day_5plus": 0.001278,
+      "builder_prefix_1000plus": 0.013274,
+      "median_installs": 3273.0
+    },
+    "all_test": {
+      "apps": 480665,
+      "first_app": 0.330086,
+      "prolific_100plus": 0.086557,
+      "games": 0.122588,
+      "never_updated": 0.234671,
+      "has_iap_2021": 0.069799,
+      "has_ads_2021": 0.507568,
+      "bulk_same_day_5plus": 0.08426,
+      "builder_prefix_1000plus": 0.04095,
+      "median_installs": 424.0
+    },
+    "recall_top10_by_developer": {
+      "First app": 0.403369,
+      "1 to 4 earlier": 0.486933,
+      "5 to 19 earlier": 0.521365,
+      "20 to 99 earlier": 0.513734,
+      "100+ earlier": 0.43125
+    },
+    "recall_top10_by_kind": {
+      "Games": 0.71454,
+      "Apps": 0.363609
+    },
+    "recall_top10_by_iap_2021": {
+      "In-app purchases in 2021": 0.634304,
+      "No in-app purchases in 2021": 0.383028
+    },
+    "recall_top10_overall": 0.470236,
+    "precision_top10": 0.235172
+  }
+}

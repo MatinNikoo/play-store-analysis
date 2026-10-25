@@ -1,0 +1,378 @@
+{
+  "population": "apps launched 2018-2019",
+  "apps": 815231,
+  "outcome": "top 5% of launch month",
+  "reference": "Ads only",
+  "raw_rates": {
+    "Ads + in-app purchases": {
+      "apps": 44795,
+      "rate": 0.282755
+    },
+    "Ads only": {
+      "apps": 365485,
+      "rate": 0.056027
+    },
+    "Free, no ads or purchases": {
+      "apps": 379560,
+      "rate": 0.014483
+    },
+    "In-app purchases only": {
+      "apps": 14585,
+      "rate": 0.136921
+    },
+    "Paid upfront": {
+      "apps": 10806,
+      "rate": 0.012586
+    }
+  },
+  "adjusted_all": {
+    "Ads + in-app purchases": {
+      "rr": 3.093002,
+      "lo": 2.954027,
+      "hi": 3.238514,
+      "e_value": 5.63734,
+      "e_value_ci": 5.356578,
+      "apps": 44795
+    },
+    "In-app purchases only": {
+      "rr": 1.668864,
+      "lo": 1.572479,
+      "hi": 1.771157,
+      "e_value": 2.725388,
+      "e_value_ci": 2.521273,
+      "apps": 14585
+    },
+    "Free, no ads or purchases": {
+      "rr": 0.257666,
+      "lo": 0.245928,
+      "hi": 0.269964,
+      "e_value": 7.224815,
+      "e_value_ci": 6.869148,
+      "apps": 379560
+    },
+    "Paid upfront": {
+      "rr": 0.198597,
+      "lo": 0.161708,
+      "hi": 0.2439,
+      "e_value": 9.543025,
+      "e_value_ci": 7.665202,
+      "apps": 10806
+    },
+    "Privacy policy": {
+      "rr": 3.635944,
+      "lo": 3.392068,
+      "hi": 3.897353,
+      "e_value": 6.73177,
+      "e_value_ci": 6.240586,
+      "apps": 693899
+    },
+    "Developer website": {
+      "rr": 1.85609,
+      "lo": 1.781114,
+      "hi": 1.934223,
+      "e_value": 3.116638,
+      "e_value_ci": 2.960628,
+      "apps": 529498
+    }
+  },
+  "never_updated_share": {
+    "top5": 0.046624,
+    "rest": 0.222447
+  },
+  "never_updated_apps": 174177,
+  "adjusted_never_updated": {
+    "Ads + in-app purchases": {
+      "rr": 1.973529,
+      "lo": 1.545191,
+      "hi": 2.520606,
+      "e_value": 3.359635,
+      "e_value_ci": 2.463027,
+      "apps": 3329
+    },
+    "In-app purchases only": {
+      "rr": 1.250305,
+      "lo": 0.798035,
+      "hi": 1.958891,
+      "e_value": 1.809732,
+      "e_value_ci": 1.0,
+      "apps": 1232
+    },
+    "Free, no ads or purchases": {
+      "rr": 0.238243,
+      "lo": 0.178599,
+      "hi": 0.317805,
+      "e_value": 7.860841,
+      "e_value_ci": 5.745514,
+      "apps": 78671
+    },
+    "Paid upfront": {
+      "rr": 0.133831,
+      "lo": 0.046994,
+      "hi": 0.381126,
+      "e_value": 14.42631,
+      "e_value_ci": 4.687917,
+      "apps": 2614
+    },
+    "Privacy policy": {
+      "rr": 2.716543,
+      "lo": 2.26685,
+      "hi": 3.255446,
+      "e_value": 4.875956,
+      "e_value_ci": 3.961476,
+      "apps": 133127
+    },
+    "Developer website": {
+      "rr": 1.119973,
+      "lo": 0.96802,
+      "hi": 1.295778,
+      "e_value": 1.486532,
+      "e_value_ci": 1.0,
+      "apps": 90920
+    }
+  },
+  "adjusted_updated": {
+    "Ads + in-app purchases": {
+      "rr": 2.83229,
+      "lo": 2.707866,
+      "hi": 2.962432,
+      "e_value": 5.110354,
+      "e_value_ci": 4.85837,
+      "apps": 41466
+    },
+    "In-app purchases only": {
+      "rr": 1.540908,
+      "lo": 1.452456,
+      "hi": 1.634747,
+      "e_value": 2.453865,
+      "e_value_ci": 2.263119,
+      "apps": 13353
+    },
+    "Free, no ads or purchases": {
+      "rr": 0.260275,
+      "lo": 0.24863,
+      "hi": 0.272467,
+      "e_value": 7.146554,
+      "e_value_ci": 6.800672,
+      "apps": 300889
+    },
+    "Paid upfront": {
+      "rr": 0.204311,
+      "lo": 0.166431,
+      "hi": 0.250814,
+      "e_value": 9.260446,
+      "e_value_ci": 7.438008,
+      "apps": 8192
+    },
+    "Privacy policy": {
+      "rr": 3.374026,
+      "lo": 3.134741,
+      "hi": 3.631578,
+      "e_value": 6.204226,
+      "e_value_ci": 5.721603,
+      "apps": 560772
+    },
+    "Developer website": {
+      "rr": 1.755045,
+      "lo": 1.683869,
+      "hi": 1.829231,
+      "e_value": 2.906192,
+      "e_value_ci": 2.75697,
+      "apps": 438578
+    }
+  },
+  "iap_share_by_update": {
+    "never_updated_top5": 0.118885,
+    "updated_top5": 0.373148,
+    "never_updated_rest": 0.025413,
+    "updated_rest": 0.068243
+  },
+  "playbook": [
+    {
+      "profile": "First app, Tools",
+      "app": {
+        "category": "Tools",
+        "name": "Battery Saver"
+      },
+      "10000": {
+        "p": 0.110445,
+        "lo": 0.107207,
+        "hi": 0.113775
+      },
+      "100000": {
+        "p": 0.026967,
+        "lo": 0.025621,
+        "hi": 0.028382
+      },
+      "1000000": {
+        "p": 0.005112,
+        "lo": 0.004575,
+        "hi": 0.005711
+      }
+    },
+    {
+      "profile": "Same, 5th to 20th app",
+      "app": {
+        "category": "Tools",
+        "name": "Battery Saver",
+        "earlier_apps": 8,
+        "months_since_first_app": 24,
+        "earlier_categories": 2,
+        "earlier_apps_same_category": 3
+      },
+      "10000": {
+        "p": 0.129146,
+        "lo": 0.124404,
+        "hi": 0.134055
+      },
+      "100000": {
+        "p": 0.035745,
+        "lo": 0.033597,
+        "hi": 0.038028
+      },
+      "1000000": {
+        "p": 0.007127,
+        "lo": 0.006252,
+        "hi": 0.008124
+      }
+    },
+    {
+      "profile": "Same, 101st app or later",
+      "app": {
+        "category": "Tools",
+        "name": "Battery Saver",
+        "earlier_apps": 150,
+        "months_since_first_app": 36,
+        "earlier_categories": 6,
+        "earlier_apps_same_category": 40,
+        "apps_last_30_days": 10
+      },
+      "10000": {
+        "p": 0.047574,
+        "lo": 0.040429,
+        "hi": 0.055945
+      },
+      "100000": {
+        "p": 0.008533,
+        "lo": 0.006917,
+        "hi": 0.010524
+      },
+      "1000000": {
+        "p": 0.001443,
+        "lo": 0.000874,
+        "hi": 0.002381
+      }
+    },
+    {
+      "profile": "First app, 10 more the same day",
+      "app": {
+        "category": "Tools",
+        "name": "Battery Saver",
+        "same_day_apps": 10
+      },
+      "10000": {
+        "p": 0.053043,
+        "lo": 0.049158,
+        "hi": 0.057225
+      },
+      "100000": {
+        "p": 0.008583,
+        "lo": 0.007579,
+        "hi": 0.009719
+      },
+      "1000000": {
+        "p": 0.000714,
+        "lo": 0.000536,
+        "hi": 0.000952
+      }
+    },
+    {
+      "profile": "First app on an app builder",
+      "app": {
+        "category": "Tools",
+        "name": "Battery Saver",
+        "builder_apps": 5000
+      },
+      "10000": {
+        "p": 0.094854,
+        "lo": 0.08954,
+        "hi": 0.100467
+      },
+      "100000": {
+        "p": 0.025546,
+        "lo": 0.023497,
+        "hi": 0.027771
+      },
+      "1000000": {
+        "p": 0.00537,
+        "lo": 0.004544,
+        "hi": 0.006345
+      }
+    },
+    {
+      "profile": "First app, Simulation",
+      "app": {
+        "category": "Simulation",
+        "name": "Truck Driver"
+      },
+      "10000": {
+        "p": 0.297028,
+        "lo": 0.283745,
+        "hi": 0.310788
+      },
+      "100000": {
+        "p": 0.099333,
+        "lo": 0.09251,
+        "hi": 0.106628
+      },
+      "1000000": {
+        "p": 0.020921,
+        "lo": 0.018155,
+        "hi": 0.024103
+      }
+    },
+    {
+      "profile": "First app, Business",
+      "app": {
+        "category": "Business",
+        "name": "Invoice Maker"
+      },
+      "10000": {
+        "p": 0.037672,
+        "lo": 0.035959,
+        "hi": 0.039465
+      },
+      "100000": {
+        "p": 0.005425,
+        "lo": 0.004918,
+        "hi": 0.005984
+      },
+      "1000000": {
+        "p": 0.000623,
+        "lo": 0.00049,
+        "hi": 0.000791
+      }
+    },
+    {
+      "profile": "First app, Education",
+      "app": {
+        "category": "Education",
+        "name": "Math Practice"
+      },
+      "10000": {
+        "p": 0.084305,
+        "lo": 0.081266,
+        "hi": 0.087453
+      },
+      "100000": {
+        "p": 0.012785,
+        "lo": 0.011974,
+        "hi": 0.013651
+      },
+      "1000000": {
+        "p": 0.000984,
+        "lo": 0.000819,
+        "hi": 0.001181
+      }
+    }
+  ]
+}
